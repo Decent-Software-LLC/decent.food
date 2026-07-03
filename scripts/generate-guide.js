@@ -248,7 +248,7 @@ This guide is part ${topic.series.part} of ${topic.series.total} in the "${topic
 `;
       }
 
-      const prompt = `Create an educational guide about "${topic.title}" for an AI learning website called "For Example AI".
+      const prompt = `Create an educational guide about "${topic.title}" for a food discovery website called "decent.food".
 ${seriesContext}
 WRITING STYLE & PERSONALITY:
 - Write with personality! Be conversational, enthusiastic, and human
@@ -256,7 +256,7 @@ WRITING STYLE & PERSONALITY:
 - Include personal observations, opinions, or insights where appropriate
 - Share why YOU think this topic is interesting or important
 - Use humor sparingly but effectively
-- Show passion for teaching - let your excitement about AI shine through
+- Show passion for food culture, social media trends, restaurant discovery, and creator storytelling
 - Write like you're explaining to a curious friend over coffee, not lecturing
 - Appropriate for ${topic.difficulty} level readers
 
@@ -301,8 +301,8 @@ Make these REAL, CLICKABLE links to actual resources. Format as:
 - [Resource Title](https://actual-url.com) - Brief description of what it offers
 
 Example:
-- [3Blue1Brown Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - Excellent visual explanation series
-- [Fast.ai Practical Deep Learning](https://course.fast.ai/) - Free hands-on course
+- [Eater](https://www.eater.com/) - Restaurant news, city guides, and food culture reporting
+- [Serious Eats](https://www.seriouseats.com/) - Deep recipe testing and cooking technique explainers
 
 Write in Markdown format. Do NOT include the front matter (YAML) - only the content body.
 Be friendly, be human, be helpful!`;
@@ -319,7 +319,7 @@ Be friendly, be human, be helpful!`;
           ],
           temperature: 0.7,
           top_p: 1,
-          max_tokens: 8192,
+          max_tokens: 4096,
           stream: false
         },
         {
@@ -327,7 +327,7 @@ Be friendly, be human, be helpful!`;
             'Authorization': `Bearer ${process.env.NVIDIA_API_KEY}`,
             'Content-Type': 'application/json'
           },
-          timeout: 180000 // 3 minute timeout (increased from default)
+          timeout: 300000 // 5 minute timeout
         }
       );
 
@@ -356,7 +356,8 @@ Be friendly, be human, be helpful!`;
         await new Promise(resolve => setTimeout(resolve, waitTime));
       } else {
         // Non-transient error or out of retries - throw immediately
-        console.error('NVIDIA API Error:', error.response?.data || error.message);
+        const apiError = error.response?.data?.error?.message || error.response?.data?.message || error.message;
+        console.error('NVIDIA API Error:', apiError);
         throw error;
       }
     }
@@ -438,28 +439,13 @@ function generateDescription(title, difficulty) {
 
 // Generate AI image prompt from topic
 function generateImagePrompt(topic) {
-  // Create a concise prompt for FLUX - avoid mentioning title to prevent text generation
-  // CRITICAL: Multiple emphatic instructions to prevent text generation
-  // Expand common acronyms to avoid content filtering issues
+  // Create a concise editorial food prompt and avoid text/logo generation.
   const keywords = topic.tags.slice(0, 3)
-    .map(tag => {
-      // Expand common ML/AI acronyms to avoid content filtering
-      const expansions = {
-        'cnn': 'convolutional networks',
-        'rnn': 'recurrent networks',
-        'gpt': 'generative models',
-        'ai': 'artificial intelligence',
-        'ml': 'machine learning',
-        'nlp': 'natural language processing',
-        'cv': 'computer vision'
-      };
-      return expansions[tag.toLowerCase()] || tag;
-    })
+    .map(tag => tag.replace(/-/g, ' '))
     .join(', ');
 
   return {
-    // Generic prompt without topic keywords to avoid content filtering
-    prompt: `Abstract technology background: vibrant gradient colors blending blue purple and teal, geometric patterns, flowing curved lines, glowing points, futuristic digital design, clean modern minimalist style, pure visual composition, high quality digital art, smooth gradients and geometric shapes`,
+    prompt: `Editorial food culture photograph inspired by ${keywords}: colorful restaurant table spread, regional dishes, social media creator perspective, warm natural light, candid dining scene, vibrant blue accents, appetizing realistic food styling, high quality magazine photography, no people faces, no text`,
     negative_prompt: `text, letters, words, typography, watermark, logo`
   };
 }
@@ -584,8 +570,8 @@ async function fetchAndSaveImage(topic) {
     'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-schnell',
     'FLUX.1-schnell',
     4,
-    3,
-    300000 // 5 minute timeout
+    2,
+    180000 // 3 minute timeout
   );
 
   if (imageBase64) {
@@ -599,8 +585,8 @@ async function fetchAndSaveImage(topic) {
       'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-dev',
       'FLUX.1-dev',
       50,
-      2,
-      600000 // 10 minute timeout for dev model (it's slower)
+      1,
+      300000 // 5 minute timeout for dev model
     );
 
     if (imageBase64) {
@@ -909,7 +895,13 @@ async function main() {
     console.log(`Total guides generated: ${generatedTopics.length}/${topics.length}`);
 
   } catch (error) {
-    console.error('Error generating guide:', error);
+    console.error('Error generating guide:', error.message);
+    if (error.code) {
+      console.error(`Error code: ${error.code}`);
+    }
+    if (error.response?.status) {
+      console.error(`HTTP status: ${error.response.status}`);
+    }
     process.exit(1);
   }
 }
