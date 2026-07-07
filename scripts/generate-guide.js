@@ -453,16 +453,16 @@ function generateImagePrompt(topic) {
 // Helper function to try generating image with a specific FLUX model
 async function tryGenerateWithModel(promptData, modelUrl, modelName, steps, maxRetries = 3, timeoutMs = 300000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    const requestBody = {
+      prompt: promptData.prompt,
+      width: 1024,
+      height: 1024,
+      seed: Math.floor(Math.random() * 1000000),
+      steps: steps
+    };
+
     try {
       console.log(`Attempt ${attempt}/${maxRetries}: Sending prompt to ${modelName}...`);
-
-      const requestBody = {
-        prompt: promptData.prompt,
-        width: 1024,
-        height: 1024,
-        seed: Math.floor(Math.random() * 1000000),
-        steps: steps
-      };
 
       // Note: Negative prompt may not be supported by NVIDIA FLUX API
       // Commenting out for now to avoid 422 errors
@@ -510,12 +510,6 @@ async function tryGenerateWithModel(promptData, modelUrl, modelName, steps, maxR
         if (error.response.headers) {
           console.error(`   Response Headers:`, JSON.stringify(error.response.headers));
         }
-      }
-
-      // Log request details for debugging
-      if (attempt === maxRetries) {
-        console.error(`   Request URL: ${modelUrl}`);
-        console.error(`   Request Body:`, JSON.stringify(requestBody, null, 2));
       }
 
       if (isTimeout) {
