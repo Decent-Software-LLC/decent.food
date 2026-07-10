@@ -630,6 +630,18 @@ body {
     box-shadow: var(--shadow);
 }
 
+.foodies-page .content-link {
+    border-color: var(--primary-dark);
+    background: var(--primary-dark);
+    color: var(--white);
+}
+
+.foodies-page .content-link:hover {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--white);
+}
+
 .foodies-stats {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -910,6 +922,21 @@ body {
 
     .foodies-page .person-cell + .person-cell {
         padding-top: 0;
+    }
+
+    .foodies-page .person-cell:not(.identity):not(.links) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foodies-page .person-cell:not(.identity):not(.links) .tags {
+        order: 1;
+        margin-top: 0;
+        margin-bottom: 0.65rem;
+    }
+
+    .foodies-page .person-cell:not(.identity):not(.links) .bio {
+        order: 2;
     }
 
     .foodies-page .region-heading {
