@@ -5,103 +5,30 @@ permalink: /learning-paths.json
 {
   "meta": {
     "generated": "{{ site.time | date_to_xmlschema }}",
-    "version": "1.0"
+    "version": "1.0",
+    "description": "Editorial article collections for decent.food"
   },
-  "paths": [
+  "collections": [
     {
-      "id": "ai-fundamentals",
-      "name": "AI Fundamentals for Beginners",
-      "slug": "ai-fundamentals",
-      "description": "Start your AI journey from scratch with beginner-friendly guides",
-      "difficulty": "beginner",
-      "estimated_hours": 8,
-      "guides": [
-        "what-is-artificial-intelligence",
-        "the-difference-between-ai-machine-learning-and-deep-learning",
-        "what-can-ai-do-current-capabilities-and-limitations",
-        "ai-in-your-daily-life-examples-you-might-not-notice"
-      ]
+      "id": "diy-cooking",
+      "name": "DIY Cooking",
+      "slug": "diy-cooking",
+      "description": "Practical cooking stories, recipes, and kitchen ideas readers can try at home.",
+      "article_type": "diy-cooking"
     },
     {
-      "id": "transformers-mastery",
-      "name": "Understanding Transformers",
-      "slug": "understanding-transformers",
-      "description": "Master transformer architecture from basics to advanced GPT models",
-      "difficulty": "intermediate",
-      "estimated_hours": 12,
-      "guides": [
-        "how-chatgpt-works-a-simple-explanation",
-        "understanding-transformer-architecture",
-        "understanding-attention-mechanisms",
-        "the-architecture-of-gpt-models"
-      ]
+      "id": "foodie-showcase",
+      "name": "Foodie Showcase",
+      "slug": "foodie-showcase",
+      "description": "Profiles of food creators, reviewers, cooks, writers, and tastemakers worth following.",
+      "article_type": "foodie-showcase"
     },
     {
-      "id": "neural-networks-basics",
-      "name": "Neural Networks Fundamentals",
-      "slug": "neural-networks-fundamentals",
-      "description": "Learn how neural networks work and train effectively",
-      "difficulty": "intermediate",
-      "estimated_hours": 10,
-      "guides": [
-        "what-is-a-neural-network",
-        "how-neural-networks-learn-backpropagation-explained",
-        "understanding-activation-functions"
-      ]
-    },
-    {
-      "id": "ml-training",
-      "name": "Machine Learning Training Essentials",
-      "slug": "ml-training-essentials",
-      "description": "Master the fundamentals of training machine learning models",
-      "difficulty": "intermediate",
-      "estimated_hours": 10,
-      "guides": [
-        "understanding-loss-functions",
-        "gradient-descent-optimization-algorithms",
-        "understanding-model-parameters-and-hyperparameters",
-        "overfitting-and-underfitting-in-machine-learning"
-      ]
-    },
-    {
-      "id": "prompt-engineering",
-      "name": "Prompt Engineering Mastery",
-      "slug": "prompt-engineering-mastery",
-      "description": "Learn to communicate effectively with AI language models",
-      "difficulty": "beginner",
-      "estimated_hours": 6,
-      "guides": [
-        "how-to-write-better-prompts-for-ai",
-        "advanced-prompt-engineering-techniques",
-        "prompt-engineering-for-developers"
-      ]
-    },
-    {
-      "id": "ai-ethics",
-      "name": "AI Ethics & Responsibility",
-      "slug": "ai-ethics-responsibility",
-      "description": "Understand the ethical implications and responsibilities in AI",
-      "difficulty": "intermediate",
-      "estimated_hours": 8,
-      "guides": [
-        "the-environmental-impact-of-training-ai-models",
-        "ai-ethics-privacy-consent-and-data-rights",
-        "bias-and-fairness-in-ai-systems",
-        "ai-safety-and-alignment"
-      ]
-    },
-    {
-      "id": "ai-in-production",
-      "name": "AI in Production (MLOps Basics)",
-      "slug": "ai-in-production",
-      "description": "Deploy and maintain AI models in production environments",
-      "difficulty": "advanced",
-      "estimated_hours": 10,
-      "guides": [
-        "what-is-model-drift",
-        "what-is-model-monitoring-in-production",
-        "what-is-model-validation-pipeline"
-      ]
+      "id": "hot-spot-showcase",
+      "name": "Hot Spot Showcase",
+      "slug": "hot-spot-showcase",
+      "description": "Restaurant, bakery, bar, market, pop-up, and regional food spot coverage.",
+      "article_type": "hot-spot-showcase"
     }
   ]
 }

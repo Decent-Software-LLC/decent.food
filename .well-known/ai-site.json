@@ -1,49 +1,47 @@
 {
   "schema_version": "1.0",
-  "name": "For Example AI",
-  "description": "Educational AI learning platform with step-by-step guides covering machine learning, deep learning, transformers, and more",
+  "name": "decent.food",
+  "description": "Editorial food site covering DIY cooking, food creators, and restaurant hot spots.",
   "version": "1.0",
-  "url": "https://forexample.ai",
+  "url": "https://decent.food",
   "content_types": [
-    "educational",
-    "technical_guides",
-    "tutorials",
-    "how-to",
-    "documentation"
+    "editorial_articles",
+    "diy_cooking",
+    "creator_profiles",
+    "restaurant_showcases",
+    "food_media"
   ],
   "topics": [
-    "artificial_intelligence",
-    "machine_learning",
-    "deep_learning",
-    "transformers",
-    "neural_networks",
-    "gpt",
-    "attention_mechanisms",
-    "prompt_engineering",
-    "ai_ethics",
-    "model_training"
+    "diy_cooking",
+    "recipes",
+    "home_cooking",
+    "food_creators",
+    "food_influencers",
+    "restaurant_discovery",
+    "regional_food",
+    "hot_spots"
   ],
-  "difficulty_levels": [
-    "beginner",
-    "intermediate",
-    "advanced"
+  "article_types": [
+    "diy-cooking",
+    "foodie-showcase",
+    "hot-spot-showcase"
   ],
   "resources": {
-    "guides": {
+    "articles": {
       "url": "/api/guides.json",
-      "description": "Complete list of all AI learning guides with metadata",
+      "description": "Complete list of decent.food articles with metadata",
       "format": "json",
       "updated": "realtime"
     },
     "series": {
       "url": "/api/series.json",
-      "description": "Multi-part learning series and courses",
+      "description": "Article series and recurring coverage",
       "format": "json",
       "updated": "realtime"
     },
     "topics": {
       "url": "/api/topics.json",
-      "description": "Guide taxonomy organized by topic tags",
+      "description": "Article taxonomy organized by topic tags",
       "format": "json",
       "updated": "realtime"
     },
@@ -55,7 +53,7 @@
     },
     "feed": {
       "url": "/feed.xml",
-      "description": "RSS/Atom feed of latest guides",
+      "description": "RSS/Atom feed of latest articles",
       "format": "xml",
       "updated": "realtime"
     },
@@ -69,23 +67,23 @@
   "capabilities": {
     "search": true,
     "filtering": [
-      "difficulty",
+      "article_type",
       "topic",
       "series",
       "tags"
     ],
     "structured_data": true,
     "json_ld": true,
-    "breadcrumbs": false,
-    "table_of_contents": false
+    "breadcrumbs": true,
+    "table_of_contents": true
   },
   "content_features": {
     "series_support": true,
-    "prerequisites": true,
-    "code_examples": true,
+    "article_type_taxonomy": true,
     "estimated_reading_time": true,
-    "visual_diagrams": true,
-    "practical_exercises": true
+    "food_creator_profiles": true,
+    "restaurant_showcases": true,
+    "practical_cooking_articles": true
   },
   "license": {
     "type": "CC BY 4.0",
@@ -97,11 +95,11 @@
   },
   "attribution": {
     "required": true,
-    "format": "[Guide Title], For Example AI (https://forexample.ai)",
+    "format": "[Article Title], decent.food (https://decent.food)",
     "link_back_appreciated": true
   },
   "contact": {
-    "website": "https://forexample.ai"
+    "website": "https://decent.food"
   },
   "technical": {
     "generator": "Jekyll",

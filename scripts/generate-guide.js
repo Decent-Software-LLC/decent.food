@@ -40,13 +40,21 @@ function titleToSlug(title) {
     .replace(/^-|-$/g, '');
 }
 
+const ARTICLE_TYPES = {
+  'diy-cooking': 'DIY Cooking',
+  'foodie-showcase': 'Foodie Showcase',
+  'hot-spot-showcase': 'Hot Spot Showcase'
+};
+
+function getArticleTypeLabel(articleType) {
+  return ARTICLE_TYPES[articleType] || 'Foodie Showcase';
+}
+
 // Select next topic with smart series prioritization
 // Priority order:
 //   1. Continue in-progress series (previous part published)
-//   2. Start beginner-friendly series (part 1, difficulty: beginner)
-//   3. Start any series (part 1)
-//   4. Any series topic
-//   5. Random standalone topic
+//   2. Start any series (part 1)
+//   3. Random standalone topic
 function selectNextTopic(topics, generatedTopics) {
   const unusedTopics = topics.filter(
     topic => !generatedTopics.includes(topic.title)
@@ -86,20 +94,7 @@ function selectNextTopic(topics, generatedTopics) {
     return selected;
   }
 
-  // PRIORITY 2: Start beginner-friendly series
-  const beginnerSeriesStarts = unusedTopics.filter(topic =>
-    topic.series &&
-    topic.series.part === 1 &&
-    topic.difficulty === 'beginner'
-  );
-
-  if (beginnerSeriesStarts.length > 0) {
-    const selected = beginnerSeriesStarts[Math.floor(Math.random() * beginnerSeriesStarts.length)];
-    console.log(`🌟 Starting beginner series: "${selected.series.name}"`);
-    return selected;
-  }
-
-  // PRIORITY 3: Start any series
+  // PRIORITY 2: Start any series
   const seriesStarts = unusedTopics.filter(topic =>
     topic.series && topic.series.part === 1
   );
@@ -109,10 +104,6 @@ function selectNextTopic(topics, generatedTopics) {
     console.log(`📖 Starting series: "${selected.series.name}"`);
     return selected;
   }
-
-  // REMOVED PRIORITY 4: Do NOT allow generating series parts out of order
-  // Series topics can ONLY be generated if they are part 1 OR if the previous part exists
-  // This ensures series are always authored sequentially
 
   // FALLBACK: Random standalone topic
   const selected = unusedTopics[Math.floor(Math.random() * unusedTopics.length)];
@@ -248,7 +239,7 @@ This guide is part ${topic.series.part} of ${topic.series.total} in the "${topic
 `;
       }
 
-      const prompt = `Create an educational guide about "${topic.title}" for a food discovery website called "decent.food".
+      const prompt = `Create an editorial food article about "${topic.title}" for a food discovery website called "decent.food".\nArticle type: ${getArticleTypeLabel(topic.article_type)}.
 ${seriesContext}
 WRITING STYLE & PERSONALITY:
 - Write with personality! Be conversational, enthusiastic, and human
@@ -258,7 +249,7 @@ WRITING STYLE & PERSONALITY:
 - Use humor sparingly but effectively
 - Show passion for food culture, social media trends, restaurant discovery, and creator storytelling
 - Write like you're explaining to a curious friend over coffee, not lecturing
-- Appropriate for ${topic.difficulty} level readers
+- Match the article type: ${getArticleTypeLabel(topic.article_type)}
 
 VISUAL FORMATTING (CRITICAL - FOLLOW EXACTLY):
 - ALWAYS use blockquote syntax for callout boxes. Each callout MUST start with > character
@@ -276,21 +267,23 @@ VISUAL FORMATTING (CRITICAL - FOLLOW EXACTLY):
 - Create variety in section structure
 
 CONTENT STRUCTURE:
-1. Article Title (H1 with equals signs underneath) - Format as: **Title Text** 🚨 followed by a line of equals signs
+1. Article Title (H1 with equals signs underneath) - Format as: **Title Text** followed by a line of equals signs
 2. Introduction (2-3 sentences with personality - hook the reader!)
-3. Prerequisites (if any, or state "No prerequisites needed") - use ## header
-4. Step-by-step explanation with clear ## headers (3-5 main sections with varied formatting)
-5. Real-world examples with personal commentary on why they matter - use ## header
-6. Try It Yourself (practical, specific suggestions) - use ## header
-7. Key Takeaways (bullet points) - use ## header
-8. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
+3. Why It Matters - use ## header
+4. Main article sections with clear ## headers (3-5 sections)
+5. Practical Details:
+   - DIY Cooking: include ingredients, steps, substitutions, and serving ideas
+   - Foodie Showcase: include creator focus, what makes the work useful, where the voice fits in food culture, and what to follow first
+   - Hot Spot Showcase: include what to order, when to go, who it is for, and what makes the place distinct
+6. Key Takeaways (bullet points) - use ## header
+7. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
 
 CRITICAL HEADER FORMATTING RULES:
-- First line must be the article title as H1: **Title Text** 🚨
+- First line must be the article title as H1: **Title Text**
 - Second line must be equals signs (minimum 50 characters): ====================================================================
-- Use ## for all section headers (Prerequisites, main sections, Real-World Examples, Try It Yourself, Key Takeaways, Further Reading)
+- Use ## for all section headers (Why It Matters, main sections, Practical Details, Key Takeaways, Further Reading)
 - Example of correct title format:
-  **Understanding Neural Networks** 🚨
+  **The Neighborhood Noodle Shop Worth Crossing Town For**
   ====================================================================
 
   Your introduction text here...
@@ -427,14 +420,14 @@ function createFilename(title) {
   return `${date}-${slug}.md`;
 }
 
-// Generate guide description from title
-function generateDescription(title, difficulty) {
+// Generate article description from title and article type
+function generateDescription(title, articleType) {
   const starters = {
-    beginner: 'A beginner-friendly introduction to',
-    intermediate: 'Learn about',
-    advanced: 'A deep dive into'
+    'diy-cooking': 'A DIY Cooking article on',
+    'foodie-showcase': 'A Foodie Showcase on',
+    'hot-spot-showcase': 'A Hot Spot Showcase on'
   };
-  return `${starters[difficulty]} ${title.toLowerCase()}`;
+  return `${starters[articleType] || 'A decent.food article on'} ${title.toLowerCase()}`;
 }
 
 // Generate AI image prompt from topic
@@ -626,7 +619,7 @@ async function createGuideFile(topic, content, imageData) {
   const filepath = path.join(GUIDES_DIR, filename);
 
   const date = new Date().toISOString().split('T')[0];
-  const description = generateDescription(topic.title, topic.difficulty);
+  const description = generateDescription(topic.title, topic.article_type);
 
   // Find related guides
   const relatedGuides = findRelatedGuides(topic);
@@ -649,7 +642,7 @@ async function createGuideFile(topic, content, imageData) {
 layout: guide
 title: "${topic.title}"
 date: ${date}
-difficulty: ${topic.difficulty}
+article_type: ${topic.article_type}
 tags: [${topic.tags.map(tag => `"${tag}"`).join(', ')}]
 description: "${description}"
 estimated_time: "${readingTime} min read"`;
@@ -859,7 +852,7 @@ async function main() {
 
     // Select topic
     const topic = selectNextTopic(topics, generatedTopics);
-    console.log(`Selected topic: ${topic.title} (${topic.difficulty})`);
+    console.log(`Selected topic: ${topic.title} (${getArticleTypeLabel(topic.article_type)})`);
 
     // Generate content
     console.log('Generating content with NVIDIA API...');

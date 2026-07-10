@@ -1,4 +1,4 @@
-<div class="guide-card" data-difficulty="{{ include.guide.difficulty }}" data-tags="{{ include.guide.tags | join: ',' }}" data-title="{{ include.guide.title | downcase }}" data-description="{{ include.guide.description | downcase }}">
+<div class="guide-card" data-article-type="{{ include.guide.article_type }}" data-tags="{{ include.guide.tags | join: ',' }}" data-title="{{ include.guide.title | downcase }}" data-description="{{ include.guide.description | downcase }}">
     <a href="{{ include.guide.url | relative_url }}" class="card-link">
         {% if include.guide.image %}
         <div class="card-image">
@@ -7,7 +7,15 @@
         {% endif %}
         <div class="card-content">
             <div class="card-header">
-                <span class="difficulty difficulty-{{ include.guide.difficulty }}">{{ include.guide.difficulty | capitalize }}</span>
+                {% assign article_type = include.guide.article_type | default: 'foodie-showcase' %}
+                {% if article_type == 'diy-cooking' %}
+                    {% assign article_type_label = 'DIY Cooking' %}
+                {% elsif article_type == 'hot-spot-showcase' %}
+                    {% assign article_type_label = 'Hot Spot Showcase' %}
+                {% else %}
+                    {% assign article_type_label = 'Foodie Showcase' %}
+                {% endif %}
+                <span class="article-type article-type-{{ article_type }}">{{ article_type_label }}</span>
                 <span class="estimated-time">{{ include.guide.estimated_time }}</span>
             </div>
         <h2 class="card-title">{{ include.guide.title }}</h2>

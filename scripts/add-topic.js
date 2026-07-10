@@ -19,14 +19,16 @@ function question(prompt) {
   });
 }
 
-// Validate difficulty
-function isValidDifficulty(difficulty) {
-  return ['beginner', 'intermediate', 'advanced'].includes(difficulty.toLowerCase());
+const ARTICLE_TYPES = ['diy-cooking', 'foodie-showcase', 'hot-spot-showcase'];
+
+// Validate article type
+function isValidArticleType(articleType) {
+  return ARTICLE_TYPES.includes(articleType.toLowerCase());
 }
 
 // Main function
 async function addTopic() {
-  console.log('\n📝 Add New Topic to For Example AI\n');
+  console.log('\n📝 Add New Article Topic to decent.food\n');
   console.log('This will add a new topic to topics.json\n');
 
   try {
@@ -37,19 +39,19 @@ async function addTopic() {
       process.exit(1);
     }
 
-    // Get difficulty
-    let difficulty;
+    // Get article type
+    let article_type;
     while (true) {
-      difficulty = await question('Difficulty (beginner/intermediate/advanced): ');
-      if (isValidDifficulty(difficulty)) {
-        difficulty = difficulty.toLowerCase();
+      article_type = await question('Article type (diy-cooking/foodie-showcase/hot-spot-showcase): ');
+      if (isValidArticleType(article_type)) {
+        article_type = article_type.toLowerCase();
         break;
       }
-      console.log('❌ Invalid difficulty. Please use: beginner, intermediate, or advanced');
+      console.log('Invalid article type. Please use: diy-cooking, foodie-showcase, or hot-spot-showcase');
     }
 
     // Get tags
-    const tagsInput = await question('Tags (comma-separated, e.g., "ai, machine-learning, basics"): ');
+    const tagsInput = await question('Tags (comma-separated, e.g., "diy-cooking, weeknight-dinners, sauces"): ');
     const tags = tagsInput
       .split(',')
       .map(tag => tag.trim())
@@ -63,7 +65,7 @@ async function addTopic() {
     // Create topic object
     const newTopic = {
       title: title.trim(),
-      difficulty,
+      article_type,
       tags
     };
 
@@ -138,7 +140,7 @@ Options:
   --help, -h    Show this help message
 
 Interactive mode (default):
-  Prompts for title, difficulty, and tags to add a new topic to topics.json
+  Prompts for title, article_type, and tags to add a new topic to topics.json
 `);
   process.exit(0);
 }

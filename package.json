@@ -1,7 +1,7 @@
 {
-  "name": "forexample-ai",
+  "name": "decent-food",
   "version": "1.0.0",
-  "description": "AI education guides automatically generated and published on GitHub Pages",
+  "description": "Food articles automatically generated and published on GitHub Pages",
   "main": "scripts/generate-guide.js",
   "scripts": {
     "generate": "node scripts/generate-guide.js",
@@ -17,12 +17,13 @@
     "review:fix": "node scripts/review-guides.js --fix",
     "validate": "node scripts/validate-json.js",
     "validate:series": "node scripts/validate-series.js",
-    "test:series": "node scripts/test-series-auto-update.js"
+    "test:series": "node scripts/test-series-auto-update.js",
+    "serve": "bundle exec jekyll serve --config _config.yml,_config_local.yml --host 127.0.0.1 --port 4000",
+    "build:local": "bundle exec jekyll build --config _config.yml,_config_local.yml"
   },
   "keywords": [
-    "ai",
-    "education",
-    "guides",
+    "food",
+    "articles",
     "jekyll",
     "github-pages"
   ],

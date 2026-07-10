@@ -4,20 +4,20 @@ layout: default
 
 <div class="hero">
     <div class="container">
-        <h1 class="hero-title">{{ site.title }}</h1>
+        <h1 class="hero-title"><span class="hero-action" aria-live="polite">Eat</span> Decent Food</h1>
         <p class="hero-description">{{ site.description }}</p>
     </div>
 </div>
 
 <div class="filters container">
     <div class="search-box">
-        <input type="text" id="search" placeholder="Search guides..." aria-label="Search guides">
+        <input type="text" id="search" placeholder="Search articles..." aria-label="Search articles">
     </div>
-    <div class="filter-buttons">
-        <button class="filter-btn active" data-difficulty="all">All Levels</button>
-        <button class="filter-btn" data-difficulty="beginner">Beginner</button>
-        <button class="filter-btn" data-difficulty="intermediate">Intermediate</button>
-        <button class="filter-btn" data-difficulty="advanced">Advanced</button>
+    <div class="filter-buttons" aria-label="Article type filters">
+        <button class="filter-btn active" data-article-type="all">All Articles</button>
+        <button class="filter-btn" data-article-type="diy-cooking">DIY Cooking</button>
+        <button class="filter-btn" data-article-type="foodie-showcase">Foodie Showcase</button>
+        <button class="filter-btn" data-article-type="hot-spot-showcase">Hot Spot Showcase</button>
     </div>
 </div>
 
@@ -30,7 +30,7 @@ layout: default
 
 <div class="no-results" id="no-results" style="display: none;">
     <div class="container">
-        <p>No guides found matching your search.</p>
+        <p>No articles found matching your search.</p>
     </div>
 </div>
 

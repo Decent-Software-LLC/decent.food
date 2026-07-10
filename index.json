@@ -13,33 +13,33 @@ permalink: /index.json
     "version": "1.0"
   },
   "statistics": {
-    "total_guides": {{ site.guides.size }},
+    "total_articles": {{ site.guides.size }},
     {%- assign series_guides = site.guides | where_exp: "guide", "guide.series" -%}
     {%- assign series_list = series_guides | group_by: "series.name" -%}
     "total_series": {{ series_list.size }},
     {%- assign all_tags = site.guides | map: "tags" | join: "," | split: "," | uniq -%}
     "total_topics": {{ all_tags.size }},
-    {%- assign beginner = site.guides | where: "difficulty", "beginner" -%}
-    {%- assign intermediate = site.guides | where: "difficulty", "intermediate" -%}
-    {%- assign advanced = site.guides | where: "difficulty", "advanced" -%}
-    "by_difficulty": {
-      "beginner": {{ beginner.size }},
-      "intermediate": {{ intermediate.size }},
-      "advanced": {{ advanced.size }}
+    {%- assign diy_cooking = site.guides | where: "article_type", "diy-cooking" -%}
+    {%- assign foodie_showcase = site.guides | where: "article_type", "foodie-showcase" -%}
+    {%- assign hot_spot_showcase = site.guides | where: "article_type", "hot-spot-showcase" -%}
+    "by_article_type": {
+      "diy-cooking": {{ diy_cooking.size }},
+      "foodie-showcase": {{ foodie_showcase.size }},
+      "hot-spot-showcase": {{ hot_spot_showcase.size }}
     }
   },
   "endpoints": {
-    "guides": {
+    "articles": {
       "url": "/api/guides.json",
-      "description": "All guides with full metadata"
+      "description": "All articles with full metadata"
     },
     "series": {
       "url": "/api/series.json",
-      "description": "Learning series and courses"
+      "description": "Article series and recurring coverage"
     },
     "topics": {
       "url": "/api/topics.json",
-      "description": "Guides organized by topic tags"
+      "description": "Articles organized by topic tags"
     },
     "feed": {
       "url": "/feed.xml",
@@ -60,7 +60,7 @@ permalink: /index.json
       "url": "/"
     },
     {
-      "label": "All Guides",
+      "label": "All Articles",
       "url": "/guides/"
     },
     {

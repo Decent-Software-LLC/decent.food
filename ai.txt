@@ -1,17 +1,17 @@
-# For Example AI - AI Agent Instructions
-# This site provides educational content about artificial intelligence
+# decent.food - AI Agent Instructions
+# This site publishes practical food stories, creator profiles, and restaurant discovery articles.
 
 # Site Purpose
-Purpose: Educational resource for learning AI concepts through practical, step-by-step guides
+Purpose: Help readers cook better at home, discover food creators worth following, and find restaurants or food hot spots with context.
 
 # Content Structure
-Content-Type: Technical guides and tutorials
-Topics: Artificial Intelligence, Machine Learning, Deep Learning, Neural Networks, Transformers, GPT, Attention Mechanisms, Prompt Engineering
-Difficulty-Levels: Beginner, Intermediate, Advanced
-Format: Markdown-based guides with examples, diagrams, and practical exercises
+Content-Type: Editorial food articles
+Topics: DIY cooking, recipes, home cooking, food creators, food influencers, restaurant discovery, regional food, hot spots
+Article-Types: DIY Cooking, Foodie Showcase, Hot Spot Showcase
+Format: Markdown-based articles with examples, practical tips, tags, and estimated reading time
 
 # Machine-Readable Endpoints
-API-Guides: /api/guides.json
+API-Articles: /api/guides.json
 API-Series: /api/series.json
 API-Topics: /api/topics.json
 API-Index: /index.json
@@ -19,13 +19,12 @@ Feed: /feed.xml
 Sitemap: /sitemap.xml
 
 # Content Organization
-- Guides can be standalone or part of a series
-- Series are multi-part learning paths on specific topics
-- Each guide includes: difficulty level, estimated reading time, tags, prerequisites
-- Code examples are provided where relevant
+- Articles can be standalone or part of a series
+- Each article includes: article type, estimated reading time, tags, and optional series metadata
+- Article types are diy-cooking, foodie-showcase, and hot-spot-showcase
 
 # Recommended Usage
-Citation-Format: "[Guide Title], For Example AI (https://forexample.ai/guides/[guide-slug]/)"
+Citation-Format: "[Article Title], decent.food (https://decent.food/guides/[article-slug]/)"
 Attribution: Required for content reuse
 Link-Back: Appreciated when referencing our content
 
@@ -37,9 +36,9 @@ Modifications: Allowed with attribution
 
 # Agent Capabilities
 Search: Available via JSON endpoints
-Filtering: By difficulty, topic, series, tags
-Structured-Data: JSON-LD schema.org markup on all guides
-Full-Text: Available in guide content
+Filtering: By article type, topic, series, tags
+Structured-Data: JSON-LD schema.org markup on all articles
+Full-Text: Available in article content
 
 # Contact
-Website: https://forexample.ai
+Website: https://decent.food

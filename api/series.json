@@ -17,7 +17,7 @@ permalink: /api/series.json
       "slug": "{{ series.name | slugify }}",
       "total_parts": {{ series.items.first.series.total }},
       "completed_parts": {{ series.items.size }},
-      "guides": [
+      "articles": [
         {%- assign sorted_guides = series.items | sort: "series.part" -%}
         {%- for guide in sorted_guides -%}
         {
@@ -25,7 +25,7 @@ permalink: /api/series.json
           "title": {{ guide.title | jsonify }},
           "slug": "{{ guide.url | replace: '/guides/', '' | replace: '/', '' }}",
           "url": "{{ site.url }}{{ guide.url }}",
-          "difficulty": "{{ guide.difficulty }}",
+          "article_type": "{{ guide.article_type }}",
           "estimated_time": "{{ guide.estimated_time }}",
           "tags": {{ guide.tags | jsonify }}
         }{%- unless forloop.last -%},{%- endunless -%}

@@ -18,7 +18,7 @@ REVIEW CRITERIA:
 1. COMPLETENESS (Score 1-10)
    - Does the guide have all expected sections? (Introduction, Prerequisites, Main Content, Examples, Try It Yourself, Key Takeaways, Further Reading)
    - Are any sections incomplete or cut off mid-sentence?
-   - Is the content depth appropriate for the difficulty level?
+   - Is the content fit appropriate for the article type?
 
 2. COMPELLING QUALITY (Score 1-10)
    - Is the writing engaging and conversational?
@@ -30,7 +30,7 @@ REVIEW CRITERIA:
    - Are technical concepts explained correctly?
    - Are there any factual errors or outdated information?
    - Are links and references valid and relevant?
-   - Is the difficulty level appropriate for the content?
+   - Is the article type appropriate for the content?
 
 4. SPECIFIC ISSUES
    - List any specific problems found (incomplete sections, errors, missing content, etc.)
@@ -88,7 +88,7 @@ async function reviewGuide(guideData, filename, retryCount = 0) {
 
 GUIDE TO REVIEW:
 Title: ${guideData.frontMatter.title || 'Unknown'}
-Difficulty: ${guideData.frontMatter.difficulty || 'Unknown'}
+Article type: ${guideData.frontMatter.article_type || 'Unknown'}
 Date: ${guideData.frontMatter.date || 'Unknown'}
 Estimated Time: ${guideData.frontMatter.estimated_time || 'Unknown'}
 
@@ -241,7 +241,7 @@ async function fixGuide(guideData, review, filename, filePath) {
 
 ORIGINAL GUIDE:
 Title: ${guideData.frontMatter.title || 'Unknown'}
-Difficulty: ${guideData.frontMatter.difficulty || 'Unknown'}
+Article type: ${guideData.frontMatter.article_type || 'Unknown'}
 
 CONTENT:
 ${guideData.content}
@@ -264,7 +264,7 @@ INSTRUCTIONS:
 1. Fix ALL issues identified in the review
 2. Keep the same structure (Introduction, Prerequisites, Main Content, Examples, Try It Yourself, Key Takeaways, Further Reading)
 3. Maintain the conversational, engaging tone with analogies and personality
-4. Ensure all sections are complete and at the appropriate depth for ${guideData.frontMatter.difficulty} difficulty
+4. Ensure all sections are complete and aligned with the ${guideData.frontMatter.article_type} article type
 5. Fix any formatting issues, add missing links, correct technical errors
 6. Return ONLY the updated markdown content (no frontmatter, no explanations)
 
@@ -363,7 +363,7 @@ async function main() {
         filename,
         title: guideData.frontMatter.title || 'Unknown',
         date: guideData.frontMatter.date || 'Unknown',
-        difficulty: guideData.frontMatter.difficulty || 'Unknown',
+        article_type: guideData.frontMatter.article_type || 'Unknown',
         review,
         fixed: fixApplied
       });

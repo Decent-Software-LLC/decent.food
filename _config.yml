@@ -1,6 +1,6 @@
 # Site settings
 title: "decent.food"
-description: "Learn food concepts through practical, step-by-step guides"
+description: "DIY cooking ideas, foodie showcases, and hot spots worth knowing."
 url: "https://decent.food"
 baseurl: ""
 
@@ -34,6 +34,7 @@ exclude:
   - .github
   - SEO_OPTIMIZATION_PLAN.md
   - CONTENT_STRATEGY.md
+  - notes
 
 # Include special directories
 include:

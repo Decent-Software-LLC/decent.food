@@ -10,7 +10,7 @@ permalink: /api/guides.json
     "site": "{{ site.title }}",
     "url": "{{ site.url }}"
   },
-  "guides": [
+  "articles": [
     {%- for guide in site.guides -%}
     {
       "id": "{{ guide.url | replace: '/guides/', '' | replace: '/', '' }}",
@@ -18,7 +18,7 @@ permalink: /api/guides.json
       "slug": "{{ guide.url | replace: '/guides/', '' | replace: '/', '' }}",
       "url": "{{ site.url }}{{ guide.url }}",
       "description": {{ guide.description | jsonify }},
-      "difficulty": "{{ guide.difficulty }}",
+      "article_type": "{{ guide.article_type }}",
       "tags": {{ guide.tags | jsonify }},
       "estimated_time": "{{ guide.estimated_time }}",
       "date_published": "{{ guide.date | date_to_xmlschema }}",

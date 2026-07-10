@@ -37,12 +37,12 @@ function addSeriesToFrontmatter(frontMatterText, series) {
   const lines = frontMatterText.split('\n');
   let insertIndex = -1;
 
-  // Try to insert after tags or difficulty
+  // Try to insert after tags or article type
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith('tags:')) {
       insertIndex = i + 1;
       break;
-    } else if (lines[i].startsWith('difficulty:')) {
+    } else if (lines[i].startsWith('article_type:')) {
       insertIndex = i + 1;
     }
   }

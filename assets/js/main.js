@@ -5,10 +5,37 @@ document.addEventListener('DOMContentLoaded', function() {
     const guideCards = document.querySelectorAll('.guide-card');
     const noResults = document.getElementById('no-results');
 
-    let currentDifficulty = 'all';
+    let currentArticleType = 'all';
     let currentSearchTerm = '';
 
-    // Filter by difficulty
+    const heroAction = document.querySelector('.hero-action');
+    const heroWords = ['Eat', 'Find', 'Make'];
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let heroWordIndex = 0;
+
+    if (heroAction && !prefersReducedMotion) {
+        const displayDuration = 3000;
+        const transitionDuration = 500;
+
+        const rotateHeroWord = () => {
+            heroAction.classList.add('is-changing');
+
+            window.setTimeout(() => {
+                heroWordIndex = (heroWordIndex + 1) % heroWords.length;
+                heroAction.textContent = heroWords[heroWordIndex];
+            }, transitionDuration / 2);
+
+            window.setTimeout(() => {
+                heroAction.classList.remove('is-changing');
+                window.setTimeout(rotateHeroWord, displayDuration);
+            }, transitionDuration);
+        };
+
+        window.setTimeout(rotateHeroWord, displayDuration);
+    }
+
+
+    // Filter by article type
     if (filterButtons) {
         filterButtons.forEach(button => {
             button.addEventListener('click', function() {
@@ -16,8 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 this.classList.add('active');
 
-                // Get selected difficulty
-                currentDifficulty = this.dataset.difficulty;
+                // Get selected article type
+                currentArticleType = this.dataset.articleType;
 
                 // Apply filters
                 applyFilters();
@@ -38,13 +65,13 @@ document.addEventListener('DOMContentLoaded', function() {
         let visibleCount = 0;
 
         guideCards.forEach(card => {
-            const difficulty = card.dataset.difficulty;
+            const articleType = card.dataset.articleType;
             const title = card.dataset.title;
             const description = card.dataset.description;
             const tags = card.dataset.tags.toLowerCase();
 
-            // Check difficulty filter
-            const matchesDifficulty = currentDifficulty === 'all' || difficulty === currentDifficulty;
+            // Check article type filter
+            const matchesArticleType = currentArticleType === 'all' || articleType === currentArticleType;
 
             // Check search filter
             const matchesSearch = currentSearchTerm === '' ||
@@ -53,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 tags.includes(currentSearchTerm);
 
             // Show or hide card
-            if (matchesDifficulty && matchesSearch) {
+            if (matchesArticleType && matchesSearch) {
                 card.style.display = 'block';
                 visibleCount++;
             } else {

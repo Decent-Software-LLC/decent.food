@@ -2,7 +2,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TechArticle",
+  "@type": "Article",
   "headline": {{ page.title | jsonify }},
   "description": {{ page.description | jsonify }},
   {%- if page.image -%}
@@ -31,14 +31,20 @@
   },
   "url": "{{ site.url }}{{ page.url }}",
   "keywords": {{ page.tags | jsonify }},
-  "articleSection": "{{ page.tags.first }}",
-  "educationalLevel": "{{ page.difficulty | capitalize }}",
-  "proficiencyLevel": "{{ page.difficulty | capitalize }}",
+  {% assign article_type = page.article_type | default: 'foodie-showcase' %}
+  {% if article_type == 'diy-cooking' %}
+    {% assign article_type_label = 'DIY Cooking' %}
+  {% elsif article_type == 'hot-spot-showcase' %}
+    {% assign article_type_label = 'Hot Spot Showcase' %}
+  {% else %}
+    {% assign article_type_label = 'Foodie Showcase' %}
+  {% endif %}
+  "articleSection": "{{ article_type_label }}",
   "timeRequired": "{{ page.estimated_time }}",
   "inLanguage": "en-US",
   {%- if page.series -%}
   "isPartOf": {
-    "@type": "Course",
+    "@type": "CreativeWorkSeries",
     "name": "{{ page.series.name }}",
     "description": "Part {{ page.series.part }} of {{ page.series.total }} in the {{ page.series.name }} series"
   },
@@ -76,7 +82,7 @@
 {% endif %}
 
 {%- if page.series -%}
-<!-- Series/Course Structure -->
+<!-- Series Structure -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
