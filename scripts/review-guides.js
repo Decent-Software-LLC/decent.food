@@ -8,15 +8,15 @@ const NVIDIA_MODEL = 'moonshotai/kimi-k2.5';
 
 // File paths
 const GUIDES_DIR = path.join(__dirname, '..', '_guides');
-const REVIEW_REPORT_FILE = path.join(__dirname, '..', 'guide-review-report.json');
+const REVIEW_REPORT_FILE = path.join(__dirname, '..', 'article-review-report.json');
 
 // Review criteria
-const REVIEW_PROMPT = `You are a content quality reviewer for an AI educational website called "For Example AI". Review this guide and provide a detailed assessment.
+const REVIEW_PROMPT = `You are a content quality reviewer for an editorial food website called "decent.food". Review this article and provide a detailed assessment.
 
 REVIEW CRITERIA:
 
 1. COMPLETENESS (Score 1-10)
-   - Does the guide have all expected sections? (Introduction, Prerequisites, Main Content, Examples, Try It Yourself, Key Takeaways, Further Reading)
+   - Does the article have the expected editorial sections? (Introduction, Why It Matters, main sections, Practical Details, Key Takeaways, Further Reading)
    - Are any sections incomplete or cut off mid-sentence?
    - Is the content fit appropriate for the article type?
 
@@ -27,14 +27,14 @@ REVIEW CRITERIA:
    - Are there visual breaks (emojis, blockquotes, varied formatting)?
 
 3. ACCURACY (Score 1-10)
-   - Are technical concepts explained correctly?
+   - Are food, restaurant, creator, and cultural claims explained clearly and responsibly?
    - Are there any factual errors or outdated information?
    - Are links and references valid and relevant?
    - Is the article type appropriate for the content?
 
 4. SPECIFIC ISSUES
    - List any specific problems found (incomplete sections, errors, missing content, etc.)
-   - Note any outdated information (especially if guide is from before 2025)
+   - Note any outdated information (especially if article is from before 2025)
 
 IMPORTANT: Respond with ONLY valid JSON. No markdown formatting, no code blocks, no additional text.
 
@@ -55,8 +55,8 @@ Respond in exactly this JSON format:
 
 The priority must be exactly one of: "low", "medium", or "high"`;
 
-// Parse frontmatter and content from guide
-function parseGuide(filePath) {
+// Parse frontmatter and content from article
+function parseArticle(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const frontMatterMatch = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
 
@@ -79,21 +79,21 @@ function parseGuide(filePath) {
   return { frontMatter, content: bodyContent, raw: content };
 }
 
-// Review a single guide using AI (with retry logic)
-async function reviewGuide(guideData, filename, retryCount = 0) {
+// Review a single article using AI (with retry logic)
+async function reviewArticle(articleData, filename, retryCount = 0) {
   const maxRetries = 2;
   console.log(`  Analyzing content...${retryCount > 0 ? ` (attempt ${retryCount + 1}/${maxRetries + 1})` : ''}`);
 
   const reviewPrompt = `${REVIEW_PROMPT}
 
-GUIDE TO REVIEW:
-Title: ${guideData.frontMatter.title || 'Unknown'}
-Article type: ${guideData.frontMatter.article_type || 'Unknown'}
-Date: ${guideData.frontMatter.date || 'Unknown'}
-Estimated Time: ${guideData.frontMatter.estimated_time || 'Unknown'}
+ARTICLE TO REVIEW:
+Title: ${articleData.frontMatter.title || 'Unknown'}
+Article type: ${articleData.frontMatter.article_type || 'Unknown'}
+Date: ${articleData.frontMatter.date || 'Unknown'}
+Estimated Time: ${articleData.frontMatter.estimated_time || 'Unknown'}
 
 CONTENT:
-${guideData.content}
+${articleData.content}
 
 Provide your review in the JSON format specified above.`;
 
@@ -169,7 +169,7 @@ Provide your review in the JSON format specified above.`;
     if (shouldRetry) {
       console.log(`  ⚠️  ${error.message} - retrying in 3s...`);
       await new Promise(resolve => setTimeout(resolve, 3000));
-      return reviewGuide(guideData, filename, retryCount + 1);
+      return reviewArticle(articleData, filename, retryCount + 1);
     }
 
     console.error(`  ✗ Error reviewing: ${error.message}`);
@@ -195,8 +195,8 @@ Provide your review in the JSON format specified above.`;
   }
 }
 
-// Get all guide files
-function getAllGuides() {
+// Get all article files
+function getAllArticles() {
   return fs.readdirSync(GUIDES_DIR)
     .filter(file => file.endsWith('.md'))
     .sort();
@@ -216,7 +216,7 @@ function generateSummary(results) {
   const lowPriority = results.filter(r => r.review.priority === 'low').length;
 
   return {
-    total_guides: total,
+    total_articles: total,
     averages: {
       completeness: avgCompleteness.toFixed(2),
       compelling: avgCompelling.toFixed(2),
@@ -233,18 +233,18 @@ function generateSummary(results) {
   };
 }
 
-// Fix a guide based on review feedback
-async function fixGuide(guideData, review, filename, filePath) {
+// Fix an article based on review feedback
+async function fixArticle(articleData, review, filename, filePath) {
   console.log(`  🔧 Fixing issues...`);
 
-  const fixPrompt = `You are a content editor for "For Example AI". You previously reviewed this guide and found issues. Now fix them.
+  const fixPrompt = `You are a content editor for "decent.food". You previously reviewed this article and found issues. Now fix them.
 
-ORIGINAL GUIDE:
-Title: ${guideData.frontMatter.title || 'Unknown'}
-Article type: ${guideData.frontMatter.article_type || 'Unknown'}
+ORIGINAL ARTICLE:
+Title: ${articleData.frontMatter.title || 'Unknown'}
+Article type: ${articleData.frontMatter.article_type || 'Unknown'}
 
 CONTENT:
-${guideData.content}
+${articleData.content}
 
 REVIEW FEEDBACK:
 - Completeness Score: ${review.completeness_score}/10
@@ -262,13 +262,13 @@ ${review.recommendations.map(r => `- ${r}`).join('\n')}
 
 INSTRUCTIONS:
 1. Fix ALL issues identified in the review
-2. Keep the same structure (Introduction, Prerequisites, Main Content, Examples, Try It Yourself, Key Takeaways, Further Reading)
+2. Keep the same editorial structure (Introduction, Why It Matters, main sections, Practical Details, Key Takeaways, Further Reading)
 3. Maintain the conversational, engaging tone with analogies and personality
-4. Ensure all sections are complete and aligned with the ${guideData.frontMatter.article_type} article type
-5. Fix any formatting issues, add missing links, correct technical errors
+4. Ensure all sections are complete and aligned with the ${articleData.frontMatter.article_type} article type
+5. Fix any formatting issues, add missing links, and correct factual or editorial errors
 6. Return ONLY the updated markdown content (no frontmatter, no explanations)
 
-Provide the complete, improved guide content:`;
+Provide the complete, improved article content:`;
 
   try {
     const response = await axios.post(
@@ -296,18 +296,18 @@ Provide the complete, improved guide content:`;
 
     // Reconstruct the full file with frontmatter + fixed content
     // Use the original frontmatter section from the file to preserve formatting
-    const frontMatterMatch = guideData.raw.match(/^---\n([\s\S]*?)\n---\n/);
+    const frontMatterMatch = articleData.raw.match(/^---\n([\s\S]*?)\n---\n/);
     const originalFrontMatter = frontMatterMatch ? frontMatterMatch[0] : '---\n---\n';
 
     const fullContent = `${originalFrontMatter}\n${fixedContent.trim()}\n`;
 
-    // Write the fixed guide back to file
+    // Write the fixed article back to file
     fs.writeFileSync(filePath, fullContent);
-    console.log(`  ✅ Guide fixed and saved`);
+    console.log(`  ✅ Article fixed and saved`);
 
     return true;
   } catch (error) {
-    console.error(`  ✗ Error fixing guide: ${error.message}`);
+    console.error(`  ✗ Error fixing article: ${error.message}`);
     return false;
   }
 }
@@ -323,29 +323,29 @@ async function main() {
     throw new Error('NVIDIA_API_KEY environment variable is not set');
   }
 
-  // Get all guides
-  const guideFiles = getAllGuides();
-  console.log(`Found ${guideFiles.length} guides to review\n`);
+  // Get all articles
+  const articleFiles = getAllArticles();
+  console.log(`Found ${articleFiles.length} articles to review\n`);
 
   const results = [];
   let processed = 0;
   let fixed = 0;
 
-  // Review each guide
-  for (const filename of guideFiles) {
+  // Review each article
+  for (const filename of articleFiles) {
     processed++;
     const filePath = path.join(GUIDES_DIR, filename);
 
-    console.log(`[${processed}/${guideFiles.length}] Reviewing: ${filename}`);
+    console.log(`[${processed}/${articleFiles.length}] Reviewing: ${filename}`);
 
     try {
-      // Parse guide
-      const guideData = parseGuide(filePath);
+      // Parse article
+      const articleData = parseArticle(filePath);
 
       // Review with AI
-      const review = await reviewGuide(guideData, filename);
+      const review = await reviewArticle(articleData, filename);
 
-      // Determine if guide needs fixing
+      // Determine if article needs fixing
       const needsFix = review.needs_update ||
                       review.overall_score < 8 ||
                       review.priority === 'high' ||
@@ -353,7 +353,7 @@ async function main() {
 
       let fixApplied = false;
       if (autoFix && needsFix && !review.error) {
-        fixApplied = await fixGuide(guideData, review, filename, filePath);
+        fixApplied = await fixArticle(articleData, review, filename, filePath);
         if (fixApplied) {
           fixed++;
         }
@@ -361,9 +361,9 @@ async function main() {
 
       results.push({
         filename,
-        title: guideData.frontMatter.title || 'Unknown',
-        date: guideData.frontMatter.date || 'Unknown',
-        article_type: guideData.frontMatter.article_type || 'Unknown',
+        title: articleData.frontMatter.title || 'Unknown',
+        date: articleData.frontMatter.date || 'Unknown',
+        article_type: articleData.frontMatter.article_type || 'Unknown',
         review,
         fixed: fixApplied
       });
@@ -380,7 +380,7 @@ async function main() {
       console.log('');
 
       // Rate limiting - wait 2 seconds between requests (longer if we just fixed)
-      if (processed < guideFiles.length) {
+      if (processed < articleFiles.length) {
         await new Promise(resolve => setTimeout(resolve, fixApplied ? 3000 : 2000));
       }
 
@@ -418,30 +418,30 @@ async function main() {
   // Print summary
   console.log('\n📊 SUMMARY');
   console.log('═══════════════════════════════════════');
-  console.log(`Total guides reviewed: ${summary.total_guides}`);
+  console.log(`Total articles reviewed: ${summary.total_articles}`);
   if (autoFix) {
-    console.log(`Guides fixed: ${fixed}`);
+    console.log(`Articles fixed: ${fixed}`);
   }
   console.log(`\nAverage Scores:`);
   console.log(`  Completeness: ${summary.averages.completeness}/10`);
   console.log(`  Compelling:   ${summary.averages.compelling}/10`);
   console.log(`  Accuracy:     ${summary.averages.accuracy}/10`);
   console.log(`  Overall:      ${summary.averages.overall}/10`);
-  console.log(`\nNeeds Update: ${summary.needs_update_count} guides`);
+  console.log(`\nNeeds Update: ${summary.needs_update_count} articles`);
   console.log(`\nPriority Breakdown:`);
   console.log(`  🔴 High:   ${summary.priority_breakdown.high}`);
   console.log(`  🟡 Medium: ${summary.priority_breakdown.medium}`);
   console.log(`  🟢 Low:    ${summary.priority_breakdown.low}`);
 
   // Print high priority items
-  const highPriorityGuides = results.filter(r => r.review?.priority === 'high');
-  if (highPriorityGuides.length > 0) {
+  const highPriorityArticles = results.filter(r => r.review?.priority === 'high');
+  if (highPriorityArticles.length > 0) {
     console.log(`\n🔴 HIGH PRIORITY UPDATES NEEDED:`);
-    highPriorityGuides.forEach(g => {
-      console.log(`\n  ${g.title} (${g.filename})`);
-      console.log(`    Score: ${g.review.overall_score}/10`);
-      if (g.review.issues && g.review.issues.length > 0) {
-        console.log(`    Issues: ${g.review.issues.join(', ')}`);
+    highPriorityArticles.forEach(article => {
+      console.log(`\n  ${article.title} (${article.filename})`);
+      console.log(`    Score: ${article.review.overall_score}/10`);
+      if (article.review.issues && article.review.issues.length > 0) {
+        console.log(`    Issues: ${article.review.issues.join(', ')}`);
       }
     });
   }
@@ -457,4 +457,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { main, reviewGuide, parseGuide };
+module.exports = { main, reviewArticle, parseArticle };

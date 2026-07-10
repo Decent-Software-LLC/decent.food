@@ -1,4 +1,4 @@
-name: Generate AI Guide
+name: Generate Food Article
 
 on:
   schedule:
@@ -15,14 +15,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0  # Fetch all history for proper git operations
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
@@ -31,7 +31,7 @@ jobs:
       - name: Validate JSON files
         run: npm run validate
 
-      - name: Generate new guide
+      - name: Generate new article
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: npm run generate
@@ -51,11 +51,11 @@ jobs:
         continue-on-error: true
         run: npm run validate:series
 
-      - name: Commit and push new guide
+      - name: Commit and push new article
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add _guides/ generated-topics.json assets/images/guides/
-          git commit -m "Add new AI guide with FLUX image [automated] - formatting verified"
+          git commit -m "Add new food article with FLUX image [automated] - formatting verified"
           git push

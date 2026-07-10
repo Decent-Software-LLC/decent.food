@@ -646,5 +646,32 @@
       "date-night",
       "restaurants"
     ]
+  },
+  {
+    "title": "How Regional Restaurant Lists Can Avoid Repeating the Same Hot Spots",
+    "article_type": "hot-spot-showcase",
+    "tags": [
+      "restaurant-lists",
+      "regional-food",
+      "food-media"
+    ]
+  },
+  {
+    "title": "Why Spicy Food Trends Spread Fast",
+    "article_type": "foodie-showcase",
+    "tags": [
+      "spicy-food",
+      "food-trends",
+      "social-media"
+    ]
+  },
+  {
+    "title": "What Makes a Food Influencer Trustworthy?",
+    "article_type": "foodie-showcase",
+    "tags": [
+      "food-influencers",
+      "trust",
+      "reviews"
+    ]
   }
 ]

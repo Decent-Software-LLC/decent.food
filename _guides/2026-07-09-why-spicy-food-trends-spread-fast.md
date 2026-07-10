@@ -2,9 +2,9 @@
 layout: guide
 title: "Why Spicy Food Trends Spread Fast"
 date: 2026-07-09
-difficulty: beginner
+article_type: foodie-showcase
 tags: ["spicy-food", "food-trends", "social-media"]
-description: "A beginner-friendly introduction to why spicy food trends spread fast"
+description: "A Foodie Showcase on why spicy food trends spread fast"
 estimated_time: "5 min read"
 ---
 **Why Spicy Food Trends Spread Fast** 🚨  
