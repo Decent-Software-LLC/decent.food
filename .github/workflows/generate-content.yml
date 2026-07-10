@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: generate-food-article-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -58,4 +62,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add _guides/ generated-topics.json assets/images/guides/
           git commit -m "Add new food article with FLUX image [automated] - formatting verified"
+          git pull --rebase origin main
           git push
