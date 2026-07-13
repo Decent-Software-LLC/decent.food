@@ -50,6 +50,39 @@ function getArticleTypeLabel(articleType) {
   return ARTICLE_TYPES[articleType] || 'Foodie Showcase';
 }
 
+function getFactualSourceGuidance(topic) {
+  if (topic.article_type === 'hot-spot-showcase') {
+    return `
+HOT SPOT SHOWCASE FACTUAL REQUIREMENTS:
+- Write about one REAL, NAMED food location that exists in the real world, such as a restaurant, bakery, cafe, food truck, market stall, pop-up, bar, or counter-service spot.
+- Do NOT invent a restaurant, chef, menu item, quote, neighborhood, award, origin story, wait time, opening date, ownership detail, or address.
+- Include the actual location name, city, and neighborhood/area when available.
+- Use and cite actual public sources. Prefer the location's official website/menu/social profile plus credible food media, local press, Michelin/James Beard/Eater/Infatuation/local newspaper coverage, or a reputable listing.
+- Any factual information from another source must be cited with a markdown link in the same paragraph. If you include a direct quote, keep it short, put it in quotation marks, and cite the linked source immediately.
+- For what to order, only mention dishes that are documented by an official menu/social post or reputable coverage. If details may change, say readers should verify current menu/hours before visiting.
+- Do not imply that decent.food personally visited the location unless the source text says so. Use careful phrasing like "public menus list..." or "local coverage highlights..."
+- Include a "## Sources Cited" section with 2-4 real links used for the article, before "## Further Reading".`;
+  }
+
+  if (topic.article_type === 'foodie-showcase') {
+    return `
+FOODIE SHOWCASE FACTUAL REQUIREMENTS:
+- Write about one REAL, NAMED food content creator, chef-creator, blogger, newsletter writer, podcaster, restaurant reviewer, photographer, or food media personality.
+- Do NOT invent a person, handle, platform, recipe, quote, collaboration, award, follower count, hometown, biography detail, or content example.
+- Include the creator's real public name or publication name and their main public handle/site when available.
+- Use and cite actual public sources. Prefer the creator's own website, newsletter, social profile, cookbook/podcast page, About page, and credible interviews or media coverage.
+- Any factual information from another source must be cited with a markdown link in the same paragraph. If you include a direct quote, keep it short, put it in quotation marks, and cite the linked source immediately.
+- Give credit for specific recipes, posts, videos, photos, newsletters, or creator ideas that inform the article. Do not describe content you cannot attribute to a linked source.
+- Do not imply a personal relationship, interview, or direct permission from the creator unless the source text supports it.
+- Include a "## Sources Cited" section with 2-4 real links used for the article, before "## Further Reading".`;
+  }
+
+  return `
+FACTUAL ACCURACY REQUIREMENTS:
+- Do not invent sources, claims, quotes, or links.
+- Cite any sourced factual claim with a real markdown link when referring to external reporting, recipes, or food culture references.`;
+}
+
 // Select next topic with smart series prioritization
 // Priority order:
 //   1. Continue in-progress series (previous part published)
@@ -191,6 +224,27 @@ async function validateLinksInContent(content) {
   return validatedContent;
 }
 
+function countMarkdownLinks(content) {
+  return [...content.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)].length;
+}
+
+function validateShowcaseSourceRequirements(content, topic) {
+  if (!['foodie-showcase', 'hot-spot-showcase'].includes(topic.article_type)) {
+    return;
+  }
+
+  if (!content.includes('## Sources Cited')) {
+    throw new Error(`${getArticleTypeLabel(topic.article_type)} articles must include a "## Sources Cited" section`);
+  }
+
+  const sourcesSection = content.split('## Sources Cited')[1]?.split('\n## ')[0] || '';
+  const sourceLinks = countMarkdownLinks(sourcesSection);
+
+  if (sourceLinks < 2) {
+    throw new Error(`${getArticleTypeLabel(topic.article_type)} articles must include at least 2 valid source links in "## Sources Cited"`);
+  }
+}
+
 // Helper function to detect transient errors that should be retried
 function isTransientError(error) {
   // Check for HTTP status codes indicating transient issues
@@ -241,6 +295,8 @@ This guide is part ${topic.series.part} of ${topic.series.total} in the "${topic
 
       const prompt = `Create an editorial food article about "${topic.title}" for a food discovery website called "decent.food".\nArticle type: ${getArticleTypeLabel(topic.article_type)}.
 ${seriesContext}
+${getFactualSourceGuidance(topic)}
+
 WRITING STYLE & PERSONALITY:
 - Write with personality! Be conversational, enthusiastic, and human
 - Use "I" and "we" occasionally to create connection with readers
@@ -273,10 +329,11 @@ CONTENT STRUCTURE:
 4. Main article sections with clear ## headers (3-5 sections)
 5. Practical Details:
    - DIY Cooking: include ingredients, steps, substitutions, and serving ideas
-   - Foodie Showcase: include creator focus, what makes the work useful, where the voice fits in food culture, and what to follow first
-   - Hot Spot Showcase: include what to order, when to go, who it is for, and what makes the place distinct
+   - Foodie Showcase: include the real creator's focus, what makes their credited work useful, where their voice fits in food culture, and what sourced public content to follow first
+   - Hot Spot Showcase: include the real location name, city/area, what documented menu items to order, when to go if sourced, who it is for, and what makes the place distinct
 6. Key Takeaways (bullet points) - use ## header
-7. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
+7. Sources Cited (REQUIRED for Foodie Showcase and Hot Spot Showcase; 2-4 actual source links used in the article) - use ## header
+8. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
 
 CRITICAL HEADER FORMATTING RULES:
 - First line must be the article title as H1: **Title Text**
@@ -331,21 +388,24 @@ Be friendly, be human, be helpful!`;
 
       // Validate all links in the generated content
       const validatedContent = await validateLinksInContent(content);
+      validateShowcaseSourceRequirements(validatedContent, topic);
 
       console.log('  ✓ Text generation successful');
       return validatedContent;
 
     } catch (error) {
       const isTransient = isTransientError(error);
+      const isContentQualityError = error.message?.includes('must include');
       const errorMsg = error.response?.data?.message || error.message;
       const statusCode = error.response?.status || error.code;
 
       console.error(`  ✗ Attempt ${attempt} failed: ${statusCode} - ${errorMsg}`);
 
       // If it's a transient error and we have retries left, wait and retry
-      if (isTransient && attempt < maxRetries) {
-        const waitTime = Math.pow(2, attempt) * 15000; // 30s, 60s, 120s
-        console.log(`  Transient error detected. Waiting ${waitTime/1000}s before retry...`);
+      if ((isTransient || isContentQualityError) && attempt < maxRetries) {
+        const waitTime = isTransient ? Math.pow(2, attempt) * 15000 : 5000; // 30s, 60s, 120s for transient API errors
+        const retryReason = isTransient ? 'Transient error' : 'Content quality requirement missed';
+        console.log(`  ${retryReason} detected. Waiting ${waitTime/1000}s before retry...`);
         await new Promise(resolve => setTimeout(resolve, waitTime));
       } else {
         // Non-transient error or out of retries - throw immediately
@@ -432,14 +492,14 @@ function generateDescription(title, articleType) {
 
 // Generate AI image prompt from topic
 function generateImagePrompt(topic) {
-  // Create a concise editorial food prompt and avoid text/logo generation.
+  // Create a concise illustrated food prompt and avoid text/logo generation.
   const keywords = topic.tags.slice(0, 3)
     .map(tag => tag.replace(/-/g, ' '))
     .join(', ');
 
   return {
-    prompt: `Editorial food culture photograph inspired by ${keywords}: colorful restaurant table spread, regional dishes, social media creator perspective, warm natural light, candid dining scene, vibrant blue accents, appetizing realistic food styling, high quality magazine photography, no people faces, no text`,
-    negative_prompt: `text, letters, words, typography, watermark, logo`
+    prompt: `Colorful editorial food illustration for an article titled "${topic.title}", inspired by ${keywords}: stylized illustrated food scene, vibrant hand-drawn shapes, playful composition, appetizing dishes related to the subject, bold color palette with decent.food blue accents, warm expressive lighting, modern magazine illustration, charming texture, no people faces, no text`,
+    negative_prompt: `photorealistic, realistic photography, camera photo, stock photo, text, letters, words, typography, watermark, logo`
   };
 }
 
