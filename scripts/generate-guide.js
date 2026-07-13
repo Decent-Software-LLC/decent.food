@@ -245,6 +245,21 @@ function validateShowcaseSourceRequirements(content, topic) {
   }
 }
 
+function validateArticleTypeFocus(content, topic) {
+  const mismatchedHeadings = {
+    'diy-cooking': ['### Foodie Showcase:', '### Hot Spot Showcase:'],
+    'foodie-showcase': ['### DIY Cooking:', '### Hot Spot Showcase:'],
+    'hot-spot-showcase': ['### DIY Cooking:', '### Foodie Showcase:']
+  };
+
+  const disallowed = mismatchedHeadings[topic.article_type] || [];
+  const found = disallowed.find(heading => content.includes(heading));
+
+  if (found) {
+    throw new Error(`${getArticleTypeLabel(topic.article_type)} articles must not include mismatched practical detail heading "${found}"`);
+  }
+}
+
 // Helper function to detect transient errors that should be retried
 function isTransientError(error) {
   // Check for HTTP status codes indicating transient issues
@@ -328,9 +343,11 @@ CONTENT STRUCTURE:
 3. Why It Matters - use ## header
 4. Main article sections with clear ## headers (3-5 sections)
 5. Practical Details:
-   - DIY Cooking: include ingredients, steps, substitutions, and serving ideas
-   - Foodie Showcase: include the real creator's focus, what makes their credited work useful, where their voice fits in food culture, and what sourced public content to follow first
-   - Hot Spot Showcase: include the real location name, city/area, what documented menu items to order, when to go if sourced, who it is for, and what makes the place distinct
+   - Include ONLY the practical details for this article type: ${getArticleTypeLabel(topic.article_type)}
+   - If DIY Cooking: include ingredients, steps, substitutions, and serving ideas
+   - If Foodie Showcase: include the real creator's focus, what makes their credited work useful, where their voice fits in food culture, and what sourced public content to follow first
+   - If Hot Spot Showcase: include the real location name, city/area, what documented menu items to order, when to go if sourced, who it is for, and what makes the place distinct
+   - Do NOT include practical-detail subsections for the other article types
 6. Key Takeaways (bullet points) - use ## header
 7. Sources Cited (REQUIRED for Foodie Showcase and Hot Spot Showcase; 2-4 actual source links used in the article) - use ## header
 8. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
@@ -389,13 +406,14 @@ Be friendly, be human, be helpful!`;
       // Validate all links in the generated content
       const validatedContent = await validateLinksInContent(content);
       validateShowcaseSourceRequirements(validatedContent, topic);
+      validateArticleTypeFocus(validatedContent, topic);
 
       console.log('  ✓ Text generation successful');
       return validatedContent;
 
     } catch (error) {
       const isTransient = isTransientError(error);
-      const isContentQualityError = error.message?.includes('must include');
+      const isContentQualityError = error.message?.includes('must include') || error.message?.includes('must not include');
       const errorMsg = error.response?.data?.message || error.message;
       const statusCode = error.response?.status || error.code;
 
