@@ -145,19 +145,16 @@
     text-decoration: underline;
 }
 
-/* Mobile/Tablet - Hide fixed sidebar, show TOC at top of content */
+/* Mobile/Tablet - Hide contents sidebar */
 @media (max-width: 1023px) {
-    .guide-sidebar-fixed {
-        display: none; /* Hide fixed sidebar on mobile */
+    .guide-sidebar,
+    .guide-sidebar-fixed,
+    .table-of-contents {
+        display: none;
     }
 
     .guide-main-content {
         width: 100%;
-    }
-
-    /* TOC appears in mobile layout at top */
-    .toc-toggle {
-        display: flex; /* Show collapse button on mobile */
     }
 }
 
