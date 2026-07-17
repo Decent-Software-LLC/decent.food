@@ -24,31 +24,17 @@ function parseGuide(filepath) {
   };
 }
 
-// Fix title formatting (should be H1 with equals signs)
+// Fix title formatting by removing legacy equals-sign underlines
 function fixTitle(body) {
   const lines = body.split('\n');
   let fixed = false;
 
-  // Look for the first non-empty line
-  let firstLineIdx = 0;
-  while (firstLineIdx < lines.length && lines[firstLineIdx].trim() === '') {
-    firstLineIdx++;
-  }
-
-  if (firstLineIdx >= lines.length) return { body, fixed };
-
-  const firstLine = lines[firstLineIdx];
-  const secondLine = firstLineIdx + 1 < lines.length ? lines[firstLineIdx + 1] : '';
-
-  // Check if it's already properly formatted (bold text followed by equals signs)
-  if (firstLine.includes('**') && secondLine.match(/^=+$/)) {
-    return { body, fixed };
-  }
-
-  // Check if first line is bold but missing equals signs
-  if (firstLine.includes('**') && !secondLine.match(/^=+$/)) {
-    lines.splice(firstLineIdx + 1, 0, '='.repeat(68));
-    fixed = true;
+  for (let i = 0; i < lines.length; i++) {
+    if (/^=+$/.test(lines[i].trim())) {
+      lines.splice(i, 1);
+      fixed = true;
+      i--;
+    }
   }
 
   return { body: lines.join('\n'), fixed };
@@ -70,11 +56,6 @@ function fixSectionHeaders(body) {
       continue;
     }
 
-    // Skip if it's the title (H1 with equals)
-    if (i > 0 && lines[i - 1].includes('**') && line.match(/^=+$/)) {
-      result.push(line);
-      continue;
-    }
 
     // Check for common section patterns that should be headers
     const headerPatterns = [

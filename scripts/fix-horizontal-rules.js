@@ -40,7 +40,6 @@ function fixHorizontalRules(filepath) {
 
     // Check for text with dashes underneath (converts to ## header)
     // Pattern: Some Text\n-------
-    // Exclude if it's the title (preceded by equals signs)
     if (
       !line.startsWith('##') &&
       !line.startsWith('**') &&
@@ -58,7 +57,6 @@ function fixHorizontalRules(filepath) {
 
     // Check for bold text with dashes underneath
     // Pattern: **Some Text**\n-------
-    // Exclude if it's the title (preceded by equals signs)
     if (
       line.match(/^\*\*.*\*\*$/) &&
       /^-{3,}$/.test(nextLine) &&

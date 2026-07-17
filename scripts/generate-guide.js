@@ -338,7 +338,7 @@ VISUAL FORMATTING (CRITICAL - FOLLOW EXACTLY):
 - Create variety in section structure
 
 CONTENT STRUCTURE:
-1. Article Title (H1 with equals signs underneath) - Format as: **Title Text** followed by a line of equals signs
+1. Article Title - Format as: **Title Text** on its own line, with NO equals-sign underline
 2. Introduction (2-3 sentences with personality - hook the reader!)
 3. Why It Matters - use ## header
 4. Main article sections with clear ## headers (3-5 sections)
@@ -353,12 +353,11 @@ CONTENT STRUCTURE:
 8. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
 
 CRITICAL HEADER FORMATTING RULES:
-- First line must be the article title as H1: **Title Text**
-- Second line must be equals signs (minimum 50 characters): ====================================================================
+- First line must be the article title as bold text: **Title Text**
+- Do NOT add an equals-sign underline under the title
 - Use ## for all section headers (Why It Matters, main sections, Practical Details, Key Takeaways, Further Reading)
 - Example of correct title format:
   **The Neighborhood Noodle Shop Worth Crossing Town For**
-  ====================================================================
 
   Your introduction text here...
 - DO NOT use just **bold text** for headers - they must be actual ## headers
