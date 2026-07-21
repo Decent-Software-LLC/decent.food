@@ -1,5 +1,480 @@
 [
   {
+    "title": "The Crispy Roast Potatoes People Keep Saving for Dinner",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "potatoes",
+      "side-dishes"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats crispy roast potatoes",
+        "url": "https://www.seriouseats.com/the-best-roast-potatoes-ever-recipe"
+      },
+      {
+        "label": "RecipeTin Eats crunchy roast potatoes",
+        "url": "https://www.recipetineats.com/duck-fat-potatoes-crispiest-best-roast-potatoes/"
+      }
+    ]
+  },
+  {
+    "title": "A No-Knead Focaccia That Makes Homemade Bread Feel Easy",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "bread",
+      "baking"
+    ],
+    "sources": [
+      {
+        "label": "King Arthur no-fuss focaccia",
+        "url": "https://www.kingarthurbaking.com/recipes/no-fuss-focaccia-recipe"
+      },
+      {
+        "label": "Bon Appetit easy no-knead focaccia",
+        "url": "https://www.bonappetit.com/recipe/easy-no-knead-focaccia"
+      }
+    ]
+  },
+  {
+    "title": "The Pantry Pasta Formula Built Around Garlic, Oil, and Timing",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "pasta",
+      "pantry-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats spaghetti aglio e olio",
+        "url": "https://www.seriouseats.com/spaghetti-aglio-olio-recipe"
+      },
+      {
+        "label": "Love and Lemons spaghetti aglio e olio",
+        "url": "https://www.loveandlemons.com/spaghetti-aglio-e-olio/"
+      }
+    ]
+  },
+  {
+    "title": "A Better Weeknight Fried Rice With Leftover Rice",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "fried-rice",
+      "leftovers"
+    ],
+    "sources": [
+      {
+        "label": "The Woks of Life chicken fried rice",
+        "url": "https://thewoksoflife.com/classic-chicken-fried-rice/"
+      },
+      {
+        "label": "Serious Eats vegetable fried rice",
+        "url": "https://www.seriouseats.com/easy-vegetable-fried-rice-recipe"
+      }
+    ]
+  },
+  {
+    "title": "The Caesar Salad That Turns a Side Into Dinner",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "salad",
+      "caesar-salad"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats Caesar salad",
+        "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe"
+      },
+      {
+        "label": "Once Upon a Chef Caesar salad",
+        "url": "https://www.onceuponachef.com/recipes/caesar-salad-dressing.html"
+      }
+    ]
+  },
+  {
+    "title": "Crispy Chicken Cutlets Worth Making on Repeat",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "chicken",
+      "weeknight-dinners"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats chicken cutlets",
+        "url": "https://www.seriouseats.com/chicken-cutlets-recipe"
+      },
+      {
+        "label": "The Kitchn crispy chicken cutlets",
+        "url": "https://www.thekitchn.com/chicken-cutlets-recipe-23601769"
+      }
+    ]
+  },
+  {
+    "title": "A Tomato Soup and Grilled Cheese Dinner That Still Works",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "soup",
+      "comfort-food"
+    ],
+    "sources": [
+      {
+        "label": "Smitten Kitchen cream of tomato soup",
+        "url": "https://smittenkitchen.com/2006/11/cream-of-tomato-soup/"
+      },
+      {
+        "label": "Serious Eats grilled cheese",
+        "url": "https://www.seriouseats.com/serious-eats-grilled-cheese-sandwich-recipe"
+      }
+    ]
+  },
+  {
+    "title": "The Sheet-Pan Salmon Dinner With Room for Real Life",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "salmon",
+      "sheet-pan"
+    ],
+    "sources": [
+      {
+        "label": "The Kitchn sheet pan salmon",
+        "url": "https://www.thekitchn.com/sheet-pan-salmon-recipe-23015943"
+      },
+      {
+        "label": "Damn Delicious sheet pan salmon",
+        "url": "https://damndelicious.net/2017/03/19/sheet-pan-garlic-butter-salmon/"
+      }
+    ]
+  },
+  {
+    "title": "A Big Pot of Chili That Gets Better Tomorrow",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "chili",
+      "comfort-food"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats best chili ever",
+        "url": "https://www.seriouseats.com/the-best-chili-recipe"
+      },
+      {
+        "label": "Once Upon a Chef classic chili",
+        "url": "https://www.onceuponachef.com/recipes/classic-beef-chili.html"
+      }
+    ]
+  },
+  {
+    "title": "The Chocolate Chip Cookies People Actually Remember",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "cookies",
+      "dessert"
+    ],
+    "sources": [
+      {
+        "label": "Sally's Baking Addiction chocolate chip cookies",
+        "url": "https://sallysbakingaddiction.com/chewy-chocolate-chip-cookies/"
+      },
+      {
+        "label": "Serious Eats chocolate chip cookies",
+        "url": "https://www.seriouseats.com/the-food-lab-best-chocolate-chip-cookie-recipe"
+      }
+    ]
+  },
+  {
+    "title": "A Banana Bread Recipe Built for Overripe Bananas",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "banana-bread",
+      "baking"
+    ],
+    "sources": [
+      {
+        "label": "Smitten Kitchen jacked-up banana bread",
+        "url": "https://smittenkitchen.com/2006/11/jacked-up-banana-bread/"
+      },
+      {
+        "label": "Sally's Baking Addiction banana bread",
+        "url": "https://sallysbakingaddiction.com/best-banana-bread-recipe/"
+      }
+    ]
+  },
+  {
+    "title": "The Homemade Pizza Night Recipe That Feels Worth It",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "pizza",
+      "hosting"
+    ],
+    "sources": [
+      {
+        "label": "King Arthur crispy cheesy pan pizza",
+        "url": "https://www.kingarthurbaking.com/recipes/crispy-cheesy-pan-pizza-recipe"
+      },
+      {
+        "label": "Serious Eats foolproof pan pizza",
+        "url": "https://www.seriouseats.com/foolproof-pan-pizza-recipe"
+      }
+    ]
+  },
+  {
+    "title": "A Weeknight Taco Filling That Does the Heavy Lifting",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "tacos",
+      "weeknight-dinners"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats ground beef tacos",
+        "url": "https://www.seriouseats.com/ground-beef-tacos-recipe"
+      },
+      {
+        "label": "The Kitchn ground beef tacos",
+        "url": "https://www.thekitchn.com/ground-beef-tacos-recipe-23557261"
+      }
+    ]
+  },
+  {
+    "title": "The Mac and Cheese That Balances Creamy and Crunchy",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "mac-and-cheese",
+      "comfort-food"
+    ],
+    "sources": [
+      {
+        "label": "Serious Eats stovetop mac and cheese",
+        "url": "https://www.seriouseats.com/ingredient-stovetop-mac-and-cheese-recipe"
+      },
+      {
+        "label": "The Kitchn baked mac and cheese",
+        "url": "https://www.thekitchn.com/baked-mac-and-cheese-recipe-23653032"
+      }
+    ]
+  },
+  {
+    "title": "A Shakshuka Recipe That Makes Breakfast Feel Like Dinner",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "breakfast",
+      "eggs"
+    ],
+    "sources": [
+      {
+        "label": "Smitten Kitchen shakshuka",
+        "url": "https://smittenkitchen.com/2010/04/shakshuka/"
+      },
+      {
+        "label": "Love and Lemons shakshuka",
+        "url": "https://www.loveandlemons.com/shakshuka-recipe/"
+      }
+    ]
+  },
+  {
+    "title": "The Pancake Stack Built for Lazy Weekend Mornings",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "breakfast",
+      "pancakes"
+    ],
+    "sources": [
+      {
+        "label": "King Arthur simply perfect pancakes",
+        "url": "https://www.kingarthurbaking.com/recipes/simply-perfect-pancakes-recipe"
+      },
+      {
+        "label": "Once Upon a Chef pancakes",
+        "url": "https://www.onceuponachef.com/recipes/best-pancake-recipe.html"
+      }
+    ]
+  },
+  {
+    "title": "A Lentil Soup That Feels Bigger Than the Ingredient List",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "lentil-soup",
+      "vegetarian-food"
+    ],
+    "sources": [
+      {
+        "label": "Cookie and Kate lentil soup",
+        "url": "https://cookieandkate.com/best-lentil-soup-recipe/"
+      },
+      {
+        "label": "Love and Lemons lentil soup",
+        "url": "https://www.loveandlemons.com/lentil-soup/"
+      }
+    ]
+  },
+  {
+    "title": "The Dumpling Sauce That Makes Frozen Dumplings Feel Planned",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "dumplings",
+      "sauces"
+    ],
+    "sources": [
+      {
+        "label": "The Woks of Life dumpling sauce",
+        "url": "https://thewoksoflife.com/dumpling-sauce-recipe/"
+      },
+      {
+        "label": "Just One Cookbook gyoza sauce",
+        "url": "https://www.justonecookbook.com/gyoza-sauce/"
+      }
+    ]
+  },
+  {
+    "title": "A Chicken Noodle Soup Recipe With Real Comfort",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "chicken-soup",
+      "comfort-food"
+    ],
+    "sources": [
+      {
+        "label": "Smitten Kitchen chicken noodle soup",
+        "url": "https://smittenkitchen.com/2012/10/chicken-noodle-soup/"
+      },
+      {
+        "label": "Simply Recipes chicken noodle soup",
+        "url": "https://www.simplyrecipes.com/recipes/chicken_noodle_soup/"
+      }
+    ]
+  },
+  {
+    "title": "The Brownies With a Fudgy Center and Crisp Top",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "brownies",
+      "dessert"
+    ],
+    "sources": [
+      {
+        "label": "King Arthur fudge brownies",
+        "url": "https://www.kingarthurbaking.com/recipes/fudge-brownies-recipe"
+      },
+      {
+        "label": "Sally's Baking Addiction brownies",
+        "url": "https://sallysbakingaddiction.com/seriously-fudgy-homemade-brownies/"
+      }
+    ]
+  },
+  {
+    "title": "A Better Breakfast Burrito Setup for Busy Mornings",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "breakfast",
+      "meal-prep"
+    ],
+    "sources": [
+      {
+        "label": "The Kitchn freezer breakfast burritos",
+        "url": "https://www.thekitchn.com/how-to-make-freezer-friendly-breakfast-burritos-234556"
+      },
+      {
+        "label": "Budget Bytes freezer breakfast burritos",
+        "url": "https://www.budgetbytes.com/freezer-breakfast-burritos/"
+      }
+    ]
+  },
+  {
+    "title": "The Grain Bowl Formula That Saves Lunch",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "grain-bowls",
+      "lunch"
+    ],
+    "sources": [
+      {
+        "label": "Cookie and Kate Buddha bowls",
+        "url": "https://cookieandkate.com/buddha-bowl-recipe/"
+      },
+      {
+        "label": "Love and Lemons grain bowl guide",
+        "url": "https://www.loveandlemons.com/grain-bowl/"
+      }
+    ]
+  },
+  {
+    "title": "A Garlic Butter Shrimp Dinner That Moves Fast",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "shrimp",
+      "weeknight-dinners"
+    ],
+    "sources": [
+      {
+        "label": "Damn Delicious garlic butter shrimp",
+        "url": "https://damndelicious.net/2014/04/11/garlic-butter-shrimp/"
+      },
+      {
+        "label": "Serious Eats shrimp scampi",
+        "url": "https://www.seriouseats.com/shrimp-scampi-butter-garlic-recipe"
+      }
+    ]
+  },
+  {
+    "title": "The Cobb Salad That Eats Like a Full Meal",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "salad",
+      "lunch"
+    ],
+    "sources": [
+      {
+        "label": "Simply Recipes Cobb salad",
+        "url": "https://www.simplyrecipes.com/recipes/cobb_salad/"
+      },
+      {
+        "label": "Serious Eats Cobb salad",
+        "url": "https://www.seriouseats.com/cobb-salad-recipe"
+      }
+    ]
+  },
+  {
+    "title": "A One-Pot Beans and Greens Dinner With Staying Power",
+    "article_type": "popular-recipes",
+    "tags": [
+      "popular-recipes",
+      "beans",
+      "vegetarian-food"
+    ],
+    "sources": [
+      {
+        "label": "Smitten Kitchen pizza beans",
+        "url": "https://smittenkitchen.com/2017/09/pizza-beans-cookbook-preview/"
+      },
+      {
+        "label": "Love and Lemons white bean soup",
+        "url": "https://www.loveandlemons.com/white-bean-soup/"
+      }
+    ]
+  },
+  {
     "article_type": "foodie-showcase",
     "title": "J. Kenji Lopez-Alt and the Science That Makes Home Cooking Click",
     "tags": [

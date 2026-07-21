@@ -8,8 +8,8 @@
         <div class="card-content">
             <div class="card-header">
                 {% assign article_type = include.guide.article_type | default: 'foodie-showcase' %}
-                {% if article_type == 'diy-cooking' %}
-                    {% assign article_type_label = 'DIY Cooking' %}
+                {% if article_type == 'popular-recipes' %}
+                    {% assign article_type_label = 'Popular Recipes' %}
                 {% elsif article_type == 'hot-spot-showcase' %}
                     {% assign article_type_label = 'Hot Spot Showcase' %}
                 {% else %}

@@ -7,7 +7,7 @@ Purpose: Help readers cook better at home, discover food creators worth followin
 # Content Structure
 Content-Type: Editorial food articles
 Topics: DIY cooking, recipes, home cooking, food creators, food influencers, restaurant discovery, regional food, hot spots
-Article-Types: DIY Cooking, Foodie Showcase, Hot Spot Showcase
+Article-Types: Popular Recipes, Foodie Showcase, Hot Spot Showcase
 Format: Markdown-based articles with examples, practical tips, tags, and estimated reading time
 
 # Machine-Readable Endpoints
@@ -21,7 +21,7 @@ Sitemap: /sitemap.xml
 # Content Organization
 - Articles can be standalone or part of a series
 - Each article includes: article type, estimated reading time, tags, and optional series metadata
-- Article types are diy-cooking, foodie-showcase, and hot-spot-showcase
+- Article types are popular-recipes, foodie-showcase, and hot-spot-showcase
 
 # Recommended Usage
 Citation-Format: "[Article Title], decent.food (https://decent.food/guides/[article-slug]/)"

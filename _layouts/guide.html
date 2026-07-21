@@ -13,8 +13,8 @@ layout: default
             <h1 class="guide-title">{{ page.title }}</h1>
             <div class="guide-meta">
                 {% assign article_type = page.article_type | default: 'foodie-showcase' %}
-                {% if article_type == 'diy-cooking' %}
-                    {% assign article_type_label = 'DIY Cooking' %}
+                {% if article_type == 'popular-recipes' %}
+                    {% assign article_type_label = 'Popular Recipes' %}
                 {% elsif article_type == 'hot-spot-showcase' %}
                     {% assign article_type_label = 'Hot Spot Showcase' %}
                 {% else %}

@@ -10,11 +10,11 @@ permalink: /learning-paths.json
   },
   "collections": [
     {
-      "id": "diy-cooking",
-      "name": "DIY Cooking",
-      "slug": "diy-cooking",
+      "id": "popular-recipes",
+      "name": "Popular Recipes",
+      "slug": "popular-recipes",
       "description": "Practical cooking stories, recipes, and kitchen ideas readers can try at home.",
-      "article_type": "diy-cooking"
+      "article_type": "popular-recipes"
     },
     {
       "id": "foodie-showcase",

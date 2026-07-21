@@ -41,7 +41,7 @@ function titleToSlug(title) {
 }
 
 const ARTICLE_TYPES = {
-  'diy-cooking': 'DIY Cooking',
+  'popular-recipes': 'Popular Recipes',
   'foodie-showcase': 'Foodie Showcase',
   'hot-spot-showcase': 'Hot Spot Showcase'
 };
@@ -86,7 +86,19 @@ function getTopicSourceGuidance(topic) {
 }
 
 function getFactualSourceGuidance(topic) {
+  if (topic.article_type === 'popular-recipes') {
+    return `
+POPULAR RECIPES FACTUAL REQUIREMENTS:
+- Write about a REAL recipe, method, or dish pattern supported by the provided recipe sources.
+- Do NOT invent measurements, cook times, temperatures, food safety claims, origin claims, substitutions, or technique claims that are not supported by the sources.
+- Use and cite the provided recipe sources for factual claims, ingredient ideas, technique notes, timing, substitutions, and serving guidance.
+- Compare what the sources agree on and where they differ, then give practical, careful guidance for home cooks.
+- If a recipe detail may vary by oven, pan, ingredient size, brand, or taste, say so plainly.
+- Include a "## Sources Cited" section with at least 2 provided topic source links before "## Further Reading".`;
+  }
+
   if (topic.article_type === 'hot-spot-showcase') {
+
     return `
 HOT SPOT SHOWCASE FACTUAL REQUIREMENTS:
 - Write about one REAL, NAMED food location that exists in the real world, such as a restaurant, bakery, cafe, food truck, market stall, pop-up, bar, or counter-service spot.
@@ -299,9 +311,9 @@ function validateArticleSourceRequirements(content, topic) {
 
 function validateArticleTypeFocus(content, topic) {
   const mismatchedHeadings = {
-    'diy-cooking': ['### Foodie Showcase:', '### Hot Spot Showcase:'],
-    'foodie-showcase': ['### DIY Cooking:', '### Hot Spot Showcase:'],
-    'hot-spot-showcase': ['### DIY Cooking:', '### Foodie Showcase:']
+    'popular-recipes': ['### Foodie Showcase:', '### Hot Spot Showcase:'],
+    'foodie-showcase': ['### Popular Recipes:', '### Hot Spot Showcase:'],
+    'hot-spot-showcase': ['### Popular Recipes:', '### Foodie Showcase:']
   };
 
   const disallowed = mismatchedHeadings[topic.article_type] || [];
@@ -397,7 +409,7 @@ CONTENT STRUCTURE:
 4. Main article sections with clear ## headers (3-5 sections)
 5. Practical Details:
    - Include ONLY the practical details for this article type: ${getArticleTypeLabel(topic.article_type)}
-   - If DIY Cooking: include ingredients, steps, substitutions, and serving ideas
+   - If Popular Recipes: include ingredients, steps, substitutions, and serving ideas
    - If Foodie Showcase: include the real creator's focus, what makes their credited work useful, where their voice fits in food culture, and what sourced public content to follow first
    - If Hot Spot Showcase: include the real location name, city/area, what documented menu items to order, when to go if sourced, who it is for, and what makes the place distinct
    - Do NOT include practical-detail subsections for the other article types
@@ -553,7 +565,7 @@ function createFilename(title) {
 // Generate article description from title and article type
 function generateDescription(title, articleType) {
   const starters = {
-    'diy-cooking': 'A DIY Cooking article on',
+    'popular-recipes': 'A Popular Recipes article on',
     'foodie-showcase': 'A Foodie Showcase on',
     'hot-spot-showcase': 'A Hot Spot Showcase on'
   };

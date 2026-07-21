@@ -19,7 +19,7 @@ function question(prompt) {
   });
 }
 
-const ARTICLE_TYPES = ['diy-cooking', 'foodie-showcase', 'hot-spot-showcase'];
+const ARTICLE_TYPES = ['popular-recipes', 'foodie-showcase', 'hot-spot-showcase'];
 
 // Validate article type
 function isValidArticleType(articleType) {
@@ -42,16 +42,16 @@ async function addTopic() {
     // Get article type
     let article_type;
     while (true) {
-      article_type = await question('Article type (diy-cooking/foodie-showcase/hot-spot-showcase): ');
+      article_type = await question('Article type (popular-recipes/foodie-showcase/hot-spot-showcase): ');
       if (isValidArticleType(article_type)) {
         article_type = article_type.toLowerCase();
         break;
       }
-      console.log('Invalid article type. Please use: diy-cooking, foodie-showcase, or hot-spot-showcase');
+      console.log('Invalid article type. Please use: popular-recipes, foodie-showcase, or hot-spot-showcase');
     }
 
     // Get tags
-    const tagsInput = await question('Tags (comma-separated, e.g., "diy-cooking, weeknight-dinners, sauces"): ');
+    const tagsInput = await question('Tags (comma-separated, e.g., "popular-recipes, weeknight-dinners, sauces"): ');
     const tags = tagsInput
       .split(',')
       .map(tag => tag.trim())

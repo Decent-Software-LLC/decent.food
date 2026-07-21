@@ -19,11 +19,11 @@ permalink: /index.json
     "total_series": {{ series_list.size }},
     {%- assign all_tags = site.guides | map: "tags" | join: "," | split: "," | uniq -%}
     "total_topics": {{ all_tags.size }},
-    {%- assign diy_cooking = site.guides | where: "article_type", "diy-cooking" -%}
+    {%- assign popular_recipes = site.guides | where: "article_type", "popular-recipes" -%}
     {%- assign foodie_showcase = site.guides | where: "article_type", "foodie-showcase" -%}
     {%- assign hot_spot_showcase = site.guides | where: "article_type", "hot-spot-showcase" -%}
     "by_article_type": {
-      "diy-cooking": {{ diy_cooking.size }},
+      "popular-recipes": {{ popular_recipes.size }},
       "foodie-showcase": {{ foodie_showcase.size }},
       "hot-spot-showcase": {{ hot_spot_showcase.size }}
     }

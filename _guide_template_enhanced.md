@@ -2,7 +2,7 @@
 layout: guide
 title: "Your Article Title"
 date: 2026-02-12
-article_type: foodie-showcase  # diy-cooking | foodie-showcase | hot-spot-showcase
+article_type: foodie-showcase  # popular-recipes | foodie-showcase | hot-spot-showcase
 tags: ["tag1", "tag2", "tag3"]
 description: "A concise description of what this article covers"
 estimated_time: "6 min read"
@@ -20,7 +20,7 @@ learning_objectives:
 
 faqs:
   - question: "What kind of article is this?"
-    answer: "This article belongs to one of decent.food's editorial categories: DIY Cooking, Foodie Showcase, or Hot Spot Showcase."
+    answer: "This article belongs to one of decent.food's editorial categories: Popular Recipes, Foodie Showcase, or Hot Spot Showcase."
 
 series:
   name: "Series Name"

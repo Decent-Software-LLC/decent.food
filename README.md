@@ -4,7 +4,7 @@ decent.food is a Jekyll-powered food publication with automatically generated ed
 
 ## Article Types
 
-- **DIY Cooking**: practical cooking ideas, recipes, techniques, pantry projects, and home-kitchen experiments.
+- **Popular Recipes**: practical cooking ideas, recipes, techniques, pantry projects, and home-kitchen experiments.
 - **Foodie Showcase**: food creator profiles, reviewer spotlights, food media analysis, and tastemaker coverage.
 - **Hot Spot Showcase**: restaurant, bakery, bar, market, food truck, pop-up, and regional dining features.
 
@@ -29,7 +29,7 @@ Future topics in `topics.json` use this shape:
 
 Valid `article_type` values:
 
-- `diy-cooking`
+- `popular-recipes`
 - `foodie-showcase`
 - `hot-spot-showcase`
 

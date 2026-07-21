@@ -16,7 +16,7 @@
     --border-color: #d9e3f2;
     --shadow: 0 2px 10px rgba(35, 31, 32, 0.1);
     --shadow-hover: 0 6px 20px rgba(31, 95, 201, 0.18);
-    --diy-cooking-color: #10a394;
+    --popular-recipes-color: #10a394;
     --foodie-showcase-color: #4c6fff;
     --hot-spot-showcase-color: #231f20;
     --logo-height: 42px;
@@ -349,8 +349,8 @@ body {
     text-transform: uppercase;
 }
 
-.article-type-diy-cooking {
-    background-color: var(--diy-cooking-color);
+.article-type-popular-recipes {
+    background-color: var(--popular-recipes-color);
     color: var(--white);
 }
 
@@ -877,7 +877,7 @@ body {
 }
 
 .foodies-page .person-row:nth-of-type(4n+2) .avatar {
-    background: var(--diy-cooking-color);
+    background: var(--popular-recipes-color);
 }
 
 .foodies-page .person-row:nth-of-type(4n+3) .avatar {

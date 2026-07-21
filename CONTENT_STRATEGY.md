@@ -2,7 +2,7 @@
 
 decent.food uses article types as its editorial taxonomy. Every future article should belong to one of three categories:
 
-- **DIY Cooking**: practical home cooking ideas, recipes, techniques, pantry moves, hosting, and kitchen experiments.
+- **Popular Recipes**: practical home cooking ideas, recipes, techniques, pantry moves, hosting, and kitchen experiments.
 - **Foodie Showcase**: profiles and analysis of food creators, restaurant reviewers, recipe developers, food writers, and tastemakers.
 - **Hot Spot Showcase**: restaurant, bakery, market, food truck, pop-up, cafe, bar, and regional dining coverage.
 
@@ -10,7 +10,7 @@ decent.food uses article types as its editorial taxonomy. Every future article s
 
 Target a balanced rotation:
 
-- DIY Cooking: 35%
+- Popular Recipes: 35%
 - Foodie Showcase: 30%
 - Hot Spot Showcase: 35%
 
@@ -21,14 +21,14 @@ This keeps the site useful for readers who want to cook, follow better food voic
 ```json
 {
   "title": "Article title",
-  "article_type": "diy-cooking|foodie-showcase|hot-spot-showcase",
+  "article_type": "popular-recipes|foodie-showcase|hot-spot-showcase",
   "tags": ["tag-one", "tag-two", "tag-three"]
 }
 ```
 
 ## Article Guidance
 
-DIY Cooking articles should give readers something specific to make, improve, or try in their own kitchen.
+Popular Recipes articles should give readers something specific to make, improve, or try in their own kitchen.
 
 Foodie Showcase articles should explain why a creator, critic, cook, newsletter, podcast, or social feed is useful, distinctive, and worth attention.
 
