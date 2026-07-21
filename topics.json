@@ -432,228 +432,478 @@
     ]
   },
   {
-    "title": "The Neighborhood Noodle Shop Worth Crossing Town For",
+    "title": "Xi'an Famous Foods and the Spicy Noodles Worth Crossing Town For",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "noodles",
       "neighborhood-restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Xi'an Famous Foods official site",
+        "url": "https://www.xianfoods.com/"
+      },
+      {
+        "label": "Xi'an Famous Foods menu",
+        "url": "https://www.xianfoods.com/menu"
+      }
     ]
   },
   {
-    "title": "A Tiny Bakery With a Line That Actually Makes Sense",
+    "title": "Tartine Bakery and the Morning Line That Still Makes Sense",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "bakery",
       "local-food"
+    ],
+    "sources": [
+      {
+        "label": "Tartine Bakery official site",
+        "url": "https://tartinebakery.com/"
+      },
+      {
+        "label": "Tartine Bakery locations",
+        "url": "https://tartinebakery.com/locations"
+      }
     ]
   },
   {
-    "title": "The Late-Night Taco Counter Keeping the Block Awake",
+    "title": "Tacos El Gordo and the Late-Night Taco Run That Delivers",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "tacos",
       "late-night-food"
+    ],
+    "sources": [
+      {
+        "label": "Tacos El Gordo official site",
+        "url": "https://tacoselgordobc.com/"
+      },
+      {
+        "label": "Tacos El Gordo menu",
+        "url": "https://tacoselgordobc.com/menu/"
+      }
     ]
   },
   {
-    "title": "A Seafood Shack Where the Specials Board Does the Talking",
+    "title": "Swan Oyster Depot and the Seafood Counter That Lets the Board Talk",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "seafood",
       "regional-food"
+    ],
+    "sources": [
+      {
+        "label": "Swan Oyster Depot official site",
+        "url": "https://www.swanoysterdepot.us/"
+      },
+      {
+        "label": "Michelin Guide Swan Oyster Depot",
+        "url": "https://guide.michelin.com/us/en/california/san-francisco/restaurant/swan-oyster-depot"
+      }
     ]
   },
   {
-    "title": "The Strip-Mall Dumpling Spot Locals Keep Recommending",
+    "title": "Din Tai Fung and the Dumplings People Keep Recommending",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "dumplings",
       "hidden-gems"
+    ],
+    "sources": [
+      {
+        "label": "Din Tai Fung official site",
+        "url": "https://dintaifungusa.com/"
+      },
+      {
+        "label": "Din Tai Fung menu",
+        "url": "https://dintaifungusa.com/menu/"
+      }
     ]
   },
   {
-    "title": "A Pizza Window Turning Slices Into a Weekend Ritual",
+    "title": "Joe's Pizza and the Slice Window That Became a Weekend Ritual",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "pizza",
       "weekend-eats"
+    ],
+    "sources": [
+      {
+        "label": "Joe's Pizza official site",
+        "url": "https://www.joespizzanyc.com/"
+      },
+      {
+        "label": "Joe's Pizza locations",
+        "url": "https://www.joespizzanyc.com/locations"
+      }
     ]
   },
   {
-    "title": "The Breakfast Spot That Makes Waiting Feel Reasonable",
+    "title": "Lou Mitchell's and the Breakfast Line That Feels Worth It",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "breakfast",
       "restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Lou Mitchell's official site",
+        "url": "https://www.loumitchells.com/"
+      },
+      {
+        "label": "Lou Mitchell's menu",
+        "url": "https://www.loumitchells.com/menu/"
+      }
     ]
   },
   {
-    "title": "A Family-Run Curry House With Quiet Confidence",
+    "title": "Adda Indian Canteen and the Curry Menu With Quiet Confidence",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "curry",
       "family-restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Adda Indian Canteen official site",
+        "url": "https://www.addanyc.com/"
+      },
+      {
+        "label": "Adda Indian Canteen menu",
+        "url": "https://www.addanyc.com/menu"
+      }
     ]
   },
   {
-    "title": "The Sandwich Shop That Understands Crunch",
+    "title": "Turkey and the Wolf and the Sandwiches That Understand Crunch",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "sandwiches",
       "lunch-spots"
+    ],
+    "sources": [
+      {
+        "label": "Turkey and the Wolf official site",
+        "url": "https://www.turkeyandthewolf.com/"
+      },
+      {
+        "label": "Turkey and the Wolf menu",
+        "url": "https://www.turkeyandthewolf.com/menu"
+      }
     ]
   },
   {
-    "title": "A Natural Wine Bar With Food That Pulls Its Weight",
+    "title": "Frenchette and the Natural Wine Bar Food That Pulls Its Weight",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "wine-bars",
       "small-plates"
+    ],
+    "sources": [
+      {
+        "label": "Frenchette official site",
+        "url": "https://www.frenchettenyc.com/"
+      },
+      {
+        "label": "Frenchette menus",
+        "url": "https://www.frenchettenyc.com/menus/"
+      }
     ]
   },
   {
-    "title": "The Food Truck Turning a Parking Lot Into Dinner Plans",
+    "title": "Kogi BBQ and the Food Truck That Turned Parking Lots Into Dinner Plans",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "food-trucks",
       "street-food"
+    ],
+    "sources": [
+      {
+        "label": "Kogi BBQ official site",
+        "url": "https://kogibbq.com/"
+      },
+      {
+        "label": "Kogi BBQ menu",
+        "url": "https://kogibbq.com/menu/"
+      }
     ]
   },
   {
-    "title": "A Regional Barbecue Joint That Rewards Patience",
+    "title": "Franklin Barbecue and the Austin Line That Rewards Patience",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "barbecue",
       "regional-food"
+    ],
+    "sources": [
+      {
+        "label": "Franklin Barbecue official site",
+        "url": "https://franklinbbq.com/"
+      },
+      {
+        "label": "Franklin Barbecue menu",
+        "url": "https://franklinbbq.com/menu"
+      }
     ]
   },
   {
-    "title": "The Ice Cream Shop With Flavors That Know the Neighborhood",
+    "title": "Salt & Straw and the Ice Cream Flavors That Know Their City",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "ice-cream",
       "neighborhood-restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Salt & Straw official site",
+        "url": "https://saltandstraw.com/"
+      },
+      {
+        "label": "Salt & Straw flavors",
+        "url": "https://saltandstraw.com/pages/flavors"
+      }
     ]
   },
   {
-    "title": "A New Cafe Where the Savory Menu Deserves Attention",
+    "title": "Sqirl and the Cafe Menu Where Savory Deserves Attention",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "cafes",
       "brunch"
+    ],
+    "sources": [
+      {
+        "label": "Sqirl official site",
+        "url": "https://sqirlla.com/"
+      },
+      {
+        "label": "Sqirl menu",
+        "url": "https://sqirlla.com/menu"
+      }
     ]
   },
   {
-    "title": "The Old-School Diner Still Doing the Small Things Right",
+    "title": "The Original Pantry Cafe and the Diner Doing the Small Things Right",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "diners",
       "classic-restaurants"
+    ],
+    "sources": [
+      {
+        "label": "The Original Pantry Cafe official site",
+        "url": "https://pantrycafe.restaurant/"
+      },
+      {
+        "label": "The Original Pantry Cafe menu",
+        "url": "https://pantrycafe.restaurant/menu/"
+      }
     ]
   },
   {
-    "title": "A Market Stall That Turns Lunch Into a Detour",
+    "title": "DiNic's Roast Pork and the Market Stall Worth a Lunch Detour",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "markets",
       "lunch-spots"
+    ],
+    "sources": [
+      {
+        "label": "Tommy DiNic's official site",
+        "url": "https://tommydinics.com/"
+      },
+      {
+        "label": "Tommy DiNic's menu",
+        "url": "https://tommydinics.com/menu/"
+      }
     ]
   },
   {
-    "title": "The Ramen Counter With a Broth Worth Slowing Down For",
+    "title": "Ivan Ramen and the Broth Worth Slowing Down For",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "ramen",
       "noodles"
+    ],
+    "sources": [
+      {
+        "label": "Ivan Ramen official site",
+        "url": "https://www.ivanramen.com/"
+      },
+      {
+        "label": "Ivan Ramen menus",
+        "url": "https://www.ivanramen.com/menus/"
+      }
     ]
   },
   {
-    "title": "A Dessert Bar Making Weeknights Feel Special",
+    "title": "Milk Bar and the Dessert Counter That Makes Weeknights Feel Special",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "dessert",
       "date-night"
+    ],
+    "sources": [
+      {
+        "label": "Milk Bar official site",
+        "url": "https://milkbarstore.com/"
+      },
+      {
+        "label": "Milk Bar locations",
+        "url": "https://milkbarstore.com/pages/locations"
+      }
     ]
   },
   {
-    "title": "The Burger Stand That Nails the Basics",
+    "title": "Au Cheval and the Burger That Nails the Basics",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "burgers",
       "casual-restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Au Cheval official site",
+        "url": "https://auchevaldiner.com/chicago/"
+      },
+      {
+        "label": "Au Cheval menu",
+        "url": "https://auchevaldiner.com/chicago/menu/"
+      }
     ]
   },
   {
-    "title": "A Plant-Based Restaurant That Does Not Lead With Compromise",
+    "title": "Vedge and the Plant-Based Menu That Does Not Lead With Compromise",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "plant-based",
       "restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Vedge official site",
+        "url": "https://www.vedgerestaurant.com/"
+      },
+      {
+        "label": "Vedge menus",
+        "url": "https://www.vedgerestaurant.com/menus/"
+      }
     ]
   },
   {
-    "title": "The Regional Restaurant List That Finally Found Something New",
+    "title": "Kachka and the Regional Restaurant Pick That Still Feels Fresh",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "restaurant-lists",
       "regional-food"
+    ],
+    "sources": [
+      {
+        "label": "Kachka official site",
+        "url": "https://www.kachkapdx.com/"
+      },
+      {
+        "label": "Kachka menus",
+        "url": "https://www.kachkapdx.com/menus"
+      }
     ]
   },
   {
-    "title": "A Chef-Run Pop-Up That Feels Ready for Its Own Room",
+    "title": "Department of Culture and the Chef-Run Room With Pop-Up Energy",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "pop-ups",
       "chef-driven"
+    ],
+    "sources": [
+      {
+        "label": "Department of Culture official site",
+        "url": "https://www.deptofculturebk.com/"
+      },
+      {
+        "label": "Michelin Guide Department of Culture",
+        "url": "https://guide.michelin.com/us/en/new-york-state/new-york/restaurant/department-of-culture"
+      }
     ]
   },
   {
-    "title": "The Corner Store Counter Serving a Better Lunch",
+    "title": "Langer's Deli and the Counter Serving a Better Lunch",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "corner-stores",
       "lunch-spots"
+    ],
+    "sources": [
+      {
+        "label": "Langer's Deli official site",
+        "url": "https://www.langersdeli.com/"
+      },
+      {
+        "label": "Langer's Deli menu",
+        "url": "https://www.langersdeli.com/menu/"
+      }
     ]
   },
   {
-    "title": "A Date-Night Spot Where the Sides Steal the Table",
+    "title": "Raf's and the Date-Night Table Where the Sides Steal Attention",
     "article_type": "hot-spot-showcase",
     "tags": [
       "hot-spot-showcase",
       "date-night",
       "restaurants"
+    ],
+    "sources": [
+      {
+        "label": "Raf's official site",
+        "url": "https://www.rafsnewyork.com/"
+      },
+      {
+        "label": "Raf's menu",
+        "url": "https://www.rafsnewyork.com/menu"
+      }
     ]
   },
   {
-    "title": "How Regional Restaurant Lists Can Avoid Repeating the Same Hot Spots",
+    "title": "Burdell and the Regional Hot Spot That Moves Beyond the Usual Lists",
     "article_type": "hot-spot-showcase",
     "tags": [
       "restaurant-lists",
       "regional-food",
       "food-media"
+    ],
+    "sources": [
+      {
+        "label": "Burdell official site",
+        "url": "https://www.burdelloakland.com/"
+      },
+      {
+        "label": "Michelin Guide Burdell",
+        "url": "https://guide.michelin.com/us/en/california/oakland/restaurant/burdell"
+      }
     ]
   },
   {

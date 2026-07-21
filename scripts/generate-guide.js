@@ -50,6 +50,41 @@ function getArticleTypeLabel(articleType) {
   return ARTICLE_TYPES[articleType] || 'Foodie Showcase';
 }
 
+function normalizeUrl(url) {
+  return String(url || '').trim().replace(/\/$/, '');
+}
+
+function getTopicSources(topic) {
+  const rawSources = topic.sources || topic.source || [];
+  const sources = Array.isArray(rawSources) ? rawSources : [rawSources];
+
+  return sources
+    .map((source, index) => {
+      if (typeof source === 'string') {
+        return { label: `Source ${index + 1}`, url: source };
+      }
+
+      return {
+        label: source.label || source.title || `Source ${index + 1}`,
+        url: source.url
+      };
+    })
+    .filter(source => source.url && /^https?:\/\//.test(source.url));
+}
+
+function getTopicSourceGuidance(topic) {
+  const sources = getTopicSources(topic);
+  if (sources.length === 0) {
+    return '';
+  }
+
+  const sourceList = sources
+    .map((source, index) => `${index + 1}. [${source.label}](${source.url})`)
+    .join('\n');
+
+  return `\nPROVIDED SOURCE LINKS:\nUse these vetted topic sources for factual claims. Do not invent alternate URLs for this article. Include at least two of these exact links in the \"## Sources Cited\" section.\n${sourceList}`;
+}
+
 function getFactualSourceGuidance(topic) {
   if (topic.article_type === 'hot-spot-showcase') {
     return `
@@ -173,7 +208,7 @@ async function validateUrl(url, timeout = 10000) {
 }
 
 // Extract and validate URLs from markdown content
-async function validateLinksInContent(content) {
+async function validateLinksInContent(content, trustedUrls = []) {
   // Match markdown links: [text](url)
   const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
   const matches = [...content.matchAll(linkRegex)];
@@ -192,6 +227,13 @@ async function validateLinksInContent(content) {
 
       // Skip internal links (starting with /)
       if (url.startsWith('/') || url.startsWith('#')) {
+        return { fullMatch, isValid: true };
+      }
+
+      const normalizedUrl = normalizeUrl(url);
+      const isTrusted = trustedUrls.some(trustedUrl => normalizeUrl(trustedUrl) === normalizedUrl);
+      if (isTrusted) {
+        console.log(`  ✓ Trusted source: ${url}`);
         return { fullMatch, isValid: true };
       }
 
@@ -242,6 +284,18 @@ function validateShowcaseSourceRequirements(content, topic) {
 
   if (sourceLinks < 2) {
     throw new Error(`${getArticleTypeLabel(topic.article_type)} articles must include at least 2 valid source links in "## Sources Cited"`);
+  }
+
+  const topicSources = getTopicSources(topic);
+  if (topicSources.length >= 2) {
+    const normalizedSourcesSection = sourcesSection.replace(/\/$/gm, '');
+    const usedProvidedSources = topicSources.filter(source =>
+      normalizedSourcesSection.includes(normalizeUrl(source.url))
+    );
+
+    if (usedProvidedSources.length < 2) {
+      throw new Error(`${getArticleTypeLabel(topic.article_type)} articles must include at least 2 provided topic.sources links in "## Sources Cited"`);
+    }
   }
 }
 
@@ -311,6 +365,7 @@ This guide is part ${topic.series.part} of ${topic.series.total} in the "${topic
       const prompt = `Create an editorial food article about "${topic.title}" for a food discovery website called "decent.food".\nArticle type: ${getArticleTypeLabel(topic.article_type)}.
 ${seriesContext}
 ${getFactualSourceGuidance(topic)}
+${getTopicSourceGuidance(topic)}
 
 WRITING STYLE & PERSONALITY:
 - Write with personality! Be conversational, enthusiastic, and human
@@ -403,7 +458,7 @@ Be friendly, be human, be helpful!`;
       content = content.replace(/<think>[\s\S]*?<\/think>\s*/g, '').trimStart();
 
       // Validate all links in the generated content
-      const validatedContent = await validateLinksInContent(content);
+      const validatedContent = await validateLinksInContent(content, getTopicSources(topic).map(source => source.url));
       validateShowcaseSourceRequirements(validatedContent, topic);
       validateArticleTypeFocus(validatedContent, topic);
 
