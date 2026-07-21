@@ -1,434 +1,952 @@
 [
   {
-    "title": "One-Pan Crispy Rice With Chili Eggs",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "weeknight-dinners",
-      "crispy-rice"
-    ]
-  },
-  {
-    "title": "Build a Better Pantry Pasta Without a Recipe",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "pantry-cooking",
-      "pasta"
-    ]
-  },
-  {
-    "title": "How to Make Restaurant-Style Salsa at Home",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "salsa",
-      "home-cooking"
-    ]
-  },
-  {
-    "title": "A Home Cook's Guide to Better Sheet-Pan Dinners",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "sheet-pan",
-      "weeknight-dinners"
-    ]
-  },
-  {
-    "title": "Small-Batch Pickles for Sandwiches, Bowls, and Snacks",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "pickles",
-      "condiments"
-    ]
-  },
-  {
-    "title": "Make a Creamy No-Mayo Slaw That Goes With Everything",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "slaw",
-      "vegetables"
-    ]
-  },
-  {
-    "title": "The Decent Way to Meal Prep Sauces, Not Meals",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "sauces",
-      "meal-prep"
-    ]
-  },
-  {
-    "title": "How to Turn Leftover Rice Into a Proper Dinner",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "leftovers",
-      "rice"
-    ]
-  },
-  {
-    "title": "A Cozy Dumpling Night at Home",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "dumplings",
-      "home-cooking"
-    ]
-  },
-  {
-    "title": "Make Your Own Crunchy Chili Crisp Topping",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "chili-crisp",
-      "condiments"
-    ]
-  },
-  {
-    "title": "How to Roast Vegetables So They Actually Get Eaten",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "vegetables",
-      "roasting"
-    ]
-  },
-  {
-    "title": "A Better Breakfast Taco Setup for Busy Mornings",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "breakfast",
-      "tacos"
-    ]
-  },
-  {
-    "title": "How to Build a Cheese Board From Grocery Store Finds",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "hosting",
-      "cheese-board"
-    ]
-  },
-  {
-    "title": "The Weeknight Soup Formula That Never Feels Boring",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "soup",
-      "weeknight-dinners"
-    ]
-  },
-  {
-    "title": "Make a Bakery-Style Crumb Cake in a Small Kitchen",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "baking",
-      "dessert"
-    ]
-  },
-  {
-    "title": "How to Fry Shallots Without Burning the House Down",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "shallots",
-      "technique"
-    ]
-  },
-  {
-    "title": "Turn Canned Beans Into a Dinner Worth Texting About",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "beans",
-      "pantry-cooking"
-    ]
-  },
-  {
-    "title": "A Practical Guide to Better Homemade Salad Dressing",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "salad",
-      "dressings"
-    ]
-  },
-  {
-    "title": "How to Make Crispy Potatoes With Whatever Pan You Own",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "potatoes",
-      "technique"
-    ]
-  },
-  {
-    "title": "The Decent Homemade Pizza Night Playbook",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "pizza",
-      "hosting"
-    ]
-  },
-  {
-    "title": "Make a Bright Herb Sauce Before Your Herbs Give Up",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "herbs",
-      "sauces"
-    ]
-  },
-  {
-    "title": "How to Pack a Better Picnic Without Overthinking It",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "picnic",
-      "hosting"
-    ]
-  },
-  {
-    "title": "A Cozy Rice Bowl Built Around One Great Topping",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "rice-bowls",
-      "comfort-food"
-    ]
-  },
-  {
-    "title": "How to Make Frozen Dumplings Feel Like Dinner",
-    "article_type": "diy-cooking",
-    "tags": [
-      "diy-cooking",
-      "dumplings",
-      "freezer-meals"
-    ]
-  },
-  {
-    "title": "The Food Creator Making Weeknight Cooking Feel Cinematic",
     "article_type": "foodie-showcase",
+    "title": "J. Kenji Lopez-Alt and the Science That Makes Home Cooking Click",
     "tags": [
       "foodie-showcase",
-      "food-creators",
-      "weeknight-cooking"
+      "food-science",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "J. Kenji Lopez-Alt official site",
+        "url": "https://www.kenjilopezalt.com/"
+      },
+      {
+        "label": "J. Kenji Lopez-Alt YouTube",
+        "url": "https://www.youtube.com/@JKenjiLopezAlt"
+      }
     ]
   },
   {
-    "title": "A Southern Baker Bringing Family Recipes to Short-Form Video",
     "article_type": "foodie-showcase",
+    "title": "Smitten Kitchen and the Blog Archive Home Cooks Still Trust",
     "tags": [
       "foodie-showcase",
-      "baking",
-      "southern-food"
+      "home-cooking",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "Smitten Kitchen official site",
+        "url": "https://smittenkitchen.com/"
+      },
+      {
+        "label": "Smitten Kitchen Instagram",
+        "url": "https://www.instagram.com/smittenkitchen/"
+      }
     ]
   },
   {
-    "title": "The Restaurant Reviewer Who Actually Reads the Room",
     "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "restaurant-reviewers",
-      "food-media"
-    ]
-  },
-  {
-    "title": "A Vegan Comfort Food Creator With Serious Sauce Range",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "vegan-food",
-      "comfort-food"
-    ]
-  },
-  {
-    "title": "The TikTok Cook Turning Pantry Staples Into Tiny Wins",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "tiktok",
-      "pantry-cooking"
-    ]
-  },
-  {
-    "title": "A Regional Food Blogger Documenting Strip-Mall Greatness",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "regional-food",
-      "hidden-gems"
-    ]
-  },
-  {
-    "title": "The Cookbook Author Whose Instagram Still Feels Personal",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "cookbooks",
-      "instagram"
-    ]
-  },
-  {
-    "title": "A Home Baker Building a Community Around Imperfect Desserts",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "home-baking",
-      "community"
-    ]
-  },
-  {
-    "title": "The Creator Making Farmers Market Hauls Useful Again",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "farmers-market",
-      "seasonal-cooking"
-    ]
-  },
-  {
-    "title": "A Barbecue Storyteller Who Centers the People Behind the Pit",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "barbecue",
-      "food-storytelling"
-    ]
-  },
-  {
-    "title": "The Food Photographer Making Small Restaurants Look True to Life",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "food-photography",
-      "restaurants"
-    ]
-  },
-  {
-    "title": "A Recipe Developer Who Tests the Little Things",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "recipe-development",
-      "home-cooking"
-    ]
-  },
-  {
-    "title": "The Creator Mapping Late-Night Eats One City at a Time",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "late-night-food",
-      "city-guides"
-    ]
-  },
-  {
-    "title": "A Pasta Creator With a Gift for Explaining Texture",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "pasta",
-      "cooking-video"
-    ]
-  },
-  {
-    "title": "The Food Newsletter That Feels Like a Trusted Friend",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "foodie-showcase",
-      "newsletters",
-      "food-writing"
-    ]
-  },
-  {
-    "title": "A Dessert Creator Who Makes Technique Feel Playful",
-    "article_type": "foodie-showcase",
+    "title": "Claire Saffitz and the Dessert Lessons That Feel Possible",
     "tags": [
       "foodie-showcase",
       "dessert",
-      "technique"
+      "baking"
+    ],
+    "sources": [
+      {
+        "label": "Claire Saffitz official site",
+        "url": "https://www.csaffitz.com/"
+      },
+      {
+        "label": "Claire Saffitz YouTube",
+        "url": "https://www.youtube.com/@CSaffitz"
+      }
     ]
   },
   {
-    "title": "The Regional Critic Finding Joy Beyond Best-Of Lists",
     "article_type": "foodie-showcase",
+    "title": "Binging With Babish and the Pop Culture Kitchen That Grew Up",
     "tags": [
       "foodie-showcase",
-      "regional-critics",
-      "restaurant-discovery"
+      "youtube",
+      "pop-culture-food"
+    ],
+    "sources": [
+      {
+        "label": "Babish Culinary Universe official site",
+        "url": "https://www.bingingwithbabish.com/"
+      },
+      {
+        "label": "Babish Culinary Universe YouTube",
+        "url": "https://www.youtube.com/@babishculinaryuniverse"
+      }
     ]
   },
   {
-    "title": "A Family Cooking Channel Preserving Recipes Without Freezing Them in Time",
     "article_type": "foodie-showcase",
+    "title": "Molly Baz and the Recipe Voice Built for Repeat Cooking",
     "tags": [
       "foodie-showcase",
-      "family-recipes",
-      "cultural-food"
+      "cookbooks",
+      "social-media"
+    ],
+    "sources": [
+      {
+        "label": "Molly Baz official site",
+        "url": "https://mollybaz.com/"
+      },
+      {
+        "label": "Molly Baz Instagram",
+        "url": "https://www.instagram.com/mollybaz/"
+      }
     ]
   },
   {
-    "title": "The Creator Turning Budget Groceries Into Real Meals",
     "article_type": "foodie-showcase",
+    "title": "Carla Lalli Music and the Calm Confidence of Flexible Cooking",
+    "tags": [
+      "foodie-showcase",
+      "home-cooking",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Carla Lalli Music official site",
+        "url": "https://www.carlalallimusic.com/"
+      },
+      {
+        "label": "Carla Lalli Music YouTube",
+        "url": "https://www.youtube.com/@CarlaLalliMusic"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Rick Martinez and the Regional Mexican Cooking Worth Following",
+    "tags": [
+      "foodie-showcase",
+      "mexican-food",
+      "cookbooks"
+    ],
+    "sources": [
+      {
+        "label": "Rick Martinez official site",
+        "url": "https://www.rick-martinez.com/"
+      },
+      {
+        "label": "Rick Martinez Instagram",
+        "url": "https://www.instagram.com/rick_andrew_martinez/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Priya Krishna and the Food Writing That Connects Home and Culture",
+    "tags": [
+      "foodie-showcase",
+      "food-writing",
+      "cookbooks"
+    ],
+    "sources": [
+      {
+        "label": "Priya Krishna official site",
+        "url": "https://www.priyakrishna.me/"
+      },
+      {
+        "label": "Priya Krishna at The New York Times",
+        "url": "https://www.nytimes.com/by/priya-krishna"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Pati Jinich and the Public TV Table That Keeps Expanding",
+    "tags": [
+      "foodie-showcase",
+      "mexican-food",
+      "television"
+    ],
+    "sources": [
+      {
+        "label": "Pati Jinich official site",
+        "url": "https://patijinich.com/"
+      },
+      {
+        "label": "Pati's Mexican Table on PBS Food",
+        "url": "https://www.pbs.org/food/shows/patis-mexican-table/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Maangchi and the Korean Cooking Community Built Recipe by Recipe",
+    "tags": [
+      "foodie-showcase",
+      "korean-food",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Maangchi official site",
+        "url": "https://www.maangchi.com/"
+      },
+      {
+        "label": "Maangchi YouTube",
+        "url": "https://www.youtube.com/user/Maangchi"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Just One Cookbook and the Japanese Home Cooking Guide People Bookmark",
+    "tags": [
+      "foodie-showcase",
+      "japanese-food",
+      "home-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Just One Cookbook official site",
+        "url": "https://www.justonecookbook.com/"
+      },
+      {
+        "label": "Just One Cookbook YouTube",
+        "url": "https://www.youtube.com/@justonecookbook"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "The Woks of Life and the Family Archive That Became a Kitchen Reference",
+    "tags": [
+      "foodie-showcase",
+      "chinese-food",
+      "family-recipes"
+    ],
+    "sources": [
+      {
+        "label": "The Woks of Life official site",
+        "url": "https://thewoksoflife.com/"
+      },
+      {
+        "label": "The Woks of Life Instagram",
+        "url": "https://www.instagram.com/thewoksoflife/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Alex Snodgrass and the Weeknight Dinner Voice Behind The Defined Dish",
+    "tags": [
+      "foodie-showcase",
+      "weeknight-dinners",
+      "cookbooks"
+    ],
+    "sources": [
+      {
+        "label": "The Defined Dish official site",
+        "url": "https://thedefineddish.com/"
+      },
+      {
+        "label": "The Defined Dish Instagram",
+        "url": "https://www.instagram.com/thedefineddish/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Tieghan Gerard and the Visual Comfort Food Engine Behind Half Baked Harvest",
+    "tags": [
+      "foodie-showcase",
+      "comfort-food",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "Half Baked Harvest official site",
+        "url": "https://www.halfbakedharvest.com/"
+      },
+      {
+        "label": "Half Baked Harvest Instagram",
+        "url": "https://www.instagram.com/halfbakedharvest/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Budget Bytes and the Grocery Math That Makes Dinner Less Stressful",
     "tags": [
       "foodie-showcase",
       "budget-cooking",
-      "grocery-shopping"
+      "weeknight-dinners"
+    ],
+    "sources": [
+      {
+        "label": "Budget Bytes official site",
+        "url": "https://www.budgetbytes.com/"
+      },
+      {
+        "label": "Budget Bytes Instagram",
+        "url": "https://www.instagram.com/budgetbytes/"
+      }
     ]
   },
   {
-    "title": "A Coffee Creator Teaching Taste Without the Snobbery",
     "article_type": "foodie-showcase",
+    "title": "Pinch of Yum and the Cozy Recipe Blog That Still Feels Personal",
     "tags": [
       "foodie-showcase",
-      "coffee",
-      "creator-profile"
+      "food-blogs",
+      "home-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Pinch of Yum official site",
+        "url": "https://pinchofyum.com/"
+      },
+      {
+        "label": "Pinch of Yum Instagram",
+        "url": "https://www.instagram.com/pinchofyum/"
+      }
     ]
   },
   {
-    "title": "The Food Podcaster Asking Better Restaurant Questions",
     "article_type": "foodie-showcase",
+    "title": "Ambitious Kitchen and the Wellness Recipe Lane With Real Cravings",
     "tags": [
       "foodie-showcase",
-      "podcasts",
-      "restaurants"
+      "healthy-recipes",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "Ambitious Kitchen official site",
+        "url": "https://www.ambitiouskitchen.com/"
+      },
+      {
+        "label": "Ambitious Kitchen Instagram",
+        "url": "https://www.instagram.com/ambitiouskitchen/"
+      }
     ]
   },
   {
-    "title": "A Creator Making Gluten-Free Baking Feel Abundant",
     "article_type": "foodie-showcase",
+    "title": "Love and Lemons and the Vegetable-Forward Recipes That Stay Bright",
     "tags": [
       "foodie-showcase",
-      "gluten-free",
-      "baking"
+      "vegetarian-food",
+      "seasonal-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Love and Lemons official site",
+        "url": "https://www.loveandlemons.com/"
+      },
+      {
+        "label": "Love and Lemons Instagram",
+        "url": "https://www.instagram.com/loveandlemons/"
+      }
     ]
   },
   {
-    "title": "The Pop-Up Chef Building a Following One Dinner at a Time",
     "article_type": "foodie-showcase",
+    "title": "Minimalist Baker and the Simple Recipe Promise That Scales",
     "tags": [
       "foodie-showcase",
-      "pop-ups",
-      "chef-profile"
+      "simple-recipes",
+      "plant-based"
+    ],
+    "sources": [
+      {
+        "label": "Minimalist Baker official site",
+        "url": "https://minimalistbaker.com/"
+      },
+      {
+        "label": "Minimalist Baker Instagram",
+        "url": "https://www.instagram.com/minimalistbaker/"
+      }
     ]
   },
   {
-    "title": "A Food Stylist Showing the Work Behind the Pretty Plate",
     "article_type": "foodie-showcase",
+    "title": "Cookie and Kate and the Vegetarian Archive Built for Real Life",
     "tags": [
       "foodie-showcase",
-      "food-styling",
-      "behind-the-scenes"
+      "vegetarian-food",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "Cookie and Kate official site",
+        "url": "https://cookieandkate.com/"
+      },
+      {
+        "label": "Cookie and Kate Instagram",
+        "url": "https://www.instagram.com/cookieandkate/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Fit Men Cook and the Meal Prep Playbook With Momentum",
+    "tags": [
+      "foodie-showcase",
+      "meal-prep",
+      "healthy-recipes"
+    ],
+    "sources": [
+      {
+        "label": "Fit Men Cook official site",
+        "url": "https://fitmencook.com/"
+      },
+      {
+        "label": "Fit Men Cook YouTube",
+        "url": "https://www.youtube.com/user/fitmencook"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Preppy Kitchen and the Baking Tutorials That Sweat the Details",
+    "tags": [
+      "foodie-showcase",
+      "baking",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Preppy Kitchen official site",
+        "url": "https://preppykitchen.com/"
+      },
+      {
+        "label": "Preppy Kitchen YouTube",
+        "url": "https://www.youtube.com/@PreppyKitchen"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Sally's Baking Addiction and the Tested Dessert Archive People Trust",
+    "tags": [
+      "foodie-showcase",
+      "baking",
+      "dessert"
+    ],
+    "sources": [
+      {
+        "label": "Sally's Baking Addiction official site",
+        "url": "https://sallysbakingaddiction.com/"
+      },
+      {
+        "label": "Sally's Baking Addiction Instagram",
+        "url": "https://www.instagram.com/sallysbakeblog/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Food Wishes and the Chef John Voice That Made Technique Friendly",
+    "tags": [
+      "foodie-showcase",
+      "youtube",
+      "technique"
+    ],
+    "sources": [
+      {
+        "label": "Food Wishes official site",
+        "url": "https://foodwishes.blogspot.com/"
+      },
+      {
+        "label": "Food Wishes YouTube",
+        "url": "https://www.youtube.com/user/foodwishes"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Sam the Cooking Guy and the Big-Flavor Videos Built for Weeknights",
+    "tags": [
+      "foodie-showcase",
+      "youtube",
+      "weeknight-dinners"
+    ],
+    "sources": [
+      {
+        "label": "Sam the Cooking Guy official site",
+        "url": "https://www.thecookingguy.com/"
+      },
+      {
+        "label": "Sam the Cooking Guy YouTube",
+        "url": "https://www.youtube.com/user/thesamlivecast"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Joshua Weissman and the Maximalist Cooking Channel People Keep Sharing",
+    "tags": [
+      "foodie-showcase",
+      "youtube",
+      "food-trends"
+    ],
+    "sources": [
+      {
+        "label": "Joshua Weissman official site",
+        "url": "https://www.joshuaweissman.com/"
+      },
+      {
+        "label": "Joshua Weissman YouTube",
+        "url": "https://www.youtube.com/@JoshuaWeissman"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Tiffy Cooks and the Crispy, Saucy Recipes Built for Social Feeds",
+    "tags": [
+      "foodie-showcase",
+      "asian-recipes",
+      "social-media"
+    ],
+    "sources": [
+      {
+        "label": "Tiffy Cooks official site",
+        "url": "https://tiffycooks.com/"
+      },
+      {
+        "label": "Tiffy Cooks Instagram",
+        "url": "https://www.instagram.com/tiffy.cooks/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Eric Kim and the Food Writing That Makes Technique Feel Intimate",
+    "tags": [
+      "foodie-showcase",
+      "food-writing",
+      "home-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Eric Kim at The New York Times",
+        "url": "https://www.nytimes.com/by/eric-kim"
+      },
+      {
+        "label": "Eric Kim Instagram",
+        "url": "https://www.instagram.com/ericjoonho/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Hetty Lui McKinnon and the Salad Language That Travels",
+    "tags": [
+      "foodie-showcase",
+      "vegetarian-food",
+      "cookbooks"
+    ],
+    "sources": [
+      {
+        "label": "Hetty Lui McKinnon official site",
+        "url": "https://www.hettymckinnon.com/"
+      },
+      {
+        "label": "Hetty Lui McKinnon at The New York Times",
+        "url": "https://www.nytimes.com/by/hetty-mckinnon"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Melissa Clark and the Weeknight Authority of a Tested Recipe",
+    "tags": [
+      "foodie-showcase",
+      "food-writing",
+      "weeknight-dinners"
+    ],
+    "sources": [
+      {
+        "label": "Melissa Clark at The New York Times",
+        "url": "https://www.nytimes.com/by/melissa-clark"
+      },
+      {
+        "label": "Melissa Clark Instagram",
+        "url": "https://www.instagram.com/clarkbar/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Alison Roman and the Newsletter Kitchen That Sets the Tone",
+    "tags": [
+      "foodie-showcase",
+      "newsletters",
+      "home-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Alison Roman official site",
+        "url": "https://www.alisoneroman.com/"
+      },
+      {
+        "label": "A Newsletter by Alison Roman",
+        "url": "https://anewsletter.alisoneroman.com/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Joy the Baker and the Baking Blog Voice That Still Feels Warm",
+    "tags": [
+      "foodie-showcase",
+      "baking",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "Joy the Baker official site",
+        "url": "https://joythebaker.com/"
+      },
+      {
+        "label": "Joy the Baker Instagram",
+        "url": "https://www.instagram.com/joythebaker/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Hummingbird High and the Small-Batch Baking Lens Worth Following",
+    "tags": [
+      "foodie-showcase",
+      "baking",
+      "dessert"
+    ],
+    "sources": [
+      {
+        "label": "Hummingbird High official site",
+        "url": "https://www.hummingbirdhigh.com/"
+      },
+      {
+        "label": "Hummingbird High Instagram",
+        "url": "https://www.instagram.com/hummingbirdhigh/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Molly Yeh and the Midwest Table That Blends Tradition and Play",
+    "tags": [
+      "foodie-showcase",
+      "cookbooks",
+      "television"
+    ],
+    "sources": [
+      {
+        "label": "Molly Yeh official site",
+        "url": "https://mynameisyeh.com/"
+      },
+      {
+        "label": "Girl Meets Farm on Food Network",
+        "url": "https://www.foodnetwork.com/shows/girl-meets-farm"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Grandbaby Cakes and the Family Dessert Archive With Range",
+    "tags": [
+      "foodie-showcase",
+      "southern-food",
+      "dessert"
+    ],
+    "sources": [
+      {
+        "label": "Grandbaby Cakes official site",
+        "url": "https://grandbaby-cakes.com/"
+      },
+      {
+        "label": "Grandbaby Cakes Instagram",
+        "url": "https://www.instagram.com/grandbabycakes/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Immaculate Bites and the Global Comfort Food Archive With Soul",
+    "tags": [
+      "foodie-showcase",
+      "comfort-food",
+      "global-recipes"
+    ],
+    "sources": [
+      {
+        "label": "Immaculate Bites official site",
+        "url": "https://www.africanbites.com/"
+      },
+      {
+        "label": "Immaculate Bites Instagram",
+        "url": "https://www.instagram.com/immaculatebites/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Vegan Richa and the Plant-Based Recipe Archive With Spice",
+    "tags": [
+      "foodie-showcase",
+      "vegan-food",
+      "plant-based"
+    ],
+    "sources": [
+      {
+        "label": "Vegan Richa official site",
+        "url": "https://www.veganricha.com/"
+      },
+      {
+        "label": "Vegan Richa Instagram",
+        "url": "https://www.instagram.com/veganricha/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Rainbow Plant Life and the Vegan Cooking Lessons That Go Deep",
+    "tags": [
+      "foodie-showcase",
+      "vegan-food",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Rainbow Plant Life official site",
+        "url": "https://rainbowplantlife.com/"
+      },
+      {
+        "label": "Rainbow Plant Life YouTube",
+        "url": "https://www.youtube.com/@RainbowPlantLife"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Pick Up Limes and the Gentle Plant-Based Kitchen Built for Routines",
+    "tags": [
+      "foodie-showcase",
+      "plant-based",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Pick Up Limes official site",
+        "url": "https://www.pickuplimes.com/"
+      },
+      {
+        "label": "Pick Up Limes YouTube",
+        "url": "https://www.youtube.com/@PickUpLimes"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Sweet Potato Soul and the Vegan Comfort Food Voice With Southern Roots",
+    "tags": [
+      "foodie-showcase",
+      "vegan-food",
+      "southern-food"
+    ],
+    "sources": [
+      {
+        "label": "Sweet Potato Soul official site",
+        "url": "https://sweetpotatosoul.com/"
+      },
+      {
+        "label": "Sweet Potato Soul YouTube",
+        "url": "https://www.youtube.com/user/SweetPotatoSoul"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "PlantYou and the Low-Waste Recipe System Built for Social Media",
+    "tags": [
+      "foodie-showcase",
+      "plant-based",
+      "food-trends"
+    ],
+    "sources": [
+      {
+        "label": "PlantYou official site",
+        "url": "https://plantyou.com/"
+      },
+      {
+        "label": "PlantYou Instagram",
+        "url": "https://www.instagram.com/plantyou/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Hot Thai Kitchen and the Thai Cooking Lessons That Explain the Why",
+    "tags": [
+      "foodie-showcase",
+      "thai-food",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Hot Thai Kitchen official site",
+        "url": "https://hot-thai-kitchen.com/"
+      },
+      {
+        "label": "Pailin's Kitchen YouTube",
+        "url": "https://www.youtube.com/user/PailinsKitchen"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "RecipeTin Eats and the Practical Recipe Archive With Huge Reach",
+    "tags": [
+      "foodie-showcase",
+      "home-cooking",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "RecipeTin Eats official site",
+        "url": "https://www.recipetineats.com/"
+      },
+      {
+        "label": "RecipeTin Eats Instagram",
+        "url": "https://www.instagram.com/recipe_tin/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Omnivore's Cookbook and the Chinese Home Cooking Bridge People Need",
+    "tags": [
+      "foodie-showcase",
+      "chinese-food",
+      "home-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Omnivore's Cookbook official site",
+        "url": "https://omnivorescookbook.com/"
+      },
+      {
+        "label": "Omnivore's Cookbook Instagram",
+        "url": "https://www.instagram.com/omnivorescookbook/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Chinese Cooking Demystified and the Technique Videos That Respect Detail",
+    "tags": [
+      "foodie-showcase",
+      "chinese-food",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Chinese Cooking Demystified YouTube",
+        "url": "https://www.youtube.com/@ChineseCookingDemystified"
+      },
+      {
+        "label": "Chinese Cooking Demystified Patreon",
+        "url": "https://www.patreon.com/ChineseCookingDemystified"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Spain on a Fork and the Spanish Pantry Recipes Built for Home Cooks",
+    "tags": [
+      "foodie-showcase",
+      "spanish-food",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Spain on a Fork official site",
+        "url": "https://spainonafork.com/"
+      },
+      {
+        "label": "Spain on a Fork YouTube",
+        "url": "https://www.youtube.com/@SpainonaFork"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Pasta Grammar and the Italian Food Videos That Start a Debate",
+    "tags": [
+      "foodie-showcase",
+      "italian-food",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Pasta Grammar official site",
+        "url": "https://www.pastagrammar.com/"
+      },
+      {
+        "label": "Pasta Grammar YouTube",
+        "url": "https://www.youtube.com/@PastaGrammar"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Gimme Some Oven and the Friendly Recipe Archive Made for Sharing",
+    "tags": [
+      "foodie-showcase",
+      "food-blogs",
+      "home-cooking"
+    ],
+    "sources": [
+      {
+        "label": "Gimme Some Oven official site",
+        "url": "https://www.gimmesomeoven.com/"
+      },
+      {
+        "label": "Gimme Some Oven Instagram",
+        "url": "https://www.instagram.com/gimmesomeoven/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Damn Delicious and the Weeknight Recipe Format That Moves Fast",
+    "tags": [
+      "foodie-showcase",
+      "weeknight-dinners",
+      "food-blogs"
+    ],
+    "sources": [
+      {
+        "label": "Damn Delicious official site",
+        "url": "https://damndelicious.net/"
+      },
+      {
+        "label": "Damn Delicious Instagram",
+        "url": "https://www.instagram.com/damndelicious/"
+      }
+    ]
+  },
+  {
+    "article_type": "foodie-showcase",
+    "title": "Natasha's Kitchen and the Family Recipe Videos With Broad Appeal",
+    "tags": [
+      "foodie-showcase",
+      "family-recipes",
+      "youtube"
+    ],
+    "sources": [
+      {
+        "label": "Natasha's Kitchen official site",
+        "url": "https://natashaskitchen.com/"
+      },
+      {
+        "label": "Natasha's Kitchen YouTube",
+        "url": "https://www.youtube.com/user/Natashaskitchen"
+      }
     ]
   },
   {
@@ -904,24 +1422,6 @@
         "label": "Michelin Guide Burdell",
         "url": "https://guide.michelin.com/us/en/california/oakland/restaurant/burdell"
       }
-    ]
-  },
-  {
-    "title": "Why Spicy Food Trends Spread Fast",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "spicy-food",
-      "food-trends",
-      "social-media"
-    ]
-  },
-  {
-    "title": "What Makes a Food Influencer Trustworthy?",
-    "article_type": "foodie-showcase",
-    "tags": [
-      "food-influencers",
-      "trust",
-      "reviews"
     ]
   }
 ]

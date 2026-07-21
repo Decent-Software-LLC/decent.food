@@ -10,6 +10,20 @@ const JSON_FILES = [
 
 let hasErrors = false;
 
+function getTopicSources(topic) {
+  const rawSources = topic.sources || topic.source || [];
+  const sources = Array.isArray(rawSources) ? rawSources : [rawSources];
+
+  return sources
+    .map(source => {
+      if (typeof source === 'string') {
+        return { url: source };
+      }
+      return { url: source && source.url };
+    })
+    .filter(source => source.url && /^https?:\/\//.test(source.url));
+}
+
 function validateContentSchema() {
   const root = path.join(__dirname, '..');
   const validArticleTypes = new Set(['diy-cooking', 'foodie-showcase', 'hot-spot-showcase']);
@@ -50,6 +64,12 @@ function validateContentSchema() {
 
     if (!Array.isArray(topic.tags) || topic.tags.length === 0) {
       console.error(`❌ topics.json: "${label}" must have at least one tag`);
+      hasErrors = true;
+    }
+
+    const sources = getTopicSources(topic);
+    if (sources.length < 2) {
+      console.error(`❌ topics.json: "${label}" must have at least 2 valid source URLs`);
       hasErrors = true;
     }
   });

@@ -74,8 +74,8 @@ function getTopicSources(topic) {
 
 function getTopicSourceGuidance(topic) {
   const sources = getTopicSources(topic);
-  if (sources.length === 0) {
-    return '';
+  if (sources.length < 2) {
+    throw new Error(`Topic "${topic.title}" must include at least 2 topic.sources links`);
   }
 
   const sourceList = sources
@@ -115,7 +115,9 @@ FOODIE SHOWCASE FACTUAL REQUIREMENTS:
   return `
 FACTUAL ACCURACY REQUIREMENTS:
 - Do not invent sources, claims, quotes, or links.
-- Cite any sourced factual claim with a real markdown link when referring to external reporting, recipes, or food culture references.`;
+- Use the provided topic sources for factual claims.
+- Cite any sourced factual claim with a real markdown link when referring to external reporting, recipes, or food culture references.
+- Include a "## Sources Cited" section with at least 2 provided topic source links before "## Further Reading".`;
 }
 
 // Select next topic with smart series prioritization
@@ -270,11 +272,7 @@ function countMarkdownLinks(content) {
   return [...content.matchAll(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g)].length;
 }
 
-function validateShowcaseSourceRequirements(content, topic) {
-  if (!['foodie-showcase', 'hot-spot-showcase'].includes(topic.article_type)) {
-    return;
-  }
-
+function validateArticleSourceRequirements(content, topic) {
   if (!content.includes('## Sources Cited')) {
     throw new Error(`${getArticleTypeLabel(topic.article_type)} articles must include a "## Sources Cited" section`);
   }
@@ -404,7 +402,7 @@ CONTENT STRUCTURE:
    - If Hot Spot Showcase: include the real location name, city/area, what documented menu items to order, when to go if sourced, who it is for, and what makes the place distinct
    - Do NOT include practical-detail subsections for the other article types
 6. Key Takeaways (bullet points) - use ## header
-7. Sources Cited (REQUIRED for Foodie Showcase and Hot Spot Showcase; 2-4 actual source links used in the article) - use ## header
+7. Sources Cited (REQUIRED for all article types; include at least 2 provided topic source links used in the article) - use ## header
 8. Further Reading (2-3 ACTUAL RESOURCES with real URLs as markdown links) - use ## header
 
 CRITICAL HEADER FORMATTING RULES:
@@ -459,7 +457,7 @@ Be friendly, be human, be helpful!`;
 
       // Validate all links in the generated content
       const validatedContent = await validateLinksInContent(content, getTopicSources(topic).map(source => source.url));
-      validateShowcaseSourceRequirements(validatedContent, topic);
+      validateArticleSourceRequirements(validatedContent, topic);
       validateArticleTypeFocus(validatedContent, topic);
 
       console.log('  ✓ Text generation successful');
@@ -564,14 +562,14 @@ function generateDescription(title, articleType) {
 
 // Generate AI image prompt from topic
 function generateImagePrompt(topic) {
-  // Create a concise illustrated food prompt and avoid text/logo generation.
+  // Create a concise illustrated food prompt and avoid people/text/logo generation.
   const keywords = topic.tags.slice(0, 3)
     .map(tag => tag.replace(/-/g, ' '))
     .join(', ');
 
   return {
-    prompt: `Colorful editorial food illustration for an article titled "${topic.title}", inspired by ${keywords}: stylized illustrated food scene, vibrant hand-drawn shapes, playful composition, appetizing dishes related to the subject, bold color palette with decent.food blue accents, warm expressive lighting, modern magazine illustration, charming texture, no people faces, no text`,
-    negative_prompt: `photorealistic, realistic photography, camera photo, stock photo, text, letters, words, typography, watermark, logo`
+    prompt: `Colorful editorial food illustration for an article titled "${topic.title}", inspired by ${keywords}: stylized illustrated food scene, vibrant hand-drawn shapes, playful composition, appetizing dishes related to the subject, bold color palette with decent.food blue accents, warm expressive lighting, modern magazine illustration, charming texture, no people, no hands, no faces, no text`,
+    negative_prompt: `people, person, humans, hands, faces, portraits, photorealistic, realistic photography, camera photo, stock photo, text, letters, words, typography, watermark, logo`
   };
 }
 
