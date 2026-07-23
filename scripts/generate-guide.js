@@ -45,9 +45,75 @@ const ARTICLE_TYPES = {
   'foodie-showcase': 'Foodie Showcase',
   'hot-spot-showcase': 'Hot Spot Showcase'
 };
+const ARTICLE_TYPE_ORDER = Object.keys(ARTICLE_TYPES);
 
 function getArticleTypeLabel(articleType) {
   return ARTICLE_TYPES[articleType] || 'Foodie Showcase';
+}
+
+function findTopicByGeneratedTitle(topics, generatedTitle) {
+  const generatedSlug = titleToSlug(generatedTitle);
+  return topics.find(topic =>
+    topic.title === generatedTitle || titleToSlug(topic.title) === generatedSlug
+  );
+}
+
+function getGeneratedArticleTypeCounts(topics, generatedTopics) {
+  const counts = ARTICLE_TYPE_ORDER.reduce((acc, articleType) => {
+    acc[articleType] = 0;
+    return acc;
+  }, {});
+
+  generatedTopics.forEach(generatedTitle => {
+    const topic = findTopicByGeneratedTitle(topics, generatedTitle);
+    if (topic && topic.article_type) {
+      counts[topic.article_type] = (counts[topic.article_type] || 0) + 1;
+    }
+  });
+
+  return counts;
+}
+
+function getLastGeneratedArticleType(topics, generatedTopics) {
+  for (let index = generatedTopics.length - 1; index >= 0; index--) {
+    const topic = findTopicByGeneratedTitle(topics, generatedTopics[index]);
+    if (topic && topic.article_type) {
+      return topic.article_type;
+    }
+  }
+  return null;
+}
+
+function selectBalancedStandaloneTopic(unusedTopics, topics, generatedTopics) {
+  const generatedCounts = getGeneratedArticleTypeCounts(topics, generatedTopics);
+  const availableTypes = ARTICLE_TYPE_ORDER.filter(articleType =>
+    unusedTopics.some(topic => topic.article_type === articleType)
+  );
+
+  if (availableTypes.length === 0) {
+    return unusedTopics[Math.floor(Math.random() * unusedTopics.length)];
+  }
+
+  const lowestCount = Math.min(...availableTypes.map(articleType => generatedCounts[articleType] || 0));
+  const lowestTypes = availableTypes.filter(articleType => (generatedCounts[articleType] || 0) === lowestCount);
+  const lastGeneratedType = getLastGeneratedArticleType(topics, generatedTopics);
+
+  let selectedType = lowestTypes[0];
+  if (lowestTypes.length > 1 && lastGeneratedType) {
+    const lastIndex = ARTICLE_TYPE_ORDER.indexOf(lastGeneratedType);
+    for (let offset = 1; offset <= ARTICLE_TYPE_ORDER.length; offset++) {
+      const nextType = ARTICLE_TYPE_ORDER[(lastIndex + offset) % ARTICLE_TYPE_ORDER.length];
+      if (lowestTypes.includes(nextType)) {
+        selectedType = nextType;
+        break;
+      }
+    }
+  }
+
+  const typeTopics = unusedTopics.filter(topic => topic.article_type === selectedType);
+  const selected = typeTopics[Math.floor(Math.random() * typeTopics.length)];
+  console.log(`⚖️  Balancing article types: selected ${getArticleTypeLabel(selectedType)} (${generatedCounts[selectedType] || 0} generated so far)`);
+  return selected;
 }
 
 function normalizeUrl(url) {
@@ -136,7 +202,7 @@ FACTUAL ACCURACY REQUIREMENTS:
 // Priority order:
 //   1. Continue in-progress series (previous part published)
 //   2. Start any series (part 1)
-//   3. Random standalone topic
+//   3. Balance standalone topics by article type
 function selectNextTopic(topics, generatedTopics) {
   const unusedTopics = topics.filter(
     topic => !generatedTopics.includes(topic.title)
@@ -187,8 +253,8 @@ function selectNextTopic(topics, generatedTopics) {
     return selected;
   }
 
-  // FALLBACK: Random standalone topic
-  const selected = unusedTopics[Math.floor(Math.random() * unusedTopics.length)];
+  // FALLBACK: Balance standalone topics by article type
+  const selected = selectBalancedStandaloneTopic(unusedTopics, topics, generatedTopics);
   console.log(`📄 Generating standalone topic`);
   return selected;
 }
