@@ -585,6 +585,64 @@ function generateImagePrompt(topic) {
   };
 }
 
+// Helper function to try generating image with the newer FLUX.2 endpoint.
+async function tryGenerateWithFlux2(promptData, maxRetries = 1, timeoutMs = 180000) {
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      console.log(`Attempt ${attempt}/${maxRetries}: Sending prompt to FLUX.2-klein-4b...`);
+
+      const response = await axios.post(
+        'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.2-klein-4b',
+        {
+          prompt: promptData.prompt,
+          width: 1024,
+          height: 1024,
+          cfg_scale: 1,
+          samples: 1,
+          seed: Math.floor(Math.random() * 1000000),
+          steps: 4
+        },
+        {
+          headers: {
+            'Authorization': `Bearer ${process.env.NVIDIA_API_KEY}`,
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          timeout: timeoutMs
+        }
+      );
+
+      const artifact = response.data?.artifacts?.[0];
+      if (!artifact?.base64) {
+        throw new Error('No image data in response');
+      }
+      if (artifact.finishReason && artifact.finishReason !== 'SUCCESS') {
+        throw new Error(`Image generation failed: ${artifact.finishReason}`);
+      }
+
+      console.log('✓ Success! Image generated with FLUX.2-klein-4b');
+      return artifact.base64;
+
+    } catch (error) {
+      const isTimeout = error.code === 'ECONNABORTED' || error.message.includes('timeout');
+      const isServerError = error.response && error.response.status >= 500;
+
+      console.error(`✗ Attempt ${attempt} failed: ${error.message}`);
+      if (error.response?.data) {
+        console.error(`   API Response:`, JSON.stringify(error.response.data));
+      }
+
+      if (isTimeout) {
+        console.error(`   (Request timed out after ${timeoutMs/1000}s - API may be overloaded)`);
+      } else if (isServerError) {
+        console.error(`   (Server error - NVIDIA API may be experiencing issues)`);
+      }
+    }
+  }
+
+  return null;
+}
+
 // Helper function to try generating image with a specific FLUX model
 async function tryGenerateWithModel(promptData, modelUrl, modelName, steps, maxRetries = 3, timeoutMs = 300000) {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
@@ -692,40 +750,47 @@ async function fetchAndSaveImage(topic) {
   let imageBase64 = null;
   let modelUsed = null;
 
-  // Try FLUX.1-schnell first (faster, 4 steps)
-  console.log('\n🎨 Trying FLUX.1-schnell (fast model)...');
+  console.log('\n🎨 Trying FLUX.1-dev (preferred model)...');
+  console.log('   Note: FLUX.1-dev uses 50 steps, so it can take longer');
   imageBase64 = await tryGenerateWithModel(
     prompt,
-    'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-schnell',
-    'FLUX.1-schnell',
-    4,
-    2,
-    180000 // 3 minute timeout
+    'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-dev',
+    'FLUX.1-dev',
+    50,
+    1,
+    300000 // 5 minute timeout for dev model
   );
 
   if (imageBase64) {
-    modelUsed = 'schnell';
+    modelUsed = 'dev';
   } else {
-    // Fallback to FLUX.1-dev (slower but more reliable)
-    console.log('\n🔄 FLUX.1-schnell failed, falling back to FLUX.1-dev (slower but more reliable)...');
-    console.log('   Note: FLUX.1-dev uses 50 steps vs 4 for schnell, so it takes longer');
-    imageBase64 = await tryGenerateWithModel(
-      prompt,
-      'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-dev',
-      'FLUX.1-dev',
-      50,
-      1,
-      300000 // 5 minute timeout for dev model
-    );
+    console.log('\n🔄 FLUX.1-dev failed, falling back to FLUX.2-klein-4b...');
+    imageBase64 = await tryGenerateWithFlux2(prompt, 1, 180000);
 
     if (imageBase64) {
-      modelUsed = 'dev';
+      modelUsed = 'klein';
     }
   }
 
-  // If both models failed
   if (!imageBase64) {
-    console.error('\n⚠️  All attempts with both FLUX models failed.');
+    console.log('\n🔄 FLUX.2-klein-4b failed, falling back to FLUX.1-schnell...');
+    imageBase64 = await tryGenerateWithModel(
+      prompt,
+      'https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-schnell',
+      'FLUX.1-schnell',
+      4,
+      2,
+      180000 // 3 minute timeout
+    );
+
+    if (imageBase64) {
+      modelUsed = 'schnell';
+    }
+  }
+
+  // If all models failed
+  if (!imageBase64) {
+    console.error('\n⚠️  All attempts with all image models failed.');
     console.error('    This is likely a temporary NVIDIA API issue.');
     console.error('    Guide will be created without image - you can generate the image later.');
     console.error('    To retry image generation for this guide, run:');
@@ -737,15 +802,20 @@ async function fetchAndSaveImage(topic) {
   const imageBuffer = Buffer.from(imageBase64, 'base64');
   fs.writeFileSync(filepath, imageBuffer);
 
-  const creditInfo = modelUsed === 'schnell'
+  const creditInfo = modelUsed === 'dev'
     ? {
-        credit: 'Generated by NVIDIA FLUX.1-schnell',
-        credit_url: 'https://build.nvidia.com/black-forest-labs/flux_1-schnell'
-      }
-    : {
         credit: 'Generated by NVIDIA FLUX.1-dev',
         credit_url: 'https://build.nvidia.com/black-forest-labs/flux_1-dev'
-      };
+      }
+    : modelUsed === 'klein'
+      ? {
+          credit: 'Generated by NVIDIA FLUX.2-klein-4b',
+          credit_url: 'https://build.nvidia.com/black-forest-labs/flux_2-klein-4b'
+        }
+      : {
+          credit: 'Generated by NVIDIA FLUX.1-schnell',
+          credit_url: 'https://build.nvidia.com/black-forest-labs/flux_1-schnell'
+        };
 
   console.log(`✓ AI-generated image saved: ${filename} (using ${modelUsed})`);
 

@@ -193,14 +193,30 @@ async function generateAndSaveImage(title, tags) {
   let imageBase64 = null;
   let modelUsed = null;
 
-  console.log("  🎨 Trying FLUX.2-klein-4b (current fast model)...");
-  imageBase64 = await tryGenerateWithFlux2(prompt, 1);
+  console.log("  🎨 Trying FLUX.1-dev (preferred model)...");
+  imageBase64 = await tryGenerateWithModel(
+    prompt,
+    "https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-dev",
+    "FLUX.1-dev",
+    50,
+    1,
+  );
 
   if (imageBase64) {
-    modelUsed = "klein";
+    modelUsed = "dev";
   } else {
-    // Try FLUX.1-schnell first (faster, 4 steps)
-    console.log("  🎨 Trying FLUX.1-schnell (fast model)...");
+    console.log("  🔄 FLUX.1-dev failed, falling back to FLUX.2-klein-4b...");
+    imageBase64 = await tryGenerateWithFlux2(prompt, 1);
+
+    if (imageBase64) {
+      modelUsed = "klein";
+    }
+  }
+
+  if (!imageBase64) {
+    console.log(
+      "  🔄 FLUX.2-klein-4b failed, falling back to FLUX.1-schnell...",
+    );
     imageBase64 = await tryGenerateWithModel(
       prompt,
       "https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-schnell",
@@ -214,28 +230,10 @@ async function generateAndSaveImage(title, tags) {
     }
   }
 
-  if (!imageBase64) {
-    // Fallback to FLUX.1-dev (slower but more reliable)
-    console.log(
-      "  🔄 FLUX.2/FLUX.1-schnell failed, falling back to FLUX.1-dev (slower but more reliable)...",
-    );
-    imageBase64 = await tryGenerateWithModel(
-      prompt,
-      "https://ai.api.nvidia.com/v1/genai/black-forest-labs/flux.1-dev",
-      "FLUX.1-dev",
-      50,
-      2,
-    );
-
-    if (imageBase64) {
-      modelUsed = "dev";
-    }
-  }
-
   // If all models failed
 
   if (!imageBase64) {
-    console.error("  ⚠️  All attempts with both FLUX models failed.");
+    console.error("  ⚠️  All attempts with all image models failed.");
     return null;
   }
 
