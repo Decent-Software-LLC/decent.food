@@ -13,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
 
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/seo-enhancements.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    {% seo %}
+    {% seo title=false %}
 
     <!-- Structured Data for Guides -->
     {% if page.layout == "guide" %}
