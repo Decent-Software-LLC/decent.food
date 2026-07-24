@@ -640,13 +640,13 @@ function generateDescription(title, articleType) {
 
 // Generate AI image prompt from topic
 function generateImagePrompt(topic) {
-  // Create a concise illustrated food prompt and avoid people/text/logo generation.
+  // Avoid article titles and names in image prompts; named people can trigger image content filters.
   const keywords = topic.tags.slice(0, 3)
     .map(tag => tag.replace(/-/g, ' '))
     .join(', ');
 
   return {
-    prompt: `Colorful editorial food illustration for an article titled "${topic.title}", inspired by ${keywords}: stylized illustrated food scene, vibrant hand-drawn shapes, playful composition, appetizing dishes related to the subject, bold color palette with decent.food blue accents, warm expressive lighting, modern magazine illustration, charming texture, no people, no hands, no faces, no text`,
+    prompt: `Colorful editorial food illustration inspired by ${keywords}: stylized illustrated food still life, vibrant hand-drawn shapes, playful composition, appetizing dishes related to the subject, bold color palette with decent.food blue accents, warm expressive lighting, modern magazine illustration, charming texture, no people, no hands, no faces, no text, no letters, no words, no typography`,
     negative_prompt: `people, person, humans, hands, faces, portraits, photorealistic, realistic photography, camera photo, stock photo, text, letters, words, typography, watermark, logo`
   };
 }
@@ -857,7 +857,7 @@ async function fetchAndSaveImage(topic) {
   // If all models failed
   if (!imageBase64) {
     console.error('\n⚠️  All attempts with all image models failed.');
-    console.error('    This is likely a temporary NVIDIA API issue.');
+    console.error('    This may be a temporary NVIDIA API issue or image prompt content filtering.');
     console.error('    Guide will be created without image - you can generate the image later.');
     console.error('    To retry image generation for this guide, run:');
     console.error(`    node scripts/add-images-retroactive.js`);
