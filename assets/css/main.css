@@ -652,16 +652,14 @@ body {
     gap: 1rem;
 }
 
-.footer-links a,
-.footer-built a {
+.footer-links a {
     color: #8fbcff;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s, opacity 0.3s;
 }
 
-.footer-links a:hover,
-.footer-built a:hover {
+.footer-links a:hover {
     color: #c9ddff;
 }
 
@@ -679,11 +677,6 @@ body {
 .footer-social-link:hover {
     color: #c9ddff;
     transform: translateY(-1px);
-}
-
-.footer-built {
-    margin: 0 0 0.5rem;
-    font-size: 0.95rem;
 }
 
 .footer-copyright {
