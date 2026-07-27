@@ -7,6 +7,7 @@ tags: ["popular-recipes", "breakfast", "meal-prep"]
 description: "A Popular Recipes article on a better breakfast burrito setup for busy mornings"
 estimated_time: "5 min read"
 image: "/assets/images/guides/a-better-breakfast-burrito-setup-for-busy-mornings.jpg"
+image_version: "20260727-1"
 image_credit: "Generated with OpenAI"
 image_credit_url: "https://openai.com/"
 ---
