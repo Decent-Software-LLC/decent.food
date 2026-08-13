@@ -40,6 +40,39 @@ function titleToSlug(title) {
     .replace(/^-|-$/g, '');
 }
 
+function getExistingGuideTitles() {
+  if (!fs.existsSync(GUIDES_DIR)) {
+    return [];
+  }
+
+  return fs.readdirSync(GUIDES_DIR)
+    .filter(file => file.endsWith('.md'))
+    .map(file => {
+      const filePath = path.join(GUIDES_DIR, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+      const frontMatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+      const titleMatch = frontMatterMatch?.[1].match(/^title:\s*["']?(.+?)["']?\s*$/m);
+      return titleMatch ? titleMatch[1].trim() : null;
+    })
+    .filter(Boolean);
+}
+
+function getUsedTopicSlugs(generatedTopics) {
+  return new Set([
+    ...generatedTopics.map(titleToSlug),
+    ...getExistingGuideTitles().map(titleToSlug)
+  ]);
+}
+
+function assertTopicHasNotBeenGenerated(topic, generatedTopics) {
+  const topicSlug = titleToSlug(topic.title);
+  const usedTopicSlugs = getUsedTopicSlugs(generatedTopics);
+
+  if (usedTopicSlugs.has(topicSlug)) {
+    throw new Error(`Refusing to generate duplicate article title: "${topic.title}"`);
+  }
+}
+
 const ARTICLE_TYPES = {
   'popular-recipes': 'Popular Recipes',
   'foodie-showcase': 'Foodie Showcase',
@@ -204,14 +237,14 @@ FACTUAL ACCURACY REQUIREMENTS:
 //   2. Start any series (part 1)
 //   3. Balance standalone topics by article type
 function selectNextTopic(topics, generatedTopics) {
+  const usedTopicSlugs = getUsedTopicSlugs(generatedTopics);
   const unusedTopics = topics.filter(
-    topic => !generatedTopics.includes(topic.title)
+    topic => !usedTopicSlugs.has(titleToSlug(topic.title))
   );
 
   if (unusedTopics.length === 0) {
-    // All topics used, reset and start over
-    console.log('All topics have been used. Resetting...');
-    return topics[Math.floor(Math.random() * topics.length)];
+    console.log('All topics have been generated. No new article created.');
+    return null;
   }
 
   // Convert generated topics to slug format for matching
@@ -893,8 +926,14 @@ async function fetchAndSaveImage(topic) {
 
 // Create guide file
 async function createGuideFile(topic, content, imageData) {
+  const { generatedTopics } = loadTopics();
+  assertTopicHasNotBeenGenerated(topic, generatedTopics);
+
   const filename = createFilename(topic.title);
   const filepath = path.join(GUIDES_DIR, filename);
+  if (fs.existsSync(filepath)) {
+    throw new Error(`Refusing to overwrite existing guide file: ${filename}`);
+  }
 
   const date = new Date().toISOString().split('T')[0];
   const description = generateDescription(topic.title, topic.article_type);
@@ -1119,18 +1158,24 @@ async function main() {
   try {
     console.log('Starting guide generation...');
 
-    // Check for API key
-    if (!process.env.NVIDIA_API_KEY) {
-      throw new Error('NVIDIA_API_KEY environment variable is not set');
-    }
-
     // Load topics
     const { topics, generatedTopics } = loadTopics();
     console.log(`Loaded ${topics.length} topics, ${generatedTopics.length} already generated`);
 
     // Select topic
     const topic = selectNextTopic(topics, generatedTopics);
+    if (!topic) {
+      console.log('Generation paused cleanly. Add more topics to topics.json to resume automated article creation.');
+      return;
+    }
+
+    assertTopicHasNotBeenGenerated(topic, generatedTopics);
     console.log(`Selected topic: ${topic.title} (${getArticleTypeLabel(topic.article_type)})`);
+
+    // Check for API key only after confirming there is work to do
+    if (!process.env.NVIDIA_API_KEY) {
+      throw new Error('NVIDIA_API_KEY environment variable is not set');
+    }
 
     // Generate content
     console.log('Generating content with NVIDIA API...');
@@ -1151,7 +1196,7 @@ async function main() {
     updateSeriesNavigation(topic);
 
     // Update generated topics
-    if (!generatedTopics.includes(topic.title)) {
+    if (!generatedTopics.map(titleToSlug).includes(titleToSlug(topic.title))) {
       generatedTopics.push(topic.title);
       saveGeneratedTopics(generatedTopics);
     }
