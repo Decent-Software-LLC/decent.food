@@ -745,6 +745,7 @@ body {
 }
 
 .foodies-page .influencer-table {
+    counter-reset: foodie-card;
     overflow: hidden;
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
@@ -757,6 +758,31 @@ body {
     display: grid;
     grid-template-columns: minmax(230px, 0.9fr) minmax(260px, 1.2fr) minmax(210px, 0.9fr);
     align-items: stretch;
+}
+
+.foodies-page .person-row {
+    position: relative;
+    counter-increment: foodie-card;
+}
+
+.foodies-page .person-row::after {
+    content: counter(foodie-card);
+    position: absolute;
+    top: 0.65rem;
+    right: 0.65rem;
+    display: inline-grid;
+    place-items: center;
+    min-width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--white);
+    border-radius: 999px;
+    background: var(--text-light);
+    color: var(--white);
+    box-shadow: none;
+    font-size: 0.78rem;
+    font-weight: 900;
+    line-height: 1;
+    z-index: 1;
 }
 
 .foodies-page .table-head {
@@ -865,6 +891,7 @@ body {
 
 .foodies-page .links {
     align-content: center;
+    padding-right: 3.25rem;
 }
 
 /* Responsive Design */
