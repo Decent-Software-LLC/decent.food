@@ -64,6 +64,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (foodiesSearchInput) {
+        const foodiesUrlSearchTerm = getUrlSearchParam('foodies');
+        if (foodiesUrlSearchTerm) {
+            foodiesSearchInput.value = foodiesUrlSearchTerm;
+            filterFoodies(foodiesUrlSearchTerm, { updateUrl: false });
+        }
+
         ['input', 'keyup', 'search', 'change'].forEach(eventName => {
             foodiesSearchInput.addEventListener(eventName, function() {
                 filterFoodies(this.value);
@@ -105,7 +111,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    function filterFoodies(searchTerm) {
+    function getUrlSearchParam(paramName) {
+        return new URLSearchParams(window.location.search).get(paramName) || '';
+    }
+
+    function updateFoodiesSearchUrl(searchTerm) {
+        const url = new URL(window.location.href);
+        const normalizedSearchTerm = searchTerm.trim();
+
+        if (normalizedSearchTerm) {
+            url.searchParams.set('foodies', normalizedSearchTerm);
+        } else {
+            url.searchParams.delete('foodies');
+        }
+
+        window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+    }
+
+    function filterFoodies(searchTerm, options = {}) {
+        const shouldUpdateUrl = options.updateUrl !== false;
         const normalizedSearchTerm = searchTerm.trim().toLowerCase();
         let visibleCount = 0;
 
@@ -124,6 +148,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (foodiesNoResults) {
             foodiesNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        if (shouldUpdateUrl) {
+            updateFoodiesSearchUrl(searchTerm);
         }
     }
 
