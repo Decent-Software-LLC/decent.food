@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodiesSearchInput = document.getElementById('foodies-search');
     const foodieRows = document.querySelectorAll('.foodies-page .person-row');
     const foodiesNoResults = document.getElementById('foodies-no-results');
+    const foodiesHeroTitle = document.querySelector('.foodies-hero-title');
 
     let currentArticleType = 'all';
     let currentSearchTerm = '';
@@ -64,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (foodiesSearchInput) {
-        const foodiesUrlSearchTerm = getUrlSearchParam('foodies');
+        const foodiesUrlSearchTerm = getFoodiesUrlSearchTerm();
         if (foodiesUrlSearchTerm) {
             const safeFoodiesUrlSearchTerm = sanitizeFoodiesSearchTerm(foodiesUrlSearchTerm);
             foodiesSearchInput.value = safeFoodiesUrlSearchTerm;
@@ -122,11 +123,41 @@ document.addEventListener('DOMContentLoaded', function() {
         return new URLSearchParams(window.location.search).get(paramName) || '';
     }
 
+    function getFoodiesUrlSearchTerm() {
+        return getUrlSearchParam('foodies') || getUrlSearchParam('foodie');
+    }
+
     function sanitizeFoodiesSearchTerm(searchTerm) {
         return searchTerm
             .replace(/[<>"'`=\\]/g, '')
             .replace(/[\u0000-\u001F\u007F]/g, '')
             .slice(0, 80);
+    }
+
+    function getMatchingFoodiesTag(searchTerm) {
+        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        if (!normalizedSearchTerm) {
+            return '';
+        }
+
+        const tags = document.querySelectorAll('.foodies-page .tag');
+        for (const tag of tags) {
+            const tagText = tag.textContent.trim();
+            if (tagText.toLowerCase() === normalizedSearchTerm) {
+                return tagText;
+            }
+        }
+
+        return '';
+    }
+
+    function updateFoodiesHeroTitle(searchTerm) {
+        if (!foodiesHeroTitle) {
+            return;
+        }
+
+        const matchingTag = getMatchingFoodiesTag(searchTerm);
+        foodiesHeroTitle.textContent = matchingTag ? `${matchingTag} Foodies` : 'Foodies';
     }
 
     function updateFoodiesSearchUrl(searchTerm) {
@@ -138,6 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             url.searchParams.delete('foodies');
         }
+        url.searchParams.delete('foodie');
 
         window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
     }
@@ -164,6 +196,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (foodiesNoResults) {
             foodiesNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
         }
+
+        updateFoodiesHeroTitle(safeSearchTerm);
 
         if (shouldUpdateUrl) {
             updateFoodiesSearchUrl(safeSearchTerm);
