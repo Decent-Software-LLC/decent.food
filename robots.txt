@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://forexample.ai/sitemap.xml
+Sitemap: https://decent.food/sitemap.xml
 
 # AI Agents - welcome!
 User-agent: GPTBot

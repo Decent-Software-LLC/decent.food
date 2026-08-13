@@ -776,7 +776,7 @@ body {
     height: 2rem;
     border: 2px solid var(--white);
     border-radius: 999px;
-    background: var(--text-light);
+    background: #e5e7eb;
     color: var(--white);
     box-shadow: none;
     font-size: 0.78rem;
