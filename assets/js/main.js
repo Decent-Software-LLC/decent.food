@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.filter-btn');
     const guideCards = document.querySelectorAll('.guide-card');
     const noResults = document.getElementById('no-results');
+    const foodiesSearchInput = document.getElementById('foodies-search');
+    const foodieRows = document.querySelectorAll('.foodies-page .person-row');
+    const foodiesNoResults = document.getElementById('foodies-no-results');
 
     let currentArticleType = 'all';
     let currentSearchTerm = '';
@@ -60,6 +63,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    if (foodiesSearchInput) {
+        ['input', 'keyup', 'search', 'change'].forEach(eventName => {
+            foodiesSearchInput.addEventListener(eventName, function() {
+                filterFoodies(this.value);
+            });
+        });
+    }
+
     // Apply all active filters
     function applyFilters() {
         let visibleCount = 0;
@@ -91,6 +102,28 @@ document.addEventListener('DOMContentLoaded', function() {
         // Show/hide no results message
         if (noResults) {
             noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+    }
+
+    function filterFoodies(searchTerm) {
+        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        let visibleCount = 0;
+
+        foodieRows.forEach(row => {
+            const identity = row.querySelector('.identity')?.textContent || '';
+            const bio = row.querySelector('.bio')?.textContent || '';
+            const tags = row.querySelector('.tags')?.textContent || '';
+            const searchableText = `${identity} ${bio} ${tags}`.toLowerCase();
+            const matchesSearch = normalizedSearchTerm === '' || searchableText.includes(normalizedSearchTerm);
+
+            row.style.display = matchesSearch ? '' : 'none';
+            if (matchesSearch) {
+                visibleCount++;
+            }
+        });
+
+        if (foodiesNoResults) {
+            foodiesNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
         }
     }
 

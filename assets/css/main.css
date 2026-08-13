@@ -706,14 +706,6 @@ body {
     padding: 3rem 20px 4.5rem;
 }
 
-.foodies-page .region-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem;
-    margin: 0 0 1.75rem;
-}
-
-.foodies-page .region-nav a,
 .foodies-page .content-link {
     min-height: 36px;
     display: inline-flex;
@@ -730,7 +722,6 @@ body {
     transition: all 0.2s ease;
 }
 
-.foodies-page .region-nav a:hover,
 .foodies-page .content-link:hover {
     border-color: var(--primary-color);
     color: var(--primary-dark);
@@ -749,62 +740,8 @@ body {
     color: var(--white);
 }
 
-.foodies-stats {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.85rem;
-    margin: 0 0 2.25rem;
-}
-
-.foodies-stat {
-    min-height: 94px;
-    border: 1px solid var(--border-color);
-    border-radius: var(--border-radius);
-    padding: 1.1rem;
-    background: var(--white);
-    box-shadow: var(--shadow);
-}
-
-.foodies-stat strong {
-    display: block;
-    color: var(--secondary-color);
-    font-size: 1.85rem;
-    line-height: 1;
-}
-
-.foodies-stat span {
-    display: block;
-    margin-top: 0.55rem;
-    color: var(--text-light);
-    font-size: 0.88rem;
-    font-weight: 700;
-}
-
-.foodies-page .region {
-    scroll-margin-top: 96px;
-    margin-top: 0.5rem;
-    padding-top: 1rem;
-}
-
-.foodies-page .region-heading {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.85rem;
-}
-
-.foodies-page .region-heading h3 {
-    margin: 0;
-    color: var(--secondary-color);
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
-    line-height: 1;
-}
-
-.foodies-page .region-heading span {
-    color: var(--text-light);
-    font-weight: 780;
-    white-space: nowrap;
+.foodies-search {
+    margin-bottom: 1.75rem;
 }
 
 .foodies-page .influencer-table {
@@ -1023,24 +960,6 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .foodies-stats {
-        display: none;
-    }
-
-    .foodies-page .region-nav {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        margin-top: 1rem;
-        padding-bottom: 0.35rem;
-        scrollbar-width: thin;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .foodies-page .region-nav a {
-        flex: 0 0 auto;
-        white-space: nowrap;
-    }
-
     .foodies-page .table-head {
         display: none;
     }
@@ -1066,16 +985,6 @@ body {
 
     .foodies-page .person-cell:not(.identity):not(.links) .bio {
         order: 2;
-    }
-
-    .foodies-page .region-heading {
-        align-items: flex-start;
-        flex-direction: column;
-        gap: 0.4rem;
-    }
-
-    .foodies-page .region-heading span {
-        white-space: normal;
     }
 
     .guide-content {
