@@ -66,13 +66,20 @@ document.addEventListener('DOMContentLoaded', function() {
     if (foodiesSearchInput) {
         const foodiesUrlSearchTerm = getUrlSearchParam('foodies');
         if (foodiesUrlSearchTerm) {
-            foodiesSearchInput.value = foodiesUrlSearchTerm;
-            filterFoodies(foodiesUrlSearchTerm, { updateUrl: false });
+            const safeFoodiesUrlSearchTerm = sanitizeFoodiesSearchTerm(foodiesUrlSearchTerm);
+            foodiesSearchInput.value = safeFoodiesUrlSearchTerm;
+            filterFoodies(safeFoodiesUrlSearchTerm, {
+                updateUrl: safeFoodiesUrlSearchTerm !== foodiesUrlSearchTerm
+            });
         }
 
         ['input', 'keyup', 'search', 'change'].forEach(eventName => {
             foodiesSearchInput.addEventListener(eventName, function() {
-                filterFoodies(this.value);
+                const safeSearchTerm = sanitizeFoodiesSearchTerm(this.value);
+                if (safeSearchTerm !== this.value) {
+                    this.value = safeSearchTerm;
+                }
+                filterFoodies(safeSearchTerm);
             });
         });
     }
@@ -115,9 +122,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return new URLSearchParams(window.location.search).get(paramName) || '';
     }
 
+    function sanitizeFoodiesSearchTerm(searchTerm) {
+        return searchTerm
+            .replace(/[<>"'`=\\]/g, '')
+            .replace(/[\u0000-\u001F\u007F]/g, '')
+            .slice(0, 80);
+    }
+
     function updateFoodiesSearchUrl(searchTerm) {
         const url = new URL(window.location.href);
-        const normalizedSearchTerm = searchTerm.trim();
+        const normalizedSearchTerm = sanitizeFoodiesSearchTerm(searchTerm).trim();
 
         if (normalizedSearchTerm) {
             url.searchParams.set('foodies', normalizedSearchTerm);
@@ -130,7 +144,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function filterFoodies(searchTerm, options = {}) {
         const shouldUpdateUrl = options.updateUrl !== false;
-        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        const safeSearchTerm = sanitizeFoodiesSearchTerm(searchTerm);
+        const normalizedSearchTerm = safeSearchTerm.trim().toLowerCase();
         let visibleCount = 0;
 
         foodieRows.forEach(row => {
@@ -151,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (shouldUpdateUrl) {
-            updateFoodiesSearchUrl(searchTerm);
+            updateFoodiesSearchUrl(safeSearchTerm);
         }
     }
 
