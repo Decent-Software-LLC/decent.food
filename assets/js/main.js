@@ -178,20 +178,31 @@ document.addEventListener('DOMContentLoaded', function() {
         return '';
     }
 
+    function toFoodiesTitleCase(value) {
+        return value.replace(/\p{L}[\p{L}'’]*/gu, word => {
+            if (word.length > 1 && word === word.toUpperCase()) {
+                return word;
+            }
+
+            return `${word.charAt(0).toUpperCase()}${word.slice(1).toLowerCase()}`;
+        });
+    }
+
     function updateFoodiesHero(searchTerm) {
         if (!foodiesHeroTitle && !foodiesHeroDescription) {
             return;
         }
 
         const matchingTag = getMatchingFoodiesTag(searchTerm);
+        const displayTag = matchingTag ? toFoodiesTitleCase(matchingTag) : '';
 
         if (foodiesHeroTitle) {
-            foodiesHeroTitle.textContent = matchingTag ? `${matchingTag} Foodies` : 'Foodies';
+            foodiesHeroTitle.textContent = displayTag ? `${displayTag} Foodies` : 'Foodies';
         }
 
         if (foodiesHeroDescription) {
-            foodiesHeroDescription.textContent = matchingTag
-                ? defaultFoodiesHeroDescription.replace('U.S.', matchingTag)
+            foodiesHeroDescription.textContent = displayTag
+                ? defaultFoodiesHeroDescription.replace('U.S.', displayTag)
                 : defaultFoodiesHeroDescription;
         }
     }

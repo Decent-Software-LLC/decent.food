@@ -124,6 +124,36 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Archana Doshi food avatar">🍛</span>
+                <span><strong class="name">Archana Doshi / Archana's Kitchen</strong><span class="handle">@archanaskitchen</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Indian recipe publisher focused on practical regional recipes, healthy meal plans, kids' tiffin ideas, and everyday cooking.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Meal planning</span><span class="tag">Regional Indian</span><span class="tag">Healthy eating</span><span class="tag">Family meals</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.archanaskitchen.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/archanaskitchen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kristi Roeder food avatar">🥑</span>
+                <span><strong class="name">Kristi Roeder / Avocado Skillet</strong><span class="handle">@avocado_skillet</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin-based creator focused on veggie-forward pescatarian recipes, easy meals, and healthy comfort food.</p>
+                <div class="tags"><span class="tag">Pescatarian</span><span class="tag">Seafood</span><span class="tag">Vegetarian-friendly</span><span class="tag">Healthy eating</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://avocadoskillet.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/avocado_skillet/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Anela Malik food avatar">🍲</span>
                 <span><strong class="name">Anela Malik / Feed the Malik</strong><span class="handle">@feedthemalik</span></span>
             </div>
@@ -317,6 +347,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Christina Musgrave food avatar">🦞</span>
+                <span><strong class="name">Christina Musgrave / Weekday Pescatarian</strong><span class="handle">@weekdaypescatarian</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Seafood-focused creator helping home cooks make restaurant-quality fish and seafood recipes for weeknights.</p>
+                <div class="tags"><span class="tag">Pescatarian</span><span class="tag">Seafood</span><span class="tag">Fish recipes</span><span class="tag">Weeknight</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/weekdaypescatarian">Link hub</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/weekdaypescatarian/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Cornelia Poku food avatar">🍤</span>
                 <span><strong class="name">Cornelia Poku / Black Girls Explore DC</strong><span class="handle">@blackgirls.exploredc</span></span>
             </div>
@@ -360,6 +405,36 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Danilo Cortellini food avatar">🍝</span>
+                <span><strong class="name">Danilo Cortellini</strong><span class="handle">@danilocortellini</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Italian chef and cookbook author with Michelin and Italian Embassy background, focused on Italian recipes and chef-led technique.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Chef-led</span><span class="tag">Pasta</span><span class="tag">Cookbooks</span><span class="tag">Technique</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://danilocortellini.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/danilocortellini/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Danny Freeman food avatar">🍝</span>
+                <span><strong class="name">Danny Freeman / Danny Loves Pasta</strong><span class="handle">@dannylovespasta</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Cookbook author and pasta maker sharing colorful handmade pasta, family-friendly pasta projects, and Italian-ish recipes.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Handmade pasta</span><span class="tag">Cookbooks</span><span class="tag">Family cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.dannylovespasta.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dannylovespasta/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Deb Perelman food avatar">🍳</span>
                 <span><strong class="name">Deb Perelman / Smitten Kitchen</strong><span class="handle">@smittenkitchen</span></span>
             </div>
@@ -391,6 +466,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Elena Davis food avatar">🍅</span>
+                <span><strong class="name">Elena Davis / Cucina by Elena</strong><span class="handle">@cucinabyelena</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Sardinian-rooted Italian recipe creator sharing simple Italian meals, family recipes, cooking classes, and approachable home cooking.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Sardinian</span><span class="tag">Home cooking</span><span class="tag">Recipes</span><span class="tag">Pasta</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.cucinabyelena.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cucinabyelena/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Emily Mariko food avatar">🍙</span>
                 <span><strong class="name">Emily Mariko</strong><span class="handle">@emilymariko</span></span>
             </div>
@@ -407,6 +497,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Fiona Afshar food avatar">🍝</span>
+                <span><strong class="name">Fiona Afshar / Cooking with Fiona</strong><span class="handle">@cookingwithfiona</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pasta artist and recipe creator known for colorful handmade pasta, pasta classes, and visually polished Italian-inspired dishes.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Handmade pasta</span><span class="tag">Food art</span><span class="tag">Classes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cookingwithfiona/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Hugh Harper food avatar">🌯</span>
                 <span><strong class="name">Hugh Harper / HungryHugh</strong><span class="handle">@hungryhugh</span></span>
             </div>
@@ -417,6 +521,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.hungryhugh.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hungryhugh/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Hina Bisht food avatar">🥘</span>
+                <span><strong class="name">Hina Bisht / Fun Food Frolic</strong><span class="handle">@funfoodandfrolic</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Indian food blogger sharing main courses, snacks, desserts, meal ideas, and approachable home recipes with a modern feel.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Snacks</span><span class="tag">Home cooking</span><span class="tag">Desserts</span><span class="tag">Meal ideas</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.funfoodfrolic.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/funfoodandfrolic/">Instagram</a>
             </div>
         </article>
 
@@ -764,6 +883,81 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Manali Singh food avatar">🍲</span>
+                <span><strong class="name">Manali Singh / Cook With Manali</strong><span class="handle">@cookwithmanali</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Seattle-based Indian vegetarian recipe creator sharing paneer dishes, Indian sweets, Instant Pot meals, snacks, and fusion recipes.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Vegetarian</span><span class="tag">Indian sweets</span><span class="tag">Instant Pot</span><span class="tag">Indian fusion</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.cookwithmanali.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cookwithmanali/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Marley Goldin food avatar">🐟</span>
+                <span><strong class="name">Marley Goldin / Marley's Menu</strong><span class="handle">@marleysmenu</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pescatarian recipe developer sharing simple comfort food, sweet treats, seafood dishes, and sustainability-minded recipes.</p>
+                <div class="tags"><span class="tag">Pescatarian</span><span class="tag">Seafood</span><span class="tag">Comfort food</span><span class="tag">Sustainability</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://marleysmenu.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marleysmenu/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Maria D'Errico food avatar">🍝</span>
+                <span><strong class="name">Maria D'Errico / Little Nonni</strong><span class="handle">@littlenonni</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Italian-American home cook and recipe developer sharing nostalgic Italian recipes, pasta, biscotti, and simple family dishes.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Italian-American</span><span class="tag">Pasta</span><span class="tag">Family recipes</span><span class="tag">Baking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://littlenonni.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/littlenonni/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Meryl Feinstein food avatar">🍝</span>
+                <span><strong class="name">Meryl Feinstein / Pasta Social Club</strong><span class="handle">@pastasocialclub</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pasta educator and James Beard Award-winning cookbook author focused on fresh pasta, ravioli, and pasta community.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Handmade pasta</span><span class="tag">Ravioli</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.pastasocialclub.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pastasocialclub/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Meeta Arora food avatar">🍛</span>
+                <span><strong class="name">Meeta Arora / Piping Pot Curry</strong><span class="handle">@pipingpotcurry</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">California-based creator sharing Indian recipes, Instant Pot cooking, air fryer dishes, curries, and family-friendly meals.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Instant Pot</span><span class="tag">Curries</span><span class="tag">Family meals</span><span class="tag">Weeknight</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://pipingpotcurry.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pipingpotcurry/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Midwest Munchers food avatar">🥪</span>
                 <span><strong class="name">Midwest Munchers</strong><span class="handle">@midwestmunchers</span></span>
             </div>
@@ -838,6 +1032,50 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nadia Caterina Munno food avatar">🍝</span>
+                <span><strong class="name">Nadia Caterina Munno / The Pasta Queen</strong><span class="handle">@the_pastaqueen</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Italian pasta creator, cookbook author, sauce founder, and host focused on dramatic, classic Italian pasta and all things Italiana.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Cookbooks</span><span class="tag">Sauce</span><span class="tag">Recipe video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/the_pastaqueen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nandita Iyer food avatar">🥗</span>
+                <span><strong class="name">Nandita Iyer / Saffron Trail</strong><span class="handle">@saffrontrail</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Doctor, author, and vegetarian food creator focused on healthy Indian recipes, traditional ingredients, millet, dosa, and practical nutrition.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Vegetarian</span><span class="tag">Healthy eating</span><span class="tag">South Indian</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.saffrontrail.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/saffrontrail/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nisha Madhulika food avatar">🍛</span>
+                <span><strong class="name">Nisha Madhulika</strong><span class="handle">@nishamadhulika</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Vegetarian Indian cooking creator known for clear Hindi recipes, North Indian dishes, snacks, sweets, and beginner-friendly home cooking.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Vegetarian</span><span class="tag">North Indian</span><span class="tag">Hindi</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://nishamadhulika.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/NishaMadhulika">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nora food avatar">🍣</span>
                 <span><strong class="name">Nora / The Food Explora</strong><span class="handle">@noraeatsgood</span></span>
             </div>
@@ -896,6 +1134,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nick Munro food avatar">🍝</span>
+                <span><strong class="name">Nick Munro / The Rigaytoni</strong><span class="handle">@therigaytoni</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Italian-American pasta creator sharing pasta-heavy recipes, coastal New England influence, family cooking, and entertaining-friendly dishes.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Italian-American</span><span class="tag">Pasta</span><span class="tag">Home cooking</span><span class="tag">Entertaining</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.therigaytoni.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/therigaytoni/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Rachel Lorton food avatar">🍇</span>
                 <span><strong class="name">Rachel Lorton</strong><span class="handle">@rachelrenelorton</span></span>
             </div>
@@ -924,6 +1177,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ranveer Brar food avatar">🍢</span>
+                <span><strong class="name">Ranveer Brar</strong><span class="handle">@ranveer.brar</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Celebrity chef and author sharing Indian recipes, regional food stories, street-food context, and chef-led cooking videos.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Chef-led</span><span class="tag">Regional Indian</span><span class="tag">Street food</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://ranveerbrar.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ranveer.brar/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Richard Chao food avatar">🍔</span>
                 <span><strong class="name">Richard Chao / HangryBlogger</strong><span class="handle">@hangryblogger</span></span>
             </div>
@@ -933,6 +1201,35 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hangryblogger/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Richa Hingle food avatar">🌱</span>
+                <span><strong class="name">Richa Hingle / Vegan Richa</strong><span class="handle">@veganricha</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Indian vegan recipe creator and cookbook author sharing plant-based Indian food, curries, dals, flatbreads, and global vegan recipes.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Vegan</span><span class="tag">Plant-based</span><span class="tag">Curries</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.veganricha.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/veganricha/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ryan Peters food avatar">🍝</span>
+                <span><strong class="name">Ryan Peters</strong><span class="handle">@ryanpeterspgh</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pittsburgh pasta creator known for high-energy handmade pasta videos, large-format pasta making, and short-form recipe content.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Handmade pasta</span><span class="tag">Short-form</span><span class="tag">Pittsburgh</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ryanpeterspgh/">Instagram</a>
             </div>
         </article>
 
@@ -1040,6 +1337,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Shivesh Bhatia food avatar">🍰</span>
+                <span><strong class="name">Shivesh Bhatia / Bake With Shivesh</strong><span class="handle">@shivesh17</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Delhi-based baking creator known for eggless desserts, Indian-inspired sweets, cakes, styled dessert content, and baking education.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Dessert</span><span class="tag">Baking</span><span class="tag">Eggless</span><span class="tag">Recipe video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://bakewithshivesh.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shivesh17/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Stacey Little food avatar">🥧</span>
                 <span><strong class="name">Stacey Little / Southern Bite</strong><span class="handle">@southernbite</span></span>
             </div>
@@ -1083,6 +1395,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Stacie Miller food avatar">🍤</span>
+                <span><strong class="name">Stacie Miller / The Black Pescatarian</strong><span class="handle">@theblackpescatarian</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pescatarian recipe creator behind The Pescatarian Playground, sharing seafood recipes, ebooks, and home-cooking inspiration.</p>
+                <div class="tags"><span class="tag">Pescatarian</span><span class="tag">Seafood</span><span class="tag">Black-owned</span><span class="tag">Recipes</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theblackpescatarian/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Stormy Blue food avatar">🍷</span>
                 <span><strong class="name">Stormy Blue</strong><span class="handle">@_stormyblue</span></span>
             </div>
@@ -1092,6 +1418,36 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_stormyblue/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Swasthi Shreekanth food avatar">🍛</span>
+                <span><strong class="name">Swasthi Shreekanth / Swasthi's Recipes</strong><span class="handle">@swasthisrecipes</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Indian recipe creator focused on tested home-style recipes, restaurant-style dishes, street foods, and step-by-step Indian cooking.</p>
+                <div class="tags"><span class="tag">Indian food</span><span class="tag">Home cooking</span><span class="tag">Restaurant-style</span><span class="tag">Street food</span><span class="tag">Family meals</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.indianhealthyrecipes.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/swasthisrecipes/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Stephanie Harris-Uyidi food avatar">🦐</span>
+                <span><strong class="name">Stephanie Harris-Uyidi / The Posh Pescatarian</strong><span class="handle">@theposhpescatarian</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pescatarian chef, producer, writer, and seafood-focused creator sharing fish, shellfish, and lifestyle-forward seafood content.</p>
+                <div class="tags"><span class="tag">Pescatarian</span><span class="tag">Seafood</span><span class="tag">Chef-led</span><span class="tag">Fish recipes</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.poshpescatarian.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theposhpescatarian/">Instagram</a>
             </div>
         </article>
 
@@ -1197,6 +1553,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bayarea.foodies/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Vincenzo Prosperi food avatar">🍕</span>
+                <span><strong class="name">Vincenzo Prosperi / Vincenzo's Plate</strong><span class="handle">@vincenzosplate</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Italian-born creator teaching approachable Italian recipes, pasta technique, and traditional dishes through video tutorials.</p>
+                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Traditional recipes</span><span class="tag">YouTube</span><span class="tag">Technique</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.vincenzosplate.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vincenzosplate/">Instagram</a>
             </div>
         </article>
 
