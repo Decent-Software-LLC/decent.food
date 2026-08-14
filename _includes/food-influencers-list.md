@@ -6,6 +6,37 @@
     </div>
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Abi Balingit food avatar">🧁</span>
+                <span><strong class="name">Abi Balingit / The Dusky Kitchen</strong><span class="handle">@theduskykitchen</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Brooklyn-based baker and cookbook author focused on Filipino American desserts, ube, baking, and creative pastry remixes.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Brooklyn</span><span class="tag">Filipino</span><span class="tag">Dessert</span><span class="tag">Baking</span><span class="tag">Cookbook author</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://theduskykitchen.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theduskykitchen/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.mercadovicente.com/abibalingit">Profile</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Adam Watanabe food avatar">🍣</span>
+                <span><strong class="name">Adam Watanabe / Sushi Artisan</strong><span class="handle">@sushiartisan</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NorCal sushi creator and graphic designer making artistic sushi content, sushi storytelling, and food-art pieces.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">NorCal</span><span class="tag">Sushi</span><span class="tag">Japanese Food</span><span class="tag">Food art</span><span class="tag">Creator</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/sushiartisan">Linktree</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushiartisan/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="AJ Food Finds food avatar">🍽️</span>
                 <span><strong class="name">AJ Food Finds / Anna and Jake</strong><span class="handle">@ajfoodfinds</span></span>
             </div>
@@ -236,6 +267,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/briancantstopeating/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@briancantstopeating">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Carl Alexon Cuaresma food avatar">🍣</span>
+                <span><strong class="name">Carl Alexon Cuaresma</strong><span class="handle">@alexon</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Albany, NY Filipino-American sushi chef creating sushi, Pinoy fusion, sashimi, street-food-inspired, fitness, and food content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Albany NY</span><span class="tag">Sushi</span><span class="tag">Filipino</span><span class="tag">Asian Food</span><span class="tag">Fusion</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://collabstr.com/top-influencers/sushi">Profile</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@alexon">TikTok</a>
             </div>
         </article>
 
@@ -476,6 +522,36 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Debbie Lee food avatar">🍣</span>
+                <span><strong class="name">Debbie Lee</strong><span class="handle">@realchefdeblee</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Los Angeles TV chef and runner-up on Morimoto's Sushi Master, sharing sushi, Korean food, chef content, and restaurant projects.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Sushi</span><span class="tag">Korean food</span><span class="tag">TV chef</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/realchefdeblee/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://influencers.feedspot.com/southern_california_sushi_instagram_influencers/">Profile</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Debi Min food avatar">🍱</span>
+                <span><strong class="name">Debi Min / Debisushi</strong><span class="handle">@debisushi</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">LA-based sushi chef, consultant, caterer, and creator known for chirashi boxes, sushi craft, Korean-influenced presentation, and pop-up-style sushi work.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Sushi</span><span class="tag">Chirashi</span><span class="tag">Japanese Food</span><span class="tag">Korean influence</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/debisushi/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://voyagela.com/interview/meet-kyoung-min-debi-min-of-debisushi/">Profile</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Deb Perelman food avatar">🍳</span>
                 <span><strong class="name">Deb Perelman / Smitten Kitchen</strong><span class="handle">@smittenkitchen</span></span>
             </div>
@@ -654,6 +730,22 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jeanelle food avatar">🥭</span>
+                <span><strong class="name">Jeanelle / Jeanelleats</strong><span class="handle">@jeanelleats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Filipino-born U.S. food and travel host sharing Filipino recipes, global food videos, baking, and approachable home cooking.</p>
+                <div class="tags"><span class="tag">Filipino</span><span class="tag">Asian Food</span><span class="tag">Recipes</span><span class="tag">Travel food</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://jeanelleats.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jeanelleats/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/jeanelleats">Linktree</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Jen Hansard food avatar">🥬</span>
                 <span><strong class="name">Jen Hansard / Simple Green Smoothies</strong><span class="handle">@simplegreensmoothies</span></span>
             </div>
@@ -711,6 +803,21 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/brunchboys/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@brunchboys">TikTok</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@BrunchBoys">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jesse Ito food avatar">🍣</span>
+                <span><strong class="name">Jesse Ito / Royal Sushi & Izakaya</strong><span class="handle">@jesseito</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Philadelphia chef and co-owner of Royal Sushi & Izakaya, focused on omakase, sushi craft, fish sourcing, and Japanese restaurant storytelling.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Japanese Food</span><span class="tag">Chef-led</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jesseito/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.escoffier.edu/podcast/123-jesse-ito-omakase/">Profile</a>
             </div>
         </article>
 
@@ -948,6 +1055,36 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://avocadoskillet.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/avocado_skillet/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kunihide Nakajima food avatar">🍣</span>
+                <span><strong class="name">Kunihide Nakajima / Nakaji</strong><span class="handle">@nigirikuni</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC third-generation sushi chef behind Nakaji, sharing Edomae-style sushi, chef-counter omakase, and traditional sushi technique.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Edomae</span><span class="tag">Chef-led</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.nakajinyc.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nigirikuni/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Lalaine Manalo food avatar">🍲</span>
+                <span><strong class="name">Lalaine Manalo / Kawaling Pinoy</strong><span class="handle">@kawalingpinoy</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Filipino recipe creator behind a large archive of Filipino and Asian-inspired recipes, cooking tips, and how-to videos.</p>
+                <div class="tags"><span class="tag">Filipino</span><span class="tag">Asian Food</span><span class="tag">Recipes</span><span class="tag">Home cooking</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.kawalingpinoy.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kawalingpinoy/">Instagram</a>
             </div>
         </article>
 
@@ -1318,6 +1455,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nora Reyes food avatar">🍚</span>
+                <span><strong class="name">Nora Reyes / Recipes by Nora</strong><span class="handle">@recipesbynora</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Jersey-based Filipino recipe writer sharing classic and everyday Filipino dishes with practical U.S. ingredient guidance.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">New Jersey</span><span class="tag">Filipino</span><span class="tag">Recipes</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.recipesbynora.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/recipesbynora/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nora food avatar">🍣</span>
                 <span><strong class="name">Nora / The Food Explora</strong><span class="handle">@noraeatsgood</span></span>
             </div>
@@ -1327,6 +1479,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/noraeatsgood/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nozomu Abe food avatar">🍣</span>
+                <span><strong class="name">Nozomu Abe / Sushi Noz</strong><span class="handle">@sushinoznyc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC omakase chef behind Sushi Noz, known for seasonal Edomae-style menus, intimate sushi counter experiences, and refined Japanese technique.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Edomae</span><span class="tag">Michelin</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.sushinoz.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushinoznyc/">Instagram</a>
             </div>
         </article>
 
@@ -1357,6 +1524,36 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/owen.han/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@owen.han">TikTok</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@owen.han">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Paul Qui food avatar">🍣</span>
+                <span><strong class="name">Paul Qui / Kokoni</strong><span class="handle">@pqui</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin/Denver-linked chef and restaurateur behind modern omakase projects including Kokoni, with Japanese-inspired tasting-menu and chef-driven restaurant content.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Denver</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Chef-led</span><span class="tag">Tasting menu</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pqui/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://voyagedenver.com/interview/meet-paul-qui-of-rino/">Profile</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Phillip Frankland Lee and Margarita Kallas-Lee food avatar">🍣</span>
+                <span><strong class="name">Phillip Frankland Lee & Margarita Kallas-Lee / Sushi by Scratch Restaurants</strong><span class="handle">@sushibyscratchrestaurants</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chef-owner duo behind Sushi by Scratch Restaurants, a reservation-based omakase concept with U.S. locations and sushi tasting-menu content.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Tasting menu</span><span class="tag">Chef-led</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.sushibyscratchrestaurants.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushibyscratchrestaurants/">Instagram</a>
             </div>
         </article>
 
@@ -1443,6 +1640,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hangryblogger/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rose food avatar">🍠</span>
+                <span><strong class="name">Rose / Deliciously Rushed</strong><span class="handle">@deliciouslyrushed</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">California-based Filipina recipe developer focused on fast Filipino and Asian-inspired weeknight recipes, ube desserts, and practical shortcuts.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">California</span><span class="tag">Filipino</span><span class="tag">Asian Food</span><span class="tag">Weeknight</span><span class="tag">Ube</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://deliciouslyrushed.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/deliciouslyrushed/">Instagram</a>
             </div>
         </article>
 
@@ -1674,6 +1886,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_stormyblue/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sushi Cravings food avatar">🍣</span>
+                <span><strong class="name">Sushi Cravings</strong><span class="handle">@sushicravings</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Orange County sushi-focused creator account highlighting sushi finds, sushi cravings, and Southern California Japanese food content.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Orange County</span><span class="tag">Sushi</span><span class="tag">Japanese Food</span><span class="tag">Restaurants</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushicravings/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://influencers.feedspot.com/southern_california_sushi_instagram_influencers/">Profile</a>
             </div>
         </article>
 
