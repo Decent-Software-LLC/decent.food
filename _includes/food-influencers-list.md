@@ -1592,8 +1592,8 @@
                 <span><strong class="name">Namiko Hirasawa Chen / Just One Cookbook</strong><span class="handle">@justonecookbook</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Japanese home-cooking creator sharing approachable, well-tested recipes, Japanese ingredients, technique guides, and everyday meals.</p>
-                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Japanese</span><span class="tag">Recipes</span><span class="tag">Home cooking</span><span class="tag">Technique</span></div>
+                <p class="bio">Japanese home-cooking creator sharing approachable recipes, ingredient guides, bento, noodles, rice bowls, and everyday Japanese meals.</p>
+                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Home cooking</span><span class="tag">Recipes</span><span class="tag">Bento</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.justonecookbook.com/">Website</a>
@@ -1718,6 +1718,138 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://mykoreankitchen.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mykoreankitchen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Yuto Omura food avatar">🍜</span>
+                <span><strong class="name">Yuto Omura / Sudachi Recipes</strong><span class="handle">@sudachi.recipes</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japanese recipe creator focused on authentic and modern Japanese food, from sukiyaki and soba to teriyaki and home-style classics.</p>
+                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Recipes</span><span class="tag">Home cooking</span><span class="tag">Technique</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://sudachirecipes.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sudachi.recipes/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Shihoko Ura food avatar">🍙</span>
+                <span><strong class="name">Shihoko Ura / Chopstick Chronicles</strong><span class="handle">@chopstickchronicles</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japanese home cook sharing traditional family recipes, pantry guidance, ingredient substitutions, and approachable Japanese cooking.</p>
+                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Traditional recipes</span><span class="tag">Home cooking</span><span class="tag">Pantry</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.chopstickchronicles.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chopstickchronicles/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Lisa Kitahara food avatar">🍚</span>
+                <span><strong class="name">Lisa Kitahara / Okonomi Kitchen</strong><span class="handle">@okonomikitchen</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japanese and plant-forward recipe creator sharing vegan Japanese recipes, rice bowls, curry, sweets, and modern Japanese-inspired cooking.</p>
+                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Vegan</span><span class="tag">Plant-based</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.okonomikitchen.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/okonomikitchen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Marc Matsumoto food avatar">🍛</span>
+                <span><strong class="name">Marc Matsumoto / No Recipes</strong><span class="handle">@norecipes</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Tokyo-based former chef and food writer sharing technique-first Japanese recipes, ramen, yakisoba, onigiri, curry, and everyday cooking.</p>
+                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Technique</span><span class="tag">Recipes</span><span class="tag">Tokyo</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://norecipes.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/norecipes/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chef Hiro food avatar">🍣</span>
+                <span><strong class="name">Chef Hiro</strong><span class="handle">@sushi_chef.hiro</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japan-based sushi chef creating high-reach sushi videos around nigiri, tuna, uni, tempura, knife work, and sushi technique.</p>
+                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">Omakase</span><span class="tag">Technique</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushi_chef.hiro/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@chefhiro4898">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kunihiro food avatar">🍣</span>
+                <span><strong class="name">Kunihiro / Sushi By Kunihiro</strong><span class="handle">@sushibykunihiro</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japanese sushi chef teaching step-by-step sushi and authentic Japanese food through detailed recipe videos.</p>
+                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">YouTube</span><span class="tag">Technique</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@SushiByKunihiro">YouTube</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushibykunihiro/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Snezhana Briukhanova food avatar">🍣</span>
+                <span><strong class="name">Snezhana Briukhanova / Chef Snezhana</strong><span class="handle">@chefsnezhana</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami sushi chef creating omakase, sushi, knife-work, and sushi-lover content.</p>
+                <div class="tags"><span class="tag">Sushi</span><span class="tag">Chef-led</span><span class="tag">Omakase</span><span class="tag">Miami</span><span class="tag">Japanese food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chefsnezhana/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rishun Tomura food avatar">🍣</span>
+                <span><strong class="name">Rishun Tomura</strong><span class="handle">@rishun_tomura</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japan-based sushi chef and producer with long-running sushi experience, events, collaborations, and Japanese sushi content.</p>
+                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">Tokyo</span><span class="tag">Omakase</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rishun_tomura/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chef Yonten Gyamtso food avatar">🍣</span>
+                <span><strong class="name">Chef Yonten Gyamtso</strong><span class="handle">@chefyonten</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Sushi chef sharing omakase, sushi, sashimi, and restaurant-style Japanese food content.</p>
+                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">Omakase</span><span class="tag">Sashimi</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chefyonten/">Instagram</a>
             </div>
         </article>
 
