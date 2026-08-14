@@ -1855,6 +1855,180 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mark Wiens food avatar">🌶️</span>
+                <span><strong class="name">Mark Wiens / Migrationology</strong><span class="handle">@migrationology</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Global street-food and travel-food creator known for market tours, spicy food, regional dishes, and long-form food storytelling.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Markets</span><span class="tag">Global</span><span class="tag">YouTube</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://migrationology.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/migrationology/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sonny Side food avatar">🍢</span>
+                <span><strong class="name">Sonny Side / Best Ever Food Review Show</strong><span class="handle">@besteverfoodreviewshow</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Global food show host focused on unusual dishes, street-food culture, local guides, and cinematic food travel.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Global</span><span class="tag">Video</span><span class="tag">Food culture</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.besteverfoodreviewshow.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/besteverfoodreviewshow/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Trevor James food avatar">🍜</span>
+                <span><strong class="name">Trevor James / The Food Ranger</strong><span class="handle">@thefoodranger</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Street-food explorer documenting markets, noodles, regional specialties, and food travel across Asia and beyond.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Asian Food</span><span class="tag">Markets</span><span class="tag">YouTube</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.thefoodranger.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thefoodranger/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Karan Dua food avatar">🥘</span>
+                <span><strong class="name">Karan Dua / Dil Se Foodie</strong><span class="handle">@dilsefoodie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Indian street-food creator covering Delhi eats, regional food, food stalls, cultural food stories, and viral street snacks.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Delhi</span><span class="tag">Regional Indian</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dilsefoodie/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Vinay Rawat food avatar">🍛</span>
+                <span><strong class="name">Vinay Rawat / India Eat Mania</strong><span class="handle">@india_eat_mania</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">India-focused street-food and cafe discovery account covering local eats, food stalls, and city food finds.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Local guide</span><span class="tag">Cafes</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/india_eat_mania/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mehul Hingu food avatar">🍲</span>
+                <span><strong class="name">Mehul Hingu / Street Food Recipe</strong><span class="handle">@streetfoodrecipe</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Mumbai-based creator traveling for street food, food recipes, regional snacks, and global food finds.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Mumbai</span><span class="tag">Travel food</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/streetfoodrecipe/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Harsimran Singh food avatar">🥙</span>
+                <span><strong class="name">Harsimran Singh / Harry Uppal</strong><span class="handle">@therealharryuppal</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Indian food creator focused on street food, regional eats, food challenges, and local food discovery.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Regional Indian</span><span class="tag">Food review</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/therealharryuppal/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ebbin Jose food avatar">🍚</span>
+                <span><strong class="name">Ebbin Jose / Food N Travel</strong><span class="handle">@foodntraveltv</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Kerala-based food and travel creator sharing street food, restaurants, regional Indian dishes, and travel eating.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Kerala</span><span class="tag">Travel food</span><span class="tag">Restaurants</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodntraveltv/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Seth Lui food avatar">🍜</span>
+                <span><strong class="name">Seth Lui</strong><span class="handle">@sethluicious</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Singapore food media creator covering hawker food, casual eats, nightlife, restaurants, and regional food features.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Singapore</span><span class="tag">Hawker food</span><span class="tag">Restaurants</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://sethlui.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sethluicious/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Luke Martin food avatar">🥢</span>
+                <span><strong class="name">Luke Martin / Chopstick Travel</strong><span class="handle">@chopsticktravel</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Food travel host focused on street food, local markets, Asian food, and documentary-style eating guides.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Asian Food</span><span class="tag">Markets</span><span class="tag">YouTube</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ChopstickTravel">YouTube</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chopsticktravel/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Anubhav Sapra food avatar">🍲</span>
+                <span><strong class="name">Anubhav Sapra / Delhi Food Walks</strong><span class="handle">@delhifoodwalks</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Delhi food expert leading street-food walks and documenting Indian food heritage, markets, snacks, and neighborhood classics.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Delhi</span><span class="tag">Food heritage</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.delhifoodwalks.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/delhifoodwalks/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Street Food Journey food avatar">🍡</span>
+                <span><strong class="name">Street Food Journey</strong><span class="handle">@streetfoodjourn3y</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Large street-food discovery account focused on global street food, market cooking, vendor videos, and high-visual food clips.</p>
+                <div class="tags"><span class="tag">Street food</span><span class="tag">Global</span><span class="tag">Markets</span><span class="tag">Vendor food</span><span class="tag">Short-form</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/streetfoodjourn3y/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Zoha Malik food avatar">🥮</span>
                 <span><strong class="name">Zoha Malik / Bake With Zoha</strong><span class="handle">@bakewithzoha</span></span>
             </div>
