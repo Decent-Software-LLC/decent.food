@@ -95,6 +95,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Anela Malik food avatar">🍲</span>
+                <span><strong class="name">Anela Malik / Feed the Malik</strong><span class="handle">@feedthemalik</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Food writer and creator behind DC-area Black-owned and Black-led dining guides, focused on intentional eating and food justice.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Food writing</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.feedthemalik.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/feedthemalik/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Bayareafoodz food avatar">🍟</span>
                 <span><strong class="name">Bayareafoodz</strong><span class="handle">@bayareafoodz</span></span>
             </div>
@@ -104,6 +119,51 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bayareafoodz/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Black Chicago Eats food avatar">🍗</span>
+                <span><strong class="name">Black Chicago Eats</strong><span class="handle">@blackchicagoeats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chicago food platform celebrating Black-owned restaurants, food culture, restaurant discovery, and local dining stories.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Chicago</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food culture</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/blackchicagoeats">Link hub</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackchicagoeats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Eden Hagos food avatar">🍛</span>
+                <span><strong class="name">Eden Hagos / Black Foodie</strong><span class="handle">@blackfoodie.co</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Platform and creator highlighting Black food culture, Black-owned restaurants, dining events, and the people behind the food.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Black food culture</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food storytelling</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.blackfoodie.co/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackfoodie.co/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Black Restaurant Week food avatar">🍽️</span>
+                <span><strong class="name">Black Restaurant Week</strong><span class="handle">@blackrestaurantweek</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">National platform celebrating Black-owned restaurants, food businesses, events, and restaurant directories year-round.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">National</span><span class="tag">Restaurants</span><span class="tag">Directory</span><span class="tag">Events</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://blackrestaurantweeks.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackrestaurantweek/">Instagram</a>
             </div>
         </article>
 
@@ -168,6 +228,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chef Vicky V food avatar">🥘</span>
+                <span><strong class="name">Chef Vicky V / The Queen of Yum</strong><span class="handle">@thequeenofyum</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chef and creator covering food, travel, culture, and Black business discovery, including Houston-area Black-owned businesses.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Houston</span><span class="tag">Restaurants</span><span class="tag">Culture</span><span class="tag">Travel food</span><span class="tag">Experiences</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thequeenofyum/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Chelsey White food avatar">🧁</span>
                 <span><strong class="name">Chelsey White / Chelsweets</strong><span class="handle">@chelsweets</span></span>
             </div>
@@ -209,6 +283,34 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://damndelicious.net">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/damndelicious/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Cornelia Poku food avatar">🍤</span>
+                <span><strong class="name">Cornelia Poku / Black Girls Explore DC</strong><span class="handle">@blackgirls.exploredc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC-based creator sharing food, experiences, and Black-owned business discovery around Washington DC.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Experiences</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackgirls.exploredc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chris Stoll food avatar">🔥</span>
+                <span><strong class="name">Chris Stoll / Plazoo BBQ</strong><span class="handle">@plazoo_bbq</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Virginia Beach food creator focused on backyard grilling, griddle cooking, BBQ, baking, and food photography.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Virginia Beach</span><span class="tag">757</span><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/plazoo_bbq/">Instagram</a>
             </div>
         </article>
 
@@ -352,6 +454,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jeremy E Joyce food avatar">🍖</span>
+                <span><strong class="name">Jeremy E. Joyce / Black People Eats</strong><span class="handle">@blackpeopleeats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chicago-born food platform focused on connecting people with Black-owned restaurants, bars, food startups, and local restaurant stories.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Chicago</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://blackpeopleeats.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackpeopleeats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Jessica Woo food avatar">🍱</span>
                 <span><strong class="name">Jessica Woo / Bento Box Queen</strong><span class="handle">@sulheejessica</span></span>
             </div>
@@ -409,6 +526,20 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.joshuaweissman.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@JoshuaWeissman">YouTube</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@flakeysalt">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Judy Pan food avatar">🍱</span>
+                <span><strong class="name">Judy Pan / Foodooboos</strong><span class="handle">@foodooboos</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC, Maryland, and Virginia food, experience, and travel creator known for food photography, Asian food finds, and regional dining content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Food photography</span><span class="tag">Asian cuisine</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodooboos/">Instagram</a>
             </div>
         </article>
 
@@ -485,6 +616,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://pinchofyum.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pinchofyum/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Lisa Parker food avatar">🍽️</span>
+                <span><strong class="name">Lisa Parker / LP in the City</strong><span class="handle">@lpinthecity</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Hampton Roads and Virginia Beach creator covering food, events, experiences, travel, and local things to do.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Virginia Beach</span><span class="tag">Hampton Roads</span><span class="tag">Restaurants</span><span class="tag">Experiences</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lpinthecity/">Instagram</a>
             </div>
         </article>
 
@@ -573,6 +718,48 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://divascancook.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/divascancook/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Moni food avatar">🍝</span>
+                <span><strong class="name">Moni / Moni Eats 757</strong><span class="handle">@moni_eats757</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Virginia Beach and 757 food creator sharing local meals, restaurant finds, casual food photos, and regional dining content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Virginia Beach</span><span class="tag">757</span><span class="tag">Restaurants</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/moni_eats757/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nora food avatar">🍣</span>
+                <span><strong class="name">Nora / The Food Explora</strong><span class="handle">@noraeatsgood</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">RVA, 757, and DMV food creator covering Michelin dining, fine dining, travel, and restaurant experiences.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Richmond</span><span class="tag">757</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Fine dining</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/noraeatsgood/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Odester Eats food avatar">🥘</span>
+                <span><strong class="name">Odester Eats</strong><span class="handle">@odestereats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Coastal Virginia food creator focused on intentional dining, chef-driven restaurants, hidden gems, Black-owned businesses, and elevated storytelling.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Virginia Beach</span><span class="tag">Coastal Virginia</span><span class="tag">Restaurants</span><span class="tag">Black-owned</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/odestereats/">Instagram</a>
             </div>
         </article>
 
@@ -681,6 +868,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sarah Stusek food avatar">🍔</span>
+                <span><strong class="name">Sarah Stusek</strong><span class="handle">@sarahstusek</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Northern Virginia food reviewer focused on viral food videos, diner food, local restaurants, and NOVA food finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Northern Virginia</span><span class="tag">NOVA</span><span class="tag">Restaurants</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sarahstusek/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@sarahstusek">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Selam and Emily food avatar">🍕</span>
                 <span><strong class="name">Selam & Emily / DMV Bite</strong><span class="handle">@dmvbite</span></span>
             </div>
@@ -738,6 +940,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Stormy Blue food avatar">🍷</span>
+                <span><strong class="name">Stormy Blue</strong><span class="handle">@_stormyblue</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">757 and Virginia Beach food, lifestyle, and fun creator sharing local eats, experiences, and Virginia-area travel.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Virginia Beach</span><span class="tag">757</span><span class="tag">Restaurants</span><span class="tag">Lifestyle</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_stormyblue/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Tabitha Brown food avatar">🥑</span>
                 <span><strong class="name">Tabitha Brown</strong><span class="handle">@iamtabithabrown</span></span>
             </div>
@@ -749,6 +965,21 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/iamtabithabrown/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@iamtabithabrown">TikTok</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TabithaBrown">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Talia Cadet food avatar">🍹</span>
+                <span><strong class="name">Talia Cadet</strong><span class="handle">@taliacadet</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC-based creator and host sharing lists around DC events, travel, books, and Black-owned businesses.</p>
+                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Lifestyle</span><span class="tag">Local guide</span><span class="tag">Experiences</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.taliacadet.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/taliacadet/">Instagram</a>
             </div>
         </article>
 
@@ -774,8 +1005,8 @@
                 <span><strong class="name">Tristen Asrejadid / Nomz All Day</strong><span class="handle">@nomzallday</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">DC, Maryland, and Virginia creator covering good eats, new spots, things to do, travel, and Arlington-area food finds.</p>
-                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Things to do</span><span class="tag">Travel food</span></div>
+                <p class="bio">Arlington-based DC, Maryland, and Virginia creator covering good eats, new spots, things to do, travel, pizza, brunch, and local finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">Virginia</span><span class="tag">Arlington</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Things to do</span><span class="tag">Travel food</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nomzallday/">Instagram</a>
@@ -795,6 +1026,20 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://tiffycooks.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tiffy.cooks/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@tiffycooks">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="The VA Foodies food avatar">🍴</span>
+                <span><strong class="name">The VA Foodies</strong><span class="handle">@thevafoodies</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Virginia food account highlighting restaurants, multi-city Virginia food finds, and NOVA/VA dining recommendations.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">Northern Virginia</span><span class="tag">NOVA</span><span class="tag">Restaurants</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thevafoodies/">Instagram</a>
             </div>
         </article>
 
