@@ -5,12 +5,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const guideCards = document.querySelectorAll('.guide-card');
     const noResults = document.getElementById('no-results');
     const foodiesSearchInput = document.getElementById('foodies-search');
+    const foodiesTagSuggestions = document.getElementById('foodies-tag-suggestions');
     const foodieRows = document.querySelectorAll('.foodies-page .person-row');
     const foodiesNoResults = document.getElementById('foodies-no-results');
     const foodiesCountHeading = document.getElementById('foodies-count-heading');
     const foodiesHeroTitle = document.querySelector('.foodies-hero-title');
     const foodiesHeroDescription = document.querySelector('.foodies-hero-description');
     const defaultFoodiesHeroDescription = foodiesHeroDescription?.textContent || '';
+    let foodiesTags = [];
 
     let currentArticleType = 'all';
     let currentSearchTerm = '';
@@ -68,10 +70,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     if (foodiesSearchInput) {
+        foodiesTags = getFoodiesTags();
+        updateFoodiesTagSuggestions('');
+
         const foodiesUrlSearchTerm = getFoodiesUrlSearchTerm();
         if (foodiesUrlSearchTerm) {
             const safeFoodiesUrlSearchTerm = sanitizeFoodiesSearchTerm(foodiesUrlSearchTerm);
             foodiesSearchInput.value = safeFoodiesUrlSearchTerm;
+            updateFoodiesTagSuggestions(safeFoodiesUrlSearchTerm);
             filterFoodies(safeFoodiesUrlSearchTerm, {
                 updateUrl: safeFoodiesUrlSearchTerm !== foodiesUrlSearchTerm
             });
@@ -83,6 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (safeSearchTerm !== this.value) {
                     this.value = safeSearchTerm;
                 }
+                updateFoodiesTagSuggestions(safeSearchTerm);
                 filterFoodies(safeSearchTerm);
             });
         });
@@ -183,6 +190,40 @@ document.addEventListener('DOMContentLoaded', function() {
         return '';
     }
 
+    function getFoodiesTags() {
+        return Array.from(document.querySelectorAll('.foodies-page .tag'))
+            .map(tag => tag.textContent.trim())
+            .filter(Boolean)
+            .filter((tag, index, tags) => tags.findIndex(item => item.toLowerCase() === tag.toLowerCase()) === index)
+            .sort((a, b) => a.localeCompare(b));
+    }
+
+    function updateFoodiesTagSuggestions(searchTerm) {
+        if (!foodiesTagSuggestions) {
+            return;
+        }
+
+        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        if (normalizedSearchTerm.length < 3) {
+            foodiesTagSuggestions.replaceChildren();
+            return;
+        }
+
+        const isExactTagMatch = foodiesTags.some(tag => tag.toLowerCase() === normalizedSearchTerm);
+        if (isExactTagMatch) {
+            foodiesTagSuggestions.replaceChildren();
+            return;
+        }
+
+        const matchingTags = foodiesTags.filter(tag => tag.toLowerCase().includes(normalizedSearchTerm));
+
+        foodiesTagSuggestions.replaceChildren(...matchingTags.map(tag => {
+            const option = document.createElement('option');
+            option.value = tag;
+            return option;
+        }));
+    }
+
     function toFoodiesTitleCase(value) {
         return value.replace(/\p{L}[\p{L}'’]*/gu, word => {
             if (word.length > 1 && word === word.toUpperCase()) {
@@ -223,8 +264,8 @@ document.addEventListener('DOMContentLoaded', function() {
             : toFoodiesTitleCase(sanitizeFoodiesSearchTerm(searchTerm).trim());
 
         foodiesCountHeading.textContent = displayTerm
-            ? `${visibleCount} ${displayTerm} Foodies`
-            : `${visibleCount} foodies`;
+            ? `${visibleCount} ${displayTerm} Foodies found`
+            : `${visibleCount} foodies found`;
     }
 
     function updateFoodiesSearchUrl(searchTerm) {

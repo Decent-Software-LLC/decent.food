@@ -17,10 +17,11 @@ permalink: /food-influencers.html
 
 <div class="foodies-page container">
     <div class="foodies-search search-box">
-        <input type="search" id="foodies-search" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">
+        <input type="search" id="foodies-search" list="foodies-tag-suggestions" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">
+        <datalist id="foodies-tag-suggestions"></datalist>
     </div>
 
-    <h3 class="foodies-count-heading" id="foodies-count-heading">{{ foodies_count }} foodies</h3>
+    <h3 class="foodies-count-heading" id="foodies-count-heading">{{ foodies_count }} foodies found</h3>
 
     {{ foodies_markup }}
 
