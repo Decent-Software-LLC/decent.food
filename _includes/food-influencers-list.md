@@ -111,36 +111,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Anubhav Sapra food avatar">🍲</span>
-                <span><strong class="name">Anubhav Sapra / Delhi Food Walks</strong><span class="handle">@delhifoodwalks</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Delhi food expert leading street-food walks and documenting Indian food heritage, markets, snacks, and neighborhood classics.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Delhi</span><span class="tag">Food heritage</span><span class="tag">Local guide</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.delhifoodwalks.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/delhifoodwalks/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Archana Doshi food avatar">🍛</span>
-                <span><strong class="name">Archana Doshi / Archana's Kitchen</strong><span class="handle">@archanaskitchen</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Indian recipe publisher focused on practical regional recipes, healthy meal plans, kids' tiffin ideas, and everyday cooking.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Meal planning</span><span class="tag">Regional Indian</span><span class="tag">Healthy eating</span><span class="tag">Family meals</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.archanaskitchen.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/archanaskitchen/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Arielle Hart food avatar">🥂</span>
                 <span><strong class="name">Arielle Hart / Fab Foodie in the City</strong><span class="handle">@fabfoodieinthecity</span></span>
             </div>
@@ -183,16 +153,15 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Bee Yinn Low food avatar">🍤</span>
-                <span><strong class="name">Bee Yinn Low / Rasa Malaysia</strong><span class="handle">@rasamalaysia</span></span>
+                <span class="avatar emoji-avatar" role="img" aria-label="Becca and Christina food avatar">🍸</span>
+                <span><strong class="name">Becca & Christina / Philly Food Ladies</strong><span class="handle">@phillyfoodladies</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Chinese-Malaysian recipe developer sharing Malaysian, Chinese, Southeast Asian, and broader Asian recipes for home cooks.</p>
-                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Malaysian</span><span class="tag">Chinese</span><span class="tag">Southeast Asian</span><span class="tag">Recipes</span></div>
+                <p class="bio">Philly guide account covering food, drinks, things to do, and fun local experiences.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Drinks</span><span class="tag">Experiences</span></div>
             </div>
             <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://rasamalaysia.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rasamalaysia/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phillyfoodladies/">Instagram</a>
             </div>
         </article>
 
@@ -267,21 +236,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/spicycandydc/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Chef Hiro food avatar">🍣</span>
-                <span><strong class="name">Chef Hiro</strong><span class="handle">@sushi_chef.hiro</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Japan-based sushi chef creating high-reach sushi videos around nigiri, tuna, uni, tempura, knife work, and sushi technique.</p>
-                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">Omakase</span><span class="tag">Technique</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushi_chef.hiro/">Instagram</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@chefhiro4898">YouTube</a>
             </div>
         </article>
 
@@ -434,6 +388,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Cristina Martinez food avatar">🌮</span>
+                <span><strong class="name">Cristina Martinez / South Philly Barbacoa</strong><span class="handle">@barbacoachef</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">James Beard Award-winning chef known for barbacoa, handmade tortillas, South Philly food culture, and Mexican cooking.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Chef-led</span><span class="tag">Mexican food</span><span class="tag">Restaurants</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/barbacoachef/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Dan Pelosi food avatar">🍝</span>
                 <span><strong class="name">Dan Pelosi / GrossyPelosi</strong><span class="handle">@grossypelosi</span></span>
             </div>
@@ -444,21 +412,6 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.danpelosi.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grossypelosi/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Danilo Cortellini food avatar">🍝</span>
-                <span><strong class="name">Danilo Cortellini</strong><span class="handle">@danilocortellini</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Italian chef and cookbook author with Michelin and Italian Embassy background, focused on Italian recipes and chef-led technique.</p>
-                <div class="tags"><span class="tag">Italian food</span><span class="tag">Chef-led</span><span class="tag">Pasta</span><span class="tag">Cookbooks</span><span class="tag">Technique</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://danilocortellini.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/danilocortellini/">Instagram</a>
             </div>
         </article>
 
@@ -479,6 +432,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="David Wesolowski food avatar">🍕</span>
+                <span><strong class="name">David Wesolowski / Feeding Time TV</strong><span class="handle">@feedingtimetv</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Philly/NJ food creator and podcast co-host covering restaurants, travel eats, parties, and equal-opportunity eating.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">New Jersey</span><span class="tag">Restaurants</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/feedingtimetv/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Deb Perelman food avatar">🍳</span>
                 <span><strong class="name">Deb Perelman / Smitten Kitchen</strong><span class="handle">@smittenkitchen</span></span>
             </div>
@@ -494,15 +461,15 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Ebbin Jose food avatar">🍚</span>
-                <span><strong class="name">Ebbin Jose / Food N Travel</strong><span class="handle">@foodntraveltv</span></span>
+                <span class="avatar emoji-avatar" role="img" aria-label="Djour Philly food avatar">🥫</span>
+                <span><strong class="name">Djour / Djour Philly</strong><span class="handle">@djour.philly</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Kerala-based food and travel creator sharing street food, restaurants, regional Indian dishes, and travel eating.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Kerala</span><span class="tag">Travel food</span><span class="tag">Restaurants</span></div>
+                <p class="bio">Philly food reviewer focused on community-first food mapping, independent opinions, restaurants, and local food culture.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Food review</span><span class="tag">Local guide</span></div>
             </div>
             <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodntraveltv/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/djour.philly/">Instagram</a>
             </div>
         </article>
 
@@ -584,35 +551,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Harsimran Singh food avatar">🥙</span>
-                <span><strong class="name">Harsimran Singh / Harry Uppal</strong><span class="handle">@therealharryuppal</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Indian food creator focused on street food, regional eats, food challenges, and local food discovery.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Regional Indian</span><span class="tag">Food review</span><span class="tag">Travel food</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/therealharryuppal/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Hina Bisht food avatar">🥘</span>
-                <span><strong class="name">Hina Bisht / Fun Food Frolic</strong><span class="handle">@funfoodandfrolic</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Indian food blogger sharing main courses, snacks, desserts, meal ideas, and approachable home recipes with a modern feel.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Snacks</span><span class="tag">Home cooking</span><span class="tag">Desserts</span><span class="tag">Meal ideas</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.funfoodfrolic.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/funfoodandfrolic/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Hugh Harper food avatar">🌯</span>
                 <span><strong class="name">Hugh Harper / HungryHugh</strong><span class="handle">@hungryhugh</span></span>
             </div>
@@ -638,6 +576,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.isabeleats.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/isabeleats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jackie Frei food avatar">🍔</span>
+                <span><strong class="name">Jackie Frei / Bon Nappetit</strong><span class="handle">@bon_nappetit</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC and Philly food creator sharing restaurant finds, indulgent eats, and social-first food discovery.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">NYC</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bon_nappetit/">Instagram</a>
             </div>
         </article>
 
@@ -794,6 +746,34 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jon DiPippo food avatar">🥨</span>
+                <span><strong class="name">Jon DiPippo / The Philly Food Fanatic</strong><span class="handle">@thephillyfoodfanatic</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Philadelphia food and lifestyle media creator focused on restaurant discovery, local businesses, and Philly food recommendations.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thephillyfoodfanatic/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Josh Moore food avatar">🍗</span>
+                <span><strong class="name">Josh Moore / Josh Eats Philly</strong><span class="handle">@josheatsphilly</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Philly food creator and local dining personality known for restaurant recommendations and #JoshEatsPhilly food coverage.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food review</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/josheatsphilly/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Joshua Weissman food avatar">🍣</span>
                 <span><strong class="name">Joshua Weissman</strong><span class="handle">@joshuaweissman</span></span>
             </div>
@@ -854,15 +834,15 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Karan Dua food avatar">🥘</span>
-                <span><strong class="name">Karan Dua / Dil Se Foodie</strong><span class="handle">@dilsefoodie</span></span>
+                <span class="avatar emoji-avatar" role="img" aria-label="Kass food avatar">🍝</span>
+                <span><strong class="name">Kass / Philly Food Girl</strong><span class="handle">@phillyfoodgirl</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Indian street-food creator covering Delhi eats, regional food, food stalls, cultural food stories, and viral street snacks.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Delhi</span><span class="tag">Regional Indian</span><span class="tag">Food review</span></div>
+                <p class="bio">Philly home cook and creator known for comfort dishes, family meals, mom-life food content, and recipe-style videos.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Home cooking</span><span class="tag">Comfort food</span><span class="tag">Recipe video</span></div>
             </div>
             <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dilsefoodie/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phillyfoodgirl/">Instagram</a>
             </div>
         </article>
 
@@ -928,16 +908,15 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Kunihiro food avatar">🍣</span>
-                <span><strong class="name">Kunihiro / Sushi By Kunihiro</strong><span class="handle">@sushibykunihiro</span></span>
+                <span class="avatar emoji-avatar" role="img" aria-label="Lauren Carroll food avatar">🥨</span>
+                <span><strong class="name">Lauren Carroll / Love Philly Food</strong><span class="handle">@love_phillyfood</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Japanese sushi chef teaching step-by-step sushi and authentic Japanese food through detailed recipe videos.</p>
-                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">YouTube</span><span class="tag">Technique</span></div>
+                <p class="bio">Philly and Main Line food creator sharing original restaurant photos, local eats, and regional dining finds.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Main Line</span><span class="tag">Restaurants</span><span class="tag">Food photography</span></div>
             </div>
             <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@SushiByKunihiro">YouTube</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushibykunihiro/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/love_phillyfood/">Instagram</a>
             </div>
         </article>
 
@@ -987,21 +966,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Lisa Kitahara food avatar">🍚</span>
-                <span><strong class="name">Lisa Kitahara / Okonomi Kitchen</strong><span class="handle">@okonomikitchen</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Japanese and plant-forward recipe creator sharing vegan Japanese recipes, rice bowls, curry, sweets, and modern Japanese-inspired cooking.</p>
-                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Vegan</span><span class="tag">Plant-based</span><span class="tag">Recipes</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.okonomikitchen.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/okonomikitchen/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Lisa Parker food avatar">🍽️</span>
                 <span><strong class="name">Lisa Parker / LP in the City</strong><span class="handle">@lpinthecity</span></span>
             </div>
@@ -1025,21 +989,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodwithzen/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Luke Martin food avatar">🥢</span>
-                <span><strong class="name">Luke Martin / Chopstick Travel</strong><span class="handle">@chopsticktravel</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Food travel host focused on street food, local markets, Asian food, and documentary-style eating guides.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Asian Food</span><span class="tag">Markets</span><span class="tag">YouTube</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@ChopstickTravel">YouTube</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chopsticktravel/">Instagram</a>
             </div>
         </article>
 
@@ -1090,21 +1039,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Marc Matsumoto food avatar">🍛</span>
-                <span><strong class="name">Marc Matsumoto / No Recipes</strong><span class="handle">@norecipes</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Tokyo-based former chef and food writer sharing technique-first Japanese recipes, ramen, yakisoba, onigiri, curry, and everyday cooking.</p>
-                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Technique</span><span class="tag">Recipes</span><span class="tag">Tokyo</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://norecipes.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/norecipes/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Maria D'Errico food avatar">🍝</span>
                 <span><strong class="name">Maria D'Errico / Little Nonni</strong><span class="handle">@littlenonni</span></span>
             </div>
@@ -1115,21 +1049,6 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://littlenonni.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/littlenonni/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Mark Wiens food avatar">🌶️</span>
-                <span><strong class="name">Mark Wiens / Migrationology</strong><span class="handle">@migrationology</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Global street-food and travel-food creator known for market tours, spicy food, regional dishes, and long-form food storytelling.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Markets</span><span class="tag">Global</span><span class="tag">YouTube</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://migrationology.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/migrationology/">Instagram</a>
             </div>
         </article>
 
@@ -1179,20 +1098,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Mehul Hingu food avatar">🍲</span>
-                <span><strong class="name">Mehul Hingu / Street Food Recipe</strong><span class="handle">@streetfoodrecipe</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Mumbai-based creator traveling for street food, food recipes, regional snacks, and global food finds.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Mumbai</span><span class="tag">Travel food</span><span class="tag">Recipes</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/streetfoodrecipe/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Meryl Feinstein food avatar">🍝</span>
                 <span><strong class="name">Meryl Feinstein / Pasta Social Club</strong><span class="handle">@pastasocialclub</span></span>
             </div>
@@ -1203,6 +1108,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.pastasocialclub.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pastasocialclub/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Michael Klein food avatar">📰</span>
+                <span><strong class="name">Michael Klein / Philly Insider</strong><span class="handle">@phillyinsider</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Longtime Philadelphia restaurant and food reporter covering openings, chefs, dining news, and local restaurant context.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Food writing</span><span class="tag">Dining news</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phillyinsider/">Instagram</a>
             </div>
         </article>
 
@@ -1233,6 +1152,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://minimalistbaker.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/minimalistbaker/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mollie Dronson food avatar">🍟</span>
+                <span><strong class="name">Mollie Dronson / Philly Foodies</strong><span class="handle">@phillyfoodies</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Philly-area food creator sharing food in and around the City of Brotherly Love, including restaurants, casual eats, and local finds.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food photography</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phillyfoodies/">Instagram</a>
             </div>
         </article>
 
@@ -1311,21 +1244,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Nandita Iyer food avatar">🥗</span>
-                <span><strong class="name">Nandita Iyer / Saffron Trail</strong><span class="handle">@saffrontrail</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Doctor, author, and vegetarian food creator focused on healthy Indian recipes, traditional ingredients, millet, dosa, and practical nutrition.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Vegetarian</span><span class="tag">Healthy eating</span><span class="tag">South Indian</span><span class="tag">Cookbooks</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.saffrontrail.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/saffrontrail/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nick Munro food avatar">🍝</span>
                 <span><strong class="name">Nick Munro / The Rigaytoni</strong><span class="handle">@therigaytoni</span></span>
             </div>
@@ -1341,16 +1259,15 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Nisha Madhulika food avatar">🍛</span>
-                <span><strong class="name">Nisha Madhulika</strong><span class="handle">@nishamadhulika</span></span>
+                <span class="avatar emoji-avatar" role="img" aria-label="Nije Banks food avatar">🥂</span>
+                <span><strong class="name">Nije Banks / Fueled on Philly</strong><span class="handle">@fueledonphilly</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Vegetarian Indian cooking creator known for clear Hindi recipes, North Indian dishes, snacks, sweets, and beginner-friendly home cooking.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Vegetarian</span><span class="tag">North Indian</span><span class="tag">Hindi</span><span class="tag">Home cooking</span></div>
+                <p class="bio">Philly food, fun, and finds creator spotlighting local gems, restaurants, and social outings.</p>
+                <div class="tags"><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Experiences</span></div>
             </div>
             <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://nishamadhulika.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/NishaMadhulika">YouTube</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fueledonphilly/">Instagram</a>
             </div>
         </article>
 
@@ -1400,21 +1317,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Pailin Chongchitnant food avatar">🍜</span>
-                <span><strong class="name">Pailin Chongchitnant / Hot Thai Kitchen</strong><span class="handle">@hotthaikitchen</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Thai chef, cookbook author, and YouTube creator teaching authentic Thai recipes, ingredients, and cultural context.</p>
-                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Thai</span><span class="tag">Chef-led</span><span class="tag">YouTube</span><span class="tag">Cookbooks</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://hot-thai-kitchen.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hotthaikitchen/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Rachel Lorton food avatar">🍇</span>
                 <span><strong class="name">Rachel Lorton</strong><span class="handle">@rachelrenelorton</span></span>
             </div>
@@ -1438,21 +1340,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedonutwearsprada/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Ranveer Brar food avatar">🍢</span>
-                <span><strong class="name">Ranveer Brar</strong><span class="handle">@ranveer.brar</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Celebrity chef and author sharing Indian recipes, regional food stories, street-food context, and chef-led cooking videos.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Chef-led</span><span class="tag">Regional Indian</span><span class="tag">Street food</span><span class="tag">Video</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://ranveerbrar.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ranveer.brar/">Instagram</a>
             </div>
         </article>
 
@@ -1496,20 +1383,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hangryblogger/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Rishun Tomura food avatar">🍣</span>
-                <span><strong class="name">Rishun Tomura</strong><span class="handle">@rishun_tomura</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Japan-based sushi chef and producer with long-running sushi experience, events, collaborations, and Japanese sushi content.</p>
-                <div class="tags"><span class="tag">Sushi</span><span class="tag">Japanese food</span><span class="tag">Chef-led</span><span class="tag">Tokyo</span><span class="tag">Omakase</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rishun_tomura/">Instagram</a>
             </div>
         </article>
 
@@ -1617,21 +1490,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Seth Lui food avatar">🍜</span>
-                <span><strong class="name">Seth Lui</strong><span class="handle">@sethluicious</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Singapore food media creator covering hawker food, casual eats, nightlife, restaurants, and regional food features.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Singapore</span><span class="tag">Hawker food</span><span class="tag">Restaurants</span><span class="tag">Local guide</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://sethlui.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sethluicious/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Sherry Shi food avatar">🍣</span>
                 <span><strong class="name">Sherry Shi / Sherry Eat World</strong><span class="handle">@sherryeatworld</span></span>
             </div>
@@ -1641,21 +1499,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sherryeatworld/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Shihoko Ura food avatar">🍙</span>
-                <span><strong class="name">Shihoko Ura / Chopstick Chronicles</strong><span class="handle">@chopstickchronicles</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Japanese home cook sharing traditional family recipes, pantry guidance, ingredient substitutions, and approachable Japanese cooking.</p>
-                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Traditional recipes</span><span class="tag">Home cooking</span><span class="tag">Pantry</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.chopstickchronicles.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chopstickchronicles/">Instagram</a>
             </div>
         </article>
 
@@ -1699,21 +1542,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chefsnezhana/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Sonny Side food avatar">🍢</span>
-                <span><strong class="name">Sonny Side / Best Ever Food Review Show</strong><span class="handle">@besteverfoodreviewshow</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Global food show host focused on unusual dishes, street-food culture, local guides, and cinematic food travel.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Global</span><span class="tag">Video</span><span class="tag">Food culture</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.besteverfoodreviewshow.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/besteverfoodreviewshow/">Instagram</a>
             </div>
         </article>
 
@@ -1786,50 +1614,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_stormyblue/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Street Food Journey food avatar">🍡</span>
-                <span><strong class="name">Street Food Journey</strong><span class="handle">@streetfoodjourn3y</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Large street-food discovery account focused on global street food, market cooking, vendor videos, and high-visual food clips.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Global</span><span class="tag">Markets</span><span class="tag">Vendor food</span><span class="tag">Short-form</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/streetfoodjourn3y/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Sue Pressey food avatar">🍜</span>
-                <span><strong class="name">Sue Pressey / My Korean Kitchen</strong><span class="handle">@mykoreankitchen</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Korean recipe creator sharing approachable Korean recipes, ingredient guides, BBQ resources, and home-cooking tutorials.</p>
-                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Korean</span><span class="tag">Recipes</span><span class="tag">BBQ</span><span class="tag">Home cooking</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://mykoreankitchen.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mykoreankitchen/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Swasthi Shreekanth food avatar">🍛</span>
-                <span><strong class="name">Swasthi Shreekanth / Swasthi's Recipes</strong><span class="handle">@swasthisrecipes</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Indian recipe creator focused on tested home-style recipes, restaurant-style dishes, street foods, and step-by-step Indian cooking.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Home cooking</span><span class="tag">Restaurant-style</span><span class="tag">Street food</span><span class="tag">Family meals</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.indianhealthyrecipes.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/swasthisrecipes/">Instagram</a>
             </div>
         </article>
 
@@ -1941,21 +1725,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Trevor James food avatar">🍜</span>
-                <span><strong class="name">Trevor James / The Food Ranger</strong><span class="handle">@thefoodranger</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Street-food explorer documenting markets, noodles, regional specialties, and food travel across Asia and beyond.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Travel food</span><span class="tag">Asian Food</span><span class="tag">Markets</span><span class="tag">YouTube</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.thefoodranger.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thefoodranger/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Tristen Asrejadid food avatar">🍕</span>
                 <span><strong class="name">Tristen Asrejadid / Nomz All Day</strong><span class="handle">@nomzallday</span></span>
             </div>
@@ -1980,50 +1749,6 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://panlasangpinoy.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/panlasangpinoy/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Vinay Rawat food avatar">🍛</span>
-                <span><strong class="name">Vinay Rawat / India Eat Mania</strong><span class="handle">@india_eat_mania</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">India-focused street-food and cafe discovery account covering local eats, food stalls, and city food finds.</p>
-                <div class="tags"><span class="tag">Street food</span><span class="tag">Indian food</span><span class="tag">Local guide</span><span class="tag">Cafes</span><span class="tag">Food review</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/india_eat_mania/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Vincenzo Prosperi food avatar">🍕</span>
-                <span><strong class="name">Vincenzo Prosperi / Vincenzo's Plate</strong><span class="handle">@vincenzosplate</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Italian-born creator teaching approachable Italian recipes, pasta technique, and traditional dishes through video tutorials.</p>
-                <div class="tags"><span class="tag">Italian food</span><span class="tag">Pasta</span><span class="tag">Traditional recipes</span><span class="tag">YouTube</span><span class="tag">Technique</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.vincenzosplate.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vincenzosplate/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Yuto Omura food avatar">🍜</span>
-                <span><strong class="name">Yuto Omura / Sudachi Recipes</strong><span class="handle">@sudachi.recipes</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Japanese recipe creator focused on authentic and modern Japanese food, from sukiyaki and soba to teriyaki and home-style classics.</p>
-                <div class="tags"><span class="tag">Japanese food</span><span class="tag">Asian Food</span><span class="tag">Recipes</span><span class="tag">Home cooking</span><span class="tag">Technique</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://sudachirecipes.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sudachi.recipes/">Instagram</a>
             </div>
         </article>
 
