@@ -5,6 +5,9 @@ description: Directory of U.S. food influencers and food creators.
 permalink: /food-influencers.html
 ---
 
+{% capture foodies_markup %}{% include food-influencers-list.md %}{% endcapture %}
+{% assign foodies_count = foodies_markup | split: '<article class="person-row"' | size | minus: 1 %}
+
 <div class="hero">
     <div class="container">
         <h1 class="hero-title foodies-hero-title">Foodies</h1>
@@ -17,7 +20,9 @@ permalink: /food-influencers.html
         <input type="search" id="foodies-search" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">
     </div>
 
-    {% include food-influencers-list.md %}
+    <h3 class="foodies-count-heading" id="foodies-count-heading">{{ foodies_count }} foodies</h3>
+
+    {{ foodies_markup }}
 
     <div class="no-results foodies-no-results" id="foodies-no-results" style="display: none;">
         <p>No foodies found matching your search.</p>

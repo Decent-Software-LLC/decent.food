@@ -741,7 +741,14 @@ body {
 }
 
 .foodies-search {
-    margin-bottom: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.foodies-count-heading {
+    margin: 0 0 1.25rem;
+    color: var(--text-color);
+    font-size: 1.25rem;
+    line-height: 1.2;
 }
 
 .foodies-page .influencer-table {

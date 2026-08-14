@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodiesSearchInput = document.getElementById('foodies-search');
     const foodieRows = document.querySelectorAll('.foodies-page .person-row');
     const foodiesNoResults = document.getElementById('foodies-no-results');
+    const foodiesCountHeading = document.getElementById('foodies-count-heading');
     const foodiesHeroTitle = document.querySelector('.foodies-hero-title');
     const foodiesHeroDescription = document.querySelector('.foodies-hero-description');
     const defaultFoodiesHeroDescription = foodiesHeroDescription?.textContent || '';
@@ -85,6 +86,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 filterFoodies(safeSearchTerm);
             });
         });
+
+        if (!foodiesUrlSearchTerm) {
+            filterFoodies('', { updateUrl: false });
+        }
     }
 
     // Apply all active filters
@@ -207,6 +212,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    function updateFoodiesCountHeading(visibleCount, searchTerm) {
+        if (!foodiesCountHeading) {
+            return;
+        }
+
+        const matchingTag = getMatchingFoodiesTag(searchTerm);
+        const displayTerm = matchingTag
+            ? toFoodiesTitleCase(matchingTag)
+            : toFoodiesTitleCase(sanitizeFoodiesSearchTerm(searchTerm).trim());
+
+        foodiesCountHeading.textContent = displayTerm
+            ? `${visibleCount} ${displayTerm} Foodies`
+            : `${visibleCount} foodies`;
+    }
+
     function updateFoodiesSearchUrl(searchTerm) {
         const url = new URL(window.location.href);
         const normalizedSearchTerm = sanitizeFoodiesSearchTerm(searchTerm).trim();
@@ -246,6 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         updateFoodiesHero(safeSearchTerm);
+        updateFoodiesCountHeading(visibleCount, safeSearchTerm);
 
         if (shouldUpdateUrl) {
             updateFoodiesSearchUrl(safeSearchTerm);
