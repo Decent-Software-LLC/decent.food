@@ -15,8 +15,8 @@ sitemap: false
     <url>
         <loc>{{ "/food-influencers.html" | absolute_url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.95</priority>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
     </url>
     {% assign guides = site.guides | sort: "date" | reverse %}
     {% for guide in guides %}

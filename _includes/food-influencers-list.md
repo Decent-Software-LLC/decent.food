@@ -66,6 +66,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alana Kysar food avatar">🐟</span>
+                <span><strong class="name">Alana Kysar / Fix Feast Flair</strong><span class="handle">@alanakysar</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Hawaii-born recipe developer and author with Hawaiian food content, including ahi poke bowl recipes.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Poke bowls</span><span class="tag">Hawaiian food</span><span class="tag">Recipes</span><span class="tag">Cookbook author</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.fixfeastflair.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alanakysar/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Anali Cabrera food avatar">🍜</span>
                 <span><strong class="name">Anali Cabrera / Cabreranalieats</strong><span class="handle">@cabreranalieats</span></span>
             </div>
@@ -90,6 +105,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fabfoodieinthecity/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ava Bazzi food avatar">🍓</span>
+                <span><strong class="name">A'va Bazzi / Bee Fruity by Ava</strong><span class="handle">@beefruitybyava</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Michigan acai bowl creator who started with homemade acai bowls and grew into a bowl-focused food business.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Acai bowls</span><span class="tag">Michigan</span><span class="tag">Fruit bowls</span><span class="tag">Small business</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/beefruitybyava/">Instagram</a>
             </div>
         </article>
 
@@ -438,6 +467,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jen Hansard food avatar">🥬</span>
+                <span><strong class="name">Jen Hansard / Simple Green Smoothies</strong><span class="handle">@simplegreensmoothies</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Smoothie recipe creator and challenge/community builder focused on healthy habits, meal plans, and smoothie recipes.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">Healthy drinks</span><span class="tag">Meal plans</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://simplegreensmoothies.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/simplegreensmoothies/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Jeremy Jacobowitz food avatar">🥞</span>
                 <span><strong class="name">Jeremy Jacobowitz / Brunch Boys</strong><span class="handle">@brunchboys</span></span>
             </div>
@@ -464,6 +508,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://blackpeopleeats.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackpeopleeats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Joey Fennema food avatar">🥤</span>
+                <span><strong class="name">Joey Fennema / The Smoothie Guy</strong><span class="handle">@fenitas.nl</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Smoothie-focused creator known for smoothie recipes, drink content, and healthy blended-food videos.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">Healthy drinks</span><span class="tag">Recipes</span><span class="tag">Wellness</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fenitas.nl/">Instagram</a>
             </div>
         </article>
 
@@ -526,6 +584,20 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.joshuaweissman.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@JoshuaWeissman">YouTube</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@flakeysalt">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kaden food avatar">🍌</span>
+                <span><strong class="name">Kaden / SmoothieFlip</strong><span class="handle">@smoothieflip</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">High-reach smoothie creator focused on colorful smoothie content, healthy drinks, and quick visual recipes.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">Healthy drinks</span><span class="tag">Short-form</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/smoothieflip/">Instagram</a>
             </div>
         </article>
 
@@ -630,6 +702,35 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lpinthecity/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Lauren Hallman food avatar">🫐</span>
+                <span><strong class="name">Lauren Hallman</strong><span class="handle">@lmhallman</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Food creator known for colorful smoothie bowls, pastries, mindful food content, and vibrant recipe styling.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">Colorful food</span><span class="tag">Baking</span><span class="tag">Food styling</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lmhallman/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Lindsey food avatar">🍍</span>
+                <span><strong class="name">Lindsey / Lindssmoothies</strong><span class="handle">@lindssmoothies</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New York food creator focused on smoothie bowls, new recipes, and approachable bowl content.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">New York</span><span class="tag">Recipes</span><span class="tag">Healthy eating</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lindssmoothies/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@lindssmoothies">TikTok</a>
             </div>
         </article>
 
@@ -795,6 +896,34 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rachel Lorton food avatar">🍇</span>
+                <span><strong class="name">Rachel Lorton</strong><span class="handle">@rachelrenelorton</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Vegan creator known for artistic smoothie bowl designs, colorful fruit bowls, and plant-based food styling.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">Vegan</span><span class="tag">Food art</span><span class="tag">Plant-based</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rachelrenelorton/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Raphael Serrano food avatar">🍣</span>
+                <span><strong class="name">Raphael Serrano / Da Poke Man</strong><span class="handle">@da_poke_man</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Bay Area chef focused on traditional Hawaiian poke, fresh-to-order poke bowls, and food truck/catering content.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Poke bowls</span><span class="tag">Bay Area</span><span class="tag">Hawaiian food</span><span class="tag">Chef-led</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/da_poke_man/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Richard Chao food avatar">🍔</span>
                 <span><strong class="name">Richard Chao / HangryBlogger</strong><span class="handle">@hangryblogger</span></span>
             </div>
@@ -935,6 +1064,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/seattlefoodieadventure/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Smoothie Bowls food avatar">🥥</span>
+                <span><strong class="name">Smoothie Bowls</strong><span class="handle">@smoothiebowls</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Large smoothie bowl inspiration account sharing colorful bowl creations and user-generated smoothie bowl content.</p>
+                <div class="tags"><span class="tag">Bowl</span><span class="tag">Smoothie</span><span class="tag">Acai bowls</span><span class="tag">Food styling</span><span class="tag">Healthy eating</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/smoothiebowls/">Instagram</a>
             </div>
         </article>
 
