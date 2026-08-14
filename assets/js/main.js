@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodiesHeroTitle = document.querySelector('.foodies-hero-title');
     const foodiesHeroDescription = document.querySelector('.foodies-hero-description');
     const defaultFoodiesHeroDescription = foodiesHeroDescription?.textContent || '';
+    const foodiesMetaDescription = document.querySelector('meta[name="description"]');
+    const defaultDocumentTitle = document.title;
+    const siteTitle = defaultDocumentTitle.includes(' | ')
+        ? defaultDocumentTitle.split(' | ').pop()
+        : 'decent.food';
     let foodiesTags = [];
 
     let currentArticleType = 'all';
@@ -268,6 +273,19 @@ document.addEventListener('DOMContentLoaded', function() {
             : `${visibleCount} foodies found`;
     }
 
+    function updateFoodiesMetadata() {
+        if (foodiesHeroTitle) {
+            document.title = `${foodiesHeroTitle.textContent.trim()} | ${siteTitle}`;
+        }
+
+        if (foodiesMetaDescription && foodiesCountHeading && foodiesHeroDescription) {
+            foodiesMetaDescription.setAttribute(
+                'content',
+                `${foodiesCountHeading.textContent.trim()}. ${foodiesHeroDescription.textContent.trim()}`
+            );
+        }
+    }
+
     function updateFoodiesSearchUrl(searchTerm) {
         const url = new URL(window.location.href);
         const normalizedSearchTerm = sanitizeFoodiesSearchTerm(searchTerm).trim();
@@ -308,6 +326,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         updateFoodiesHero(safeSearchTerm);
         updateFoodiesCountHeading(visibleCount, safeSearchTerm);
+        updateFoodiesMetadata();
 
         if (shouldUpdateUrl) {
             updateFoodiesSearchUrl(safeSearchTerm);
