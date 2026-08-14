@@ -727,7 +727,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">DC, Maryland, and Virginia food, experience, and travel creator known for food photography, Asian food finds, and regional dining content.</p>
-                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Food photography</span><span class="tag">Asian cuisine</span><span class="tag">Travel food</span></div>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Virginia</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Food photography</span><span class="tag">Asian Food</span><span class="tag">Travel food</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodooboos/">Instagram</a>
@@ -1568,6 +1568,156 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.vincenzosplate.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vincenzosplate/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="The Woks of Life food avatar">🥟</span>
+                <span><strong class="name">The Woks of Life Family</strong><span class="handle">@thewoksoflife</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Family-run Chinese cooking site focused on traditional Chinese recipes, pantry guidance, noodles, dim sum, stir-fries, and family cooking.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Chinese</span><span class="tag">Family recipes</span><span class="tag">Noodles</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://thewoksoflife.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thewoksoflife/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Namiko Hirasawa Chen food avatar">🍱</span>
+                <span><strong class="name">Namiko Hirasawa Chen / Just One Cookbook</strong><span class="handle">@justonecookbook</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Japanese home-cooking creator sharing approachable, well-tested recipes, Japanese ingredients, technique guides, and everyday meals.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Japanese</span><span class="tag">Recipes</span><span class="tag">Home cooking</span><span class="tag">Technique</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.justonecookbook.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/justonecookbook/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Pailin Chongchitnant food avatar">🍜</span>
+                <span><strong class="name">Pailin Chongchitnant / Hot Thai Kitchen</strong><span class="handle">@hotthaikitchen</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Thai chef, cookbook author, and YouTube creator teaching authentic Thai recipes, ingredients, and cultural context.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Thai</span><span class="tag">Chef-led</span><span class="tag">YouTube</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://hot-thai-kitchen.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hotthaikitchen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Maangchi food avatar">🥘</span>
+                <span><strong class="name">Maangchi</strong><span class="handle">@maangchi</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Korean cooking creator known for traditional Korean recipes, video tutorials, cookbooks, and a deep Korean food archive.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Korean</span><span class="tag">Traditional recipes</span><span class="tag">YouTube</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.maangchi.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/maangchi/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Maggie Zhu food avatar">🥡</span>
+                <span><strong class="name">Maggie Zhu / Omnivore's Cookbook</strong><span class="handle">@omnivorescookbook</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Beijing-born recipe developer focused on authentic Chinese recipes adapted for modern home kitchens.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Chinese</span><span class="tag">Recipes</span><span class="tag">Home cooking</span><span class="tag">Food writing</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://omnivorescookbook.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/omnivorescookbook/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chris Joe food avatar">🍚</span>
+                <span><strong class="name">Chris Joe / CJ Eats</strong><span class="handle">@cj.eats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chinese-American recipe creator sharing approachable Asian recipes, stir-fries, noodle dishes, takeout-style cooking, and short-form videos.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Chinese-American</span><span class="tag">Recipe video</span><span class="tag">Noodles</span><span class="tag">Short-form</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://cjeatsrecipes.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cj.eats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Bee Yinn Low food avatar">🍤</span>
+                <span><strong class="name">Bee Yinn Low / Rasa Malaysia</strong><span class="handle">@rasamalaysia</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chinese-Malaysian recipe developer sharing Malaysian, Chinese, Southeast Asian, and broader Asian recipes for home cooks.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Malaysian</span><span class="tag">Chinese</span><span class="tag">Southeast Asian</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://rasamalaysia.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rasamalaysia/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="JinJoo food avatar">🥬</span>
+                <span><strong class="name">JinJoo / Kimchimari</strong><span class="handle">@kimchimari</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Korean food blogger and recipe creator focused on authentic Korean dishes, banchan, BBQ, fermentation, and gluten-free Korean cooking.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Korean</span><span class="tag">Banchan</span><span class="tag">BBQ</span><span class="tag">Fermentation</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://kimchimari.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kimchimari/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Vanjo Merano food avatar">🍲</span>
+                <span><strong class="name">Vanjo Merano / Panlasang Pinoy</strong><span class="handle">@panlasangpinoy</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Filipino food creator behind a large Filipino recipe archive with practical home-cooking videos and classic dishes.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Filipino</span><span class="tag">Home cooking</span><span class="tag">Recipes</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://panlasangpinoy.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/panlasangpinoy/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sue Pressey food avatar">🍜</span>
+                <span><strong class="name">Sue Pressey / My Korean Kitchen</strong><span class="handle">@mykoreankitchen</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Korean recipe creator sharing approachable Korean recipes, ingredient guides, BBQ resources, and home-cooking tutorials.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Korean</span><span class="tag">Recipes</span><span class="tag">BBQ</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://mykoreankitchen.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mykoreankitchen/">Instagram</a>
             </div>
         </article>
 
