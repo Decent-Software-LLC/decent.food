@@ -24,7 +24,7 @@ sitemap: false
         <loc>{{ guide.url | absolute_url }}</loc>
         {% if guide.date %}<lastmod>{{ guide.date | date_to_xmlschema }}</lastmod>{% endif %}
         <changefreq>monthly</changefreq>
-        <priority>0.70</priority>
+        <priority>0.60</priority>
     </url>
     {% endfor %}
     {% assign listed_foodie_tags = "|" %}
@@ -45,7 +45,7 @@ sitemap: false
         <loc>{{ "/food-influencers.html?foodies=" | append: encoded_term | absolute_url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.60</priority>
+        <priority>0.70</priority>
     </url>
     {% endif %}
     {% assign listed_foodie_tags = listed_foodie_tags | append: term | append: "|" %}
