@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodieRows = document.querySelectorAll('.foodies-page .person-row');
     const foodiesNoResults = document.getElementById('foodies-no-results');
     const foodiesHeroTitle = document.querySelector('.foodies-hero-title');
+    const foodiesHeroDescription = document.querySelector('.foodies-hero-description');
+    const defaultFoodiesHeroDescription = foodiesHeroDescription?.textContent || '';
 
     let currentArticleType = 'all';
     let currentSearchTerm = '';
@@ -134,6 +136,31 @@ document.addEventListener('DOMContentLoaded', function() {
             .slice(0, 80);
     }
 
+    function escapeRegExp(value) {
+        return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function matchesFoodiesSearch(searchableText, searchTerm) {
+        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        if (!normalizedSearchTerm) {
+            return true;
+        }
+
+        const boundedTerm = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegExp(normalizedSearchTerm)}($|[^\\p{L}\\p{N}])`, 'u');
+        return boundedTerm.test(searchableText.toLowerCase());
+    }
+
+    function rowHasMatchingFoodiesTag(row, searchTerm) {
+        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        if (!normalizedSearchTerm) {
+            return true;
+        }
+
+        return Array.from(row.querySelectorAll('.tag')).some(tag => {
+            return tag.textContent.trim().toLowerCase() === normalizedSearchTerm;
+        });
+    }
+
     function getMatchingFoodiesTag(searchTerm) {
         const normalizedSearchTerm = searchTerm.trim().toLowerCase();
         if (!normalizedSearchTerm) {
@@ -151,13 +178,22 @@ document.addEventListener('DOMContentLoaded', function() {
         return '';
     }
 
-    function updateFoodiesHeroTitle(searchTerm) {
-        if (!foodiesHeroTitle) {
+    function updateFoodiesHero(searchTerm) {
+        if (!foodiesHeroTitle && !foodiesHeroDescription) {
             return;
         }
 
         const matchingTag = getMatchingFoodiesTag(searchTerm);
-        foodiesHeroTitle.textContent = matchingTag ? `${matchingTag} Foodies` : 'Foodies';
+
+        if (foodiesHeroTitle) {
+            foodiesHeroTitle.textContent = matchingTag ? `${matchingTag} Foodies` : 'Foodies';
+        }
+
+        if (foodiesHeroDescription) {
+            foodiesHeroDescription.textContent = matchingTag
+                ? defaultFoodiesHeroDescription.replace('U.S.', matchingTag)
+                : defaultFoodiesHeroDescription;
+        }
     }
 
     function updateFoodiesSearchUrl(searchTerm) {
@@ -184,8 +220,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const identity = row.querySelector('.identity')?.textContent || '';
             const bio = row.querySelector('.bio')?.textContent || '';
             const tags = row.querySelector('.tags')?.textContent || '';
-            const searchableText = `${identity} ${bio} ${tags}`.toLowerCase();
-            const matchesSearch = normalizedSearchTerm === '' || searchableText.includes(normalizedSearchTerm);
+            const searchableText = `${identity} ${bio} ${tags}`;
+            const matchesSearch = rowHasMatchingFoodiesTag(row, normalizedSearchTerm) ||
+                matchesFoodiesSearch(searchableText, normalizedSearchTerm);
 
             row.style.display = matchesSearch ? '' : 'none';
             if (matchesSearch) {
@@ -197,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
             foodiesNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
         }
 
-        updateFoodiesHeroTitle(safeSearchTerm);
+        updateFoodiesHero(safeSearchTerm);
 
         if (shouldUpdateUrl) {
             updateFoodiesSearchUrl(safeSearchTerm);

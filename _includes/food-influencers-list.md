@@ -22,16 +22,74 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alessandra Ciuffo food avatar">🍝</span>
+                <span><strong class="name">Alessandra Ciuffo / Flavors by Alessandra</strong><span class="handle">@flavorsbyalessandra</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC chef, creator, and food educator sharing approachable recipes, culinary techniques, Italian-American cooking, and cooking-school-informed content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Recipes</span><span class="tag">Cooking video</span><span class="tag">Italian-American</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://alessandraciuffo.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/flavorsbyalessandra/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alexa Matthews food avatar">🍔</span>
+                <span><strong class="name">Alexa Matthews / EatingNYC</strong><span class="handle">@eatingnyc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New York native and founder of EatingNYC, focused on NYC restaurants, food guides, travel, lifestyle, and dining recommendations.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://eating.nyc/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatingnyc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ally T food avatar">🍽️</span>
+                <span><strong class="name">Ally T / DMV Appetites</strong><span class="handle">@dmv_appetites</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DMV food and travel photography creator sharing restaurant finds, content creation, and regional food recommendations.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Food photography</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dmv_appetites/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Anali Cabrera food avatar">🍜</span>
                 <span><strong class="name">Anali Cabrera / Cabreranalieats</strong><span class="handle">@cabreranalieats</span></span>
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Los Angeles food reviewer focused on energetic restaurant videos, taste tests, seafood, ramen, comfort food, and Korean-inspired eats.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">Restaurants</span><span class="tag">Taste tests</span></div>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Restaurants</span><span class="tag">Taste tests</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cabreranalieats/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@cabreranali">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Arielle Hart food avatar">🥂</span>
+                <span><strong class="name">Arielle Hart / Fab Foodie in the City</strong><span class="handle">@fabfoodieinthecity</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DMV food, lifestyle, faith, travel, and new-experience creator focused on trying places so followers can choose better.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Lifestyle</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fabfoodieinthecity/">Instagram</a>
             </div>
         </article>
 
@@ -46,6 +104,65 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bayareafoodz/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Brian Lindo food avatar">🍗</span>
+                <span><strong class="name">Brian Lindo / Brian Can't Stop Eating</strong><span class="handle">@briancantstopeating</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC-based food and lifestyle creator covering restaurants, cultural food stories, food crawls, and travel eats.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Restaurants</span><span class="tag">Food review</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/briancantstopeating/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@briancantstopeating">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Bria Braithwaite food avatar">🥘</span>
+                <span><strong class="name">Bria Braithwaite / Good Eats Only NYC</strong><span class="handle">@goodeatsonlynyc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Brooklyn-based food and travel creator sharing NYC restaurant recommendations, hidden gems, solo dining, and tri-state food finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/goodeatsonlynyc/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@briotchhh">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="CK and Diana food avatar">🍦</span>
+                <span><strong class="name">CK & Diana / Hypefoodies</strong><span class="handle">@hypefoodies</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC-area food creators spotlighting hype-worthy restaurants, dessert, pop-ups, collabs, and social-first food finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Dessert</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hypefoodies/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://hypefoodies.com/">Website</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Carla Sanchez food avatar">🌶️</span>
+                <span><strong class="name">Carla Sanchez / Spicy Candy DC</strong><span class="handle">@spicycandydc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC guide and experience creator, agency owner, and local tastemaker covering dining, culture, and curated city finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Experiences</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/spicycandydc/">Instagram</a>
             </div>
         </article>
 
@@ -117,7 +234,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">NYC home-cooking mainstay known for tested recipes, tiny-kitchen practicality, baking, weeknight dinners, and classic blog-era food storytelling.</p>
-                <div class="tags"><span class="tag">Northeast</span><span class="tag">Home cooking</span><span class="tag">Baking</span><span class="tag">NYC</span></div>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Home cooking</span><span class="tag">Baking</span><span class="tag">NYC</span><span class="tag">New York City</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://smittenkitchen.com">Website</a>
@@ -164,7 +281,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">LA and Orange County food and travel creator covering local restaurants, photogenic dishes, and Southern California eats.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">Orange County</span><span class="tag">Travel food</span></div>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Orange County</span><span class="tag">Travel food</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.hungryhugh.com">Website</a>
@@ -224,7 +341,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Restaurant-first food creator covering NYC and travel eats, with short-form video built around dishes, dining rooms, and where-to-eat energy.</p>
-                <div class="tags"><span class="tag">Northeast</span><span class="tag">Restaurants</span><span class="tag">NYC</span><span class="tag">Travel food</span></div>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Restaurants</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Travel food</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/brunchboys/">Instagram</a>
@@ -261,6 +378,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://grandbaby-cakes.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grandbabycakes/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Johnny Baesa food avatar">🥟</span>
+                <span><strong class="name">Johnny Baesa / Johnny Eats NYC</strong><span class="handle">@johnnyeatsnyc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC food creator documenting affordable eats, small businesses, dumplings, street food, borough food finds, and value-driven restaurant picks.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Restaurants</span><span class="tag">Affordable eats</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/johnnyeatsnyc/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@johnnyeatsnyc/">TikTok</a>
             </div>
         </article>
 
@@ -329,6 +461,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kimberly Kong food avatar">🥡</span>
+                <span><strong class="name">Kimberly Kong / Nomtastic DC</strong><span class="handle">@nomtasticdc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC food creator and digital marketer sharing restaurant content, food photography, and local dining recommendations.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Food photography</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nomtasticdc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Lindsay Ostrom food avatar">🍜</span>
                 <span><strong class="name">Lindsay Ostrom / Pinch of Yum</strong><span class="handle">@pinchofyum</span></span>
             </div>
@@ -349,10 +495,24 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Orange County and Los Angeles food creator covering restaurants, social-first food finds, and dining recommendations.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Orange County</span><span class="tag">Los Angeles</span><span class="tag">Restaurants</span></div>
+                <div class="tags"><span class="tag">West</span><span class="tag">Orange County</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Restaurants</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodwithzen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mattie Hanley food avatar">🍸</span>
+                <span><strong class="name">Mattie Hanley / Hungry Hungry Hanley</strong><span class="handle">@hungry_hungry_hanley</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC food, cocktail, and travel creator active since 2016, covering restaurants, drinks, and dining experiences.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Cocktails</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hungry_hungry_hanley/">Instagram</a>
             </div>
         </article>
 
@@ -423,7 +583,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">LA-based creator known for viral sandwich builds, comfort-food recipes, and Chinese, Italian, and American flavor mashups.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">Sandwiches</span><span class="tag">Recipe video</span></div>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Sandwiches</span><span class="tag">Recipe video</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/owen.han/">Instagram</a>
@@ -434,12 +594,26 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rachel food avatar">🍩</span>
+                <span><strong class="name">Rachel / The Donut Wears Prada</strong><span class="handle">@thedonutwearsprada</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC and DMV food creator sharing restaurants, desserts, dining finds, and lifestyle-friendly food content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Dessert</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedonutwearsprada/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Richard Chao food avatar">🍔</span>
                 <span><strong class="name">Richard Chao / HangryBlogger</strong><span class="handle">@hangryblogger</span></span>
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">LA and Orange County food creator focused on restaurants, indulgent dishes, and high-reach local food discovery.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">Orange County</span><span class="tag">Restaurants</span></div>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Orange County</span><span class="tag">Restaurants</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hangryblogger/">Instagram</a>
@@ -478,16 +652,44 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sandie Soman food avatar">🍰</span>
+                <span><strong class="name">Sandie Soman / A Dork and Her Fork</strong><span class="handle">@adorkandherfork</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Scientist-turned-foodie sharing DMV food, things to do, desserts, and restaurant discovery content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Dessert</span><span class="tag">Things to do</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/adorkandherfork/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Sarah Fennel food avatar">🍫</span>
                 <span><strong class="name">Sarah Fennel / Broma Bakery</strong><span class="handle">@bromabakery</span></span>
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Dessert creator and cookbook author focused on nostalgic modern baking, brownies, cakes, cookies, and polished recipe photography.</p>
-                <div class="tags"><span class="tag">Dessert</span><span class="tag">Baking</span><span class="tag">NYC</span><span class="tag">Cookies</span><span class="tag">Cakes</span></div>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Baking</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Cookies</span><span class="tag">Cakes</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://bromabakery.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bromabakery/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Selam and Emily food avatar">🍕</span>
+                <span><strong class="name">Selam & Emily / DMV Bite</strong><span class="handle">@dmvbite</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DMV food, travel, and unique experiences account covering DC, Maryland, Virginia restaurants and local finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dmvbite/">Instagram</a>
             </div>
         </article>
 
@@ -563,6 +765,20 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.halfbakedharvest.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/halfbakedharvest/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@halfbakedharvest">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Tristen Asrejadid food avatar">🍕</span>
+                <span><strong class="name">Tristen Asrejadid / Nomz All Day</strong><span class="handle">@nomzallday</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">DC, Maryland, and Virginia creator covering good eats, new spots, things to do, travel, and Arlington-area food finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Washington DC</span><span class="tag">DMV</span><span class="tag">Restaurants</span><span class="tag">Things to do</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nomzallday/">Instagram</a>
             </div>
         </article>
 
