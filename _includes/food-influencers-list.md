@@ -4,6 +4,20 @@
         <div role="columnheader">Bio / Focus</div>
         <div role="columnheader">Content Links</div>
     </div>
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="AJ Food Finds food avatar">🍽️</span>
+                <span><strong class="name">AJ Food Finds / Anna and Jake</strong><span class="handle">@ajfoodfinds</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Wilmington, NC food-finds account sharing favorite local bites, friends, food, and fun.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Wilmington NC</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/ajfoodfinds">Linktree</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ajfoodfinds/">Instagram</a>
+            </div>
+        </article>
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
@@ -37,21 +51,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Alex Snodgrass food avatar">🍛</span>
-                <span><strong class="name">Alex Snodgrass / The Defined Dish</strong><span class="handle">@thedefineddish</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Dallas-based recipe developer known for cleaner comfort food, Whole30-friendly recipes, weeknight dinners, and cookbook-driven content.</p>
-                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Dallas</span><span class="tag">Healthy comfort</span><span class="tag">Weeknight</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://thedefineddish.com">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedefineddish/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Alexa Matthews food avatar">🍔</span>
                 <span><strong class="name">Alexa Matthews / EatingNYC</strong><span class="handle">@eatingnyc</span></span>
             </div>
@@ -62,6 +61,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://eating.nyc/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatingnyc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alex Snodgrass food avatar">🍛</span>
+                <span><strong class="name">Alex Snodgrass / The Defined Dish</strong><span class="handle">@thedefineddish</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Dallas-based recipe developer known for cleaner comfort food, Whole30-friendly recipes, weeknight dinners, and cookbook-driven content.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Dallas</span><span class="tag">Healthy comfort</span><span class="tag">Weeknight</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://thedefineddish.com">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedefineddish/">Instagram</a>
             </div>
         </article>
 
@@ -402,16 +416,17 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Dan Pelosi food avatar">🍝</span>
-                <span><strong class="name">Dan Pelosi / GrossyPelosi</strong><span class="handle">@grossypelosi</span></span>
+                <span class="avatar emoji-avatar" role="img" aria-label="Danielle Cochran food avatar">🍪</span>
+                <span><strong class="name">Danielle Cochran / The Salty Cooker</strong><span class="handle">@thesaltycooker</span></span>
             </div>
             <div class="person-cell" role="cell">
-                <p class="bio">Italian-American comfort food creator with a warm, party-ready style: pasta, sauces, family recipes, hosting, and cookbook content.</p>
-                <div class="tags"><span class="tag">Northeast</span><span class="tag">Italian-American</span><span class="tag">Hosting</span><span class="tag">Comfort food</span></div>
+                <p class="bio">Near-Wilmington recipe creator focused on approachable comfort food, baking, gluten-free swaps, dairy-free options, and craveable home cooking.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Wilmington NC</span><span class="tag">Recipes</span><span class="tag">Baking</span><span class="tag">Gluten-free</span></div>
             </div>
             <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.danpelosi.com">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grossypelosi/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://thesaltycooker.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thesaltycooker/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/thesaltycooker">Linktree</a>
             </div>
         </article>
 
@@ -427,6 +442,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.dannylovespasta.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dannylovespasta/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Dan Pelosi food avatar">🍝</span>
+                <span><strong class="name">Dan Pelosi / GrossyPelosi</strong><span class="handle">@grossypelosi</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Italian-American comfort food creator with a warm, party-ready style: pasta, sauces, family recipes, hosting, and cookbook content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Italian-American</span><span class="tag">Hosting</span><span class="tag">Comfort food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.danpelosi.com">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grossypelosi/">Instagram</a>
             </div>
         </article>
 
@@ -532,6 +562,21 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@emilymariko">TikTok</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emilymariko/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@emilymariko">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Erwina food avatar">🌶️</span>
+                <span><strong class="name">Erwina / Erwina and The Boys</strong><span class="handle">@erwinaandtheboys</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">North Carolina food blogger sharing Indonesian, Asian, spicy foods, street-food-inspired recipes, restaurant-style cooking, travel, and local food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Wilmington NC</span><span class="tag">Asian Food</span><span class="tag">Indonesian food</span><span class="tag">Recipes</span><span class="tag">Street food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://erwinaandtheboys.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/erwinaandtheboys/">Instagram</a>
             </div>
         </article>
 
@@ -1317,6 +1362,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Port City Foodies food avatar">📰</span>
+                <span><strong class="name">Port City Foodies / Allison Ballard</strong><span class="handle">@port_city_foodies</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Wilmington StarNews food and newsletter account covering Wilmington-area restaurants, openings, food events, local eats, and dining trends.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Wilmington NC</span><span class="tag">Restaurants</span><span class="tag">Local news</span><span class="tag">Food events</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/port_city_foodies/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.yahoo.com/lifestyle/eats-beers-vodka-wilmington-restaurants-144247555.html">Example</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Rachel Lorton food avatar">🍇</span>
                 <span><strong class="name">Rachel Lorton</strong><span class="handle">@rachelrenelorton</span></span>
             </div>
@@ -1749,6 +1809,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://panlasangpinoy.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/panlasangpinoy/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Wilmington Eats food avatar">🍤</span>
+                <span><strong class="name">Wilmington Eats</strong><span class="handle">@wilmington_eats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Wilmington-focused food and travel account highlighting local restaurants, food finds, and regional dining.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Wilmington NC</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food travel</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wilmington_eats/">Instagram</a>
             </div>
         </article>
 
