@@ -22,6 +22,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Abram Plaut food avatar">🍜</span>
+                <span><strong class="name">Abram Plaut / Ramen Beast</strong><span class="handle">@ramen_beast</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Ramen-focused creator and guide covering ramen shops, rankings, and noodle culture.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Ramen</span><span class="tag">Restaurant guide</span><span class="tag">Japanese food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://ramenbeast.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ramen_beast/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Adam Watanabe food avatar">🍣</span>
                 <span><strong class="name">Adam Watanabe / Sushi Artisan</strong><span class="handle">@sushiartisan</span></span>
             </div>
@@ -113,6 +128,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alex LaRosa food avatar">🎂</span>
+                <span><strong class="name">Alex LaRosa</strong><span class="handle">@alexlarosa</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Brooklyn cake and cupcake designer focused on custom cakes, decorated bakes, and playful pastry visuals.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Brooklyn</span><span class="tag">Cakes</span><span class="tag">Cupcakes</span><span class="tag">Bakery</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://alexlarosabakery.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alexlarosa/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Alex Snodgrass food avatar">🍛</span>
                 <span><strong class="name">Alex Snodgrass / The Defined Dish</strong><span class="handle">@thedefineddish</span></span>
             </div>
@@ -151,6 +181,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodadventures/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Amy Coyne food avatar">🥖</span>
+                <span><strong class="name">Amy Coyne / Amy Bakes Bread</strong><span class="handle">@amybakesbread</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Sourdough teacher and home baker sharing bread, laminated bakes, pastry-adjacent baking, and approachable technique help.</p>
+                <div class="tags"><span class="tag">Baking</span><span class="tag">Pastry</span><span class="tag">Bread</span><span class="tag">Sourdough</span><span class="tag">Tutorials</span><span class="tag">Home baking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://amybakesbread.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/amybakesbread/">Instagram</a>
             </div>
         </article>
 
@@ -195,6 +240,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thehungrylonghorn/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Antonio Bachour food avatar">🥐</span>
+                <span><strong class="name">Antonio Bachour</strong><span class="handle">@antonio.bachour</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami pastry chef known for refined pastries, viennoiserie, plated desserts, and bakery and restaurant projects.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Miami</span><span class="tag">Bakery</span><span class="tag">Viennoiserie</span><span class="tag">Pastry chef</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.bachour.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/antonio.bachour/">Instagram</a>
             </div>
         </article>
 
@@ -270,6 +330,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Benjamin The Baker food avatar">🧁</span>
+                <span><strong class="name">Benjamin The Baker</strong><span class="handle">@benjaminthebaker</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Baking creator breaking down pastry and baking experiments, techniques, and recipes for home bakers.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Baking</span><span class="tag">Tutorials</span><span class="tag">Recipe video</span><span class="tag">Home baking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/benjaminthebaker/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Big Eat food avatar">🎥</span>
                 <span><strong class="name">Big Eat</strong><span class="handle">@big.eatsy</span></span>
             </div>
@@ -314,6 +388,51 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Bos Food food avatar">🦞</span>
+                <span><strong class="name">Bos Food</strong><span class="handle">@bos.food</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston and New England food, experiences, and travel account sharing restaurants, outings, and local discoveries.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">New England</span><span class="tag">Restaurants</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bos.food/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Bradley Robinson food avatar">🥓</span>
+                <span><strong class="name">Bradley Robinson / Chuds BBQ</strong><span class="handle">@chudsbbq</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin pitmaster, pit builder, and BBQ educator sharing smoked meats, pit design, recipes, and YouTube barbecue tutorials.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">Pitmaster</span><span class="tag">Smoked meats</span><span class="tag">Tutorials</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.chudsbbq.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chudsbbq/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/pistolwhipthewitness">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Breanna Stark food avatar">🍖</span>
+                <span><strong class="name">Breanna Stark / Married to BBQ</strong><span class="handle">@marriedtobbq</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Texas BBQ creator sharing grilling recipes, barbecue tips, smoked meat content, and outdoor cooking ideas.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Texas</span><span class="tag">Grilling</span><span class="tag">Recipes</span><span class="tag">Smoked meats</span><span class="tag">Outdoor cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/marriedtobbq">Linktree</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marriedtobbq/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Bria Braithwaite food avatar">🥘</span>
                 <span><strong class="name">Bria Braithwaite / Good Eats Only NYC</strong><span class="handle">@goodeatsonlynyc</span></span>
             </div>
@@ -324,6 +443,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/goodeatsonlynyc/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@briotchhh">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Brian Gerwig food avatar">🍖</span>
+                <span><strong class="name">Brian Gerwig / GQue BBQ</strong><span class="handle">@g_bque</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">BBQ restaurant owner and grilling creator sharing barbecue recipes, smoked meat, tutorials, and pitmaster tips.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Pitmaster</span><span class="tag">Smoked meats</span><span class="tag">Restaurants</span><span class="tag">Tutorials</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://gquebbq.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/g_bque/">Instagram</a>
             </div>
         </article>
 
@@ -432,6 +566,35 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Caroline Schiff food avatar">🍰</span>
+                <span><strong class="name">Caroline Schiff</strong><span class="handle">@pastryschiff</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC pastry chef and cookbook author sharing desserts, pastry technique, baking projects, and sweet and savory recipes.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Cookbooks</span><span class="tag">Baking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.carolineschiff.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pastryschiff/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chad food avatar">🍝</span>
+                <span><strong class="name">Chad / The Prosciutto Papi</strong><span class="handle">@theprosciuttopapi</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston food creator sharing restaurant finds, Italian-leaning eats, food reviews, and local dining content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">Restaurants</span><span class="tag">Italian food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theprosciuttopapi/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Chef Vicky V food avatar">🥘</span>
                 <span><strong class="name">Chef Vicky V / The Queen of Yum</strong><span class="handle">@thequeenofyum</span></span>
             </div>
@@ -501,6 +664,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://chicitycoffee.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chicitycoffee/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chloe food avatar">🥂</span>
+                <span><strong class="name">Chloe / Boston By Chloe</strong><span class="handle">@bostonbychloe</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston creator focused on where to eat, what to do, restaurants, drinks, and local experiences.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">Restaurants</span><span class="tag">Things to do</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bostonbychloe/">Instagram</a>
             </div>
         </article>
 
@@ -609,6 +786,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Connie food avatar">🍜</span>
+                <span><strong class="name">Connie / Hungry Connie</strong><span class="handle">@hungryconnie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC food creator searching for the best places to eat, including ramen and noodle-heavy restaurant finds.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Ramen</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Restaurants</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hungryconnie/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Cornelia Poku food avatar">🍤</span>
                 <span><strong class="name">Cornelia Poku / Black Girls Explore DC</strong><span class="handle">@blackgirls.exploredc</span></span>
             </div>
@@ -647,6 +838,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://hookedlv.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hookedlv/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Daniel Corpuz food avatar">🍫</span>
+                <span><strong class="name">Daniel Corpuz</strong><span class="handle">@danielcorpuz</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC pastry chef and chocolatier known for chocolate work, plated desserts, confections, and Netflix's School of Chocolate.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Chocolate</span><span class="tag">Pastry chef</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.danielcorpuz.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/danielcorpuz/">Instagram</a>
             </div>
         </article>
 
@@ -693,6 +899,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.danpelosi.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grossypelosi/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="David Seki food avatar">🍜</span>
+                <span><strong class="name">David Seki / Ramen Pharmacist</strong><span class="handle">@ramenpharmacist</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Los Angeles ramen explorer documenting ramen shops across LA and beyond with tagged ramen discovery posts.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Ramen</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Restaurant guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ramenpharmacist/">Instagram</a>
             </div>
         </article>
 
@@ -752,6 +972,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://smittenkitchen.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/smittenkitchen/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Derek Wolf food avatar">🔥</span>
+                <span><strong class="name">Derek Wolf / Over The Fire Cooking</strong><span class="handle">@overthefirecooking</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Live-fire cooking creator and cookbook author focused on grilling, open-fire recipes, rubs, sauces, and outdoor cooking.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Live fire</span><span class="tag">Recipes</span><span class="tag">Outdoor cooking</span><span class="tag">Nashville</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://overthefirecooking.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/overthefirecooking/">Instagram</a>
             </div>
         </article>
 
@@ -846,6 +1081,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Emily Chan food avatar">🍽️</span>
+                <span><strong class="name">Emily Chan / Boston Foodgram</strong><span class="handle">@bostonfoodgram</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston food and drink media creator highlighting restaurants, recipes, luxury dining, and local food experiences.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">Restaurants</span><span class="tag">Food media</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.bostonfoodgram.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bostonfoodgram/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Emily Mariko food avatar">🍙</span>
                 <span><strong class="name">Emily Mariko</strong><span class="handle">@emilymariko</span></span>
             </div>
@@ -935,6 +1185,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Hans Lienesch food avatar">🍜</span>
+                <span><strong class="name">Hans Lienesch / The Ramen Rater</strong><span class="handle">@theramenrater</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Instant noodle reviewer and creator known for ramen rankings, noodle reviews, and YouTube ramen content.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Ramen</span><span class="tag">Instant noodles</span><span class="tag">Reviews</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.theramenrater.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theramenrater/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Hugh Harper food avatar">🌯</span>
                 <span><strong class="name">Hugh Harper / HungryHugh</strong><span class="handle">@hungryhugh</span></span>
             </div>
@@ -945,6 +1210,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.hungryhugh.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hungryhugh/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Huyen food avatar">🍜</span>
+                <span><strong class="name">Huyen / One Hungry Asian Girl</strong><span class="handle">@onehungryasiangirl</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Houston food photographer and blogger covering Asian food, restaurant finds, noodles, and things to do.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Houston</span><span class="tag">Restaurants</span><span class="tag">Food photography</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/onehungryasiangirl/">Instagram</a>
             </div>
         </article>
 
@@ -979,6 +1258,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jack Mancuso food avatar">🍗</span>
+                <span><strong class="name">Jack Mancuso / Chef Cuso</strong><span class="handle">@chefcuso</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Backyard grilling creator and seasoning founder focused on BBQ, meat, grilling tutorials, and approachable outdoor cooking.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Recipes</span><span class="tag">Seasonings</span><span class="tag">Backyard cooking</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chefcuso/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="PDX Food Finds food avatar">🍕</span>
                 <span><strong class="name">Jacob / PDX Food Finds</strong><span class="handle">@pdxfoodfinds</span></span>
             </div>
@@ -988,6 +1281,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pdxfoodfinds/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="James Brown food avatar">🥩</span>
+                <span><strong class="name">James Brown / Grill Nation</strong><span class="handle">@grillnation</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">BBQ and grilling creator sharing bold smoked meat recipes, grilling tips, and backyard cooking content.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Smoked meats</span><span class="tag">Recipes</span><span class="tag">Backyard cooking</span><span class="tag">Veteran-owned</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grillnation/">Instagram</a>
             </div>
         </article>
 
@@ -1127,6 +1434,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://kimchimari.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kimchimari/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Joanne Chang food avatar">🍞</span>
+                <span><strong class="name">Joanne Chang / Flour Bakery</strong><span class="handle">@joannebchang</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston pastry chef, bakery owner, and cookbook author focused on pastries, sticky buns, cakes, and approachable baking.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Boston</span><span class="tag">Bakery</span><span class="tag">Cookbooks</span><span class="tag">Baking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.flourbakery.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/joannebchang/">Instagram</a>
             </div>
         </article>
 
@@ -1351,6 +1673,34 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kevin Ortega food avatar">🥩</span>
+                <span><strong class="name">Kevin Ortega / BBQ Foodie</strong><span class="handle">@bbq_foodie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">California competition BBQ creator connected with KO BBQ, sharing barbecue, grilling, and smoked meat content.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">California</span><span class="tag">Competition BBQ</span><span class="tag">Grilling</span><span class="tag">Smoked meats</span><span class="tag">Foodie</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bbq_foodie/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Key food avatar">🍕</span>
+                <span><strong class="name">Key / Boston Food Grader</strong><span class="handle">@wannabestayathomedad</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston food reviewer known for real-eater restaurant reviews, TikTok food content, and local TV food segments.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">Restaurants</span><span class="tag">Reviews</span><span class="tag">Video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wannabestayathomedad/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Kimberly Kong food avatar">🥡</span>
                 <span><strong class="name">Kimberly Kong / Nomtastic DC</strong><span class="handle">@nomtasticdc</span></span>
             </div>
@@ -1539,6 +1889,34 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Maciek Zurawski food avatar">🌭</span>
+                <span><strong class="name">Maciek Zurawski / Grillin With Dad</strong><span class="handle">@grillin_with_dad</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Dad-focused grilling creator sharing BBQ recipes, spices, family cooking, and backyard grilling content.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Family meals</span><span class="tag">Recipes</span><span class="tag">Backyard cooking</span><span class="tag">Seasonings</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/grillin_with_dad/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Maddie Gatto and Rachel Eng food avatar">🍕</span>
+                <span><strong class="name">Maddie Gatto & Rachel Eng / Two Taste Buddiez</strong><span class="handle">@twotastebuddiez</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston and NYC food duo sharing restaurant finds, TikTok food content, and city dining recommendations.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">NYC</span><span class="tag">Restaurants</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/twotastebuddiez/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Maggie Zhu food avatar">🥡</span>
                 <span><strong class="name">Maggie Zhu / Omnivore's Cookbook</strong><span class="handle">@omnivorescookbook</span></span>
             </div>
@@ -1549,6 +1927,22 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://omnivorescookbook.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/omnivorescookbook/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Malcom Reed food avatar">🍖</span>
+                <span><strong class="name">Malcom Reed / HowToBBQRight</strong><span class="handle">@howtobbqright</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Pitmaster and backyard BBQ educator sharing smoked meats, ribs, brisket, grilling techniques, and gear tips.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Pitmaster</span><span class="tag">Smoked meats</span><span class="tag">Recipes</span><span class="tag">Southern food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://howtobbqright.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/howtobbqright/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/howtobbqright">YouTube</a>
             </div>
         </article>
 
@@ -1657,6 +2051,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Maya Frenklach food avatar">🍪</span>
+                <span><strong class="name">Maya Frenklach / Painted Ladies Pastry</strong><span class="handle">@paintedladiespastry</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Bay Area baker and cookie artist creating detailed royal icing cookies, pastry art, classes, and custom bakes.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Bay Area</span><span class="tag">Cookies</span><span class="tag">Food art</span><span class="tag">Classes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://paintedladiespastry.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/paintedladiespastry/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Meeta Arora food avatar">🍛</span>
                 <span><strong class="name">Meeta Arora / Piping Pot Curry</strong><span class="handle">@pipingpotcurry</span></span>
             </div>
@@ -1726,6 +2135,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/midwestmunchers/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@midwestmunchers">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mike Satinover food avatar">🍜</span>
+                <span><strong class="name">Mike Satinover / Ramen Lord</strong><span class="handle">@ramen__lord</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chicago ramen creator and chef behind Akahoshi Ramen, known for Sapporo-style ramen, recipes, and deep ramen technique.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Ramen</span><span class="tag">Chicago</span><span class="tag">Japanese food</span><span class="tag">Restaurants</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ramen__lord/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.akahoshiramen.com/">Restaurant</a>
             </div>
         </article>
 
@@ -1862,6 +2286,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nick Nesgoda food avatar">🔥</span>
+                <span><strong class="name">Nick Nesgoda / Burnt Pellet BBQ</strong><span class="handle">@burnt_pellet_bbq</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Minnesota grilling creator focused on pellet BBQ, simple home cooking, smoked meats, and flavor-forward recipes.</p>
+                <div class="tags"><span class="tag">BBQ</span><span class="tag">Minnesota</span><span class="tag">Pellet grill</span><span class="tag">Grilling</span><span class="tag">Recipes</span><span class="tag">Home cooking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/burnt_pellet_bbq/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nicole Caridad Ralston food avatar">🍤</span>
                 <span><strong class="name">Nicole Caridad Ralston / Eaten Path NOLA</strong><span class="handle">@eatenpathnola</span></span>
             </div>
@@ -1872,6 +2310,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.neworleans.com/new-orleans-local-influencers/nicole-caridad-ralston/">NewOrleans.com Profile</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatenpathnola/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nicole food avatar">🍔</span>
+                <span><strong class="name">Nicole / My Diet Is Trash</strong><span class="handle">@mydietistrash</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston and New England food creator covering restaurants, indulgent eats, drinks, and local food finds.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">New England</span><span class="tag">Restaurants</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mydietistrash/">Instagram</a>
             </div>
         </article>
 
@@ -2023,6 +2475,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Pho King SLC food avatar">🍲</span>
+                <span><strong class="name">Pho King SLC</strong><span class="handle">@phokingslc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Salt Lake City noodle creator and host focused on pho, ramen, and local food culture.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Pho</span><span class="tag">Ramen</span><span class="tag">Salt Lake City</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phokingslc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Port City Foodies food avatar">📰</span>
                 <span><strong class="name">Port City Foodies / Allison Ballard</strong><span class="handle">@port_city_foodies</span></span>
             </div>
@@ -2137,6 +2603,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rob Hobbs food avatar">🍜</span>
+                <span><strong class="name">Rob Hobbs / Ramen Rob</strong><span class="handle">@ramen_rob</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Portland-based ramen creator showcasing ramen shops in PDX and beyond.</p>
+                <div class="tags"><span class="tag">Asian Food</span><span class="tag">Noodles</span><span class="tag">Ramen</span><span class="tag">Portland</span><span class="tag">PDX</span><span class="tag">Restaurant guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ramen_rob/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Rose food avatar">🍠</span>
                 <span><strong class="name">Rose / Deliciously Rushed</strong><span class="handle">@deliciouslyrushed</span></span>
             </div>
@@ -2161,6 +2641,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ryanpeterspgh/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sacha food avatar">🥟</span>
+                <span><strong class="name">Sacha / The Boston Foodie</strong><span class="handle">@sacha.eats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston food creator sharing favorite restaurants, travel food guides, local dining, and things to try around the city.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sacha.eats/">Instagram</a>
             </div>
         </article>
 
@@ -2278,6 +2772,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://bakewithshivesh.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shivesh17/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sir Michael food avatar">🍟</span>
+                <span><strong class="name">Sir Michael / What Did You Eat Today Sir</strong><span class="handle">@whatdidyoueattodaysir</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New England food blogger sharing Boston-area restaurant finds, food reviews, and local recommendations.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">New England</span><span class="tag">Restaurants</span><span class="tag">Reviews</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/whatdidyoueattodaysir/">Instagram</a>
             </div>
         </article>
 
@@ -2471,6 +2979,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Thavrath Thao food avatar">🍜</span>
+                <span><strong class="name">Thavrath Thao / Forking With Armani</strong><span class="handle">@forkingwitharmani</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Boston restaurant supporter and food creator covering local dining, community food culture, and New England restaurants.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Boston</span><span class="tag">Massachusetts</span><span class="tag">Restaurants</span><span class="tag">Food culture</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/forkingwitharmani/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="The VA Foodies food avatar">🍴</span>
                 <span><strong class="name">The VA Foodies</strong><span class="handle">@thevafoodies</span></span>
             </div>
@@ -2598,6 +3120,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ryusauce/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Zoe Francois food avatar">🥧</span>
+                <span><strong class="name">Zoe Francois / ZoeBakes</strong><span class="handle">@zoebakes</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Minneapolis baker, pastry creator, cookbook author, and TV host known for cakes, pies, pastries, and detailed baking tutorials.</p>
+                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Minneapolis</span><span class="tag">Baking</span><span class="tag">Cakes</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://zoebakes.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/zoebakes/">Instagram</a>
             </div>
         </article>
 
