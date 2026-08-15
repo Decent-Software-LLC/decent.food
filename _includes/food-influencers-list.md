@@ -535,6 +535,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Christie Vanover food avatar">🔥</span>
+                <span><strong class="name">Christie Vanover / Girls Can Grill</strong><span class="handle">@girlscangrill</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Las Vegas-based barbecue creator sharing live-fire cooking, grilling recipes, and competition BBQ content.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">BBQ</span><span class="tag">Grilling</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://girlscangrill.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/girlscangrill/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Christina Musgrave food avatar">🦞</span>
                 <span><strong class="name">Christina Musgrave / Weekday Pescatarian</strong><span class="handle">@weekdaypescatarian</span></span>
             </div>
@@ -560,6 +575,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://damndelicious.net">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/damndelicious/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Cindy West food avatar">🎡</span>
+                <span><strong class="name">Cindy West / Las Vegas Food</strong><span class="handle">@lasvegasfood</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Vegas creator focused on food reels, events, and local restaurant finds.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Events</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lasvegasfood/">Instagram</a>
             </div>
         </article>
 
@@ -603,6 +632,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/barbacoachef/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Damian Ocampo food avatar">🍕</span>
+                <span><strong class="name">Damian Ocampo / Hooked LV</strong><span class="handle">@hookedlv</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Las Vegas food creator highlighting restaurants, dishes, and local dining finds.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Food finds</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://hookedlv.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hookedlv/">Instagram</a>
             </div>
         </article>
 
@@ -727,6 +771,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Drew Belcher food avatar">🍔</span>
+                <span><strong class="name">Drew Belcher / UNLOKT</strong><span class="handle">@unlokt</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Las Vegas food and local experiences account focused on restaurants, events, and must-try Vegas finds.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food experiences</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://blog.unlokt.com/city/las-vegas">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/unlokt/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Eatin' with Izzy food avatar">🍣</span>
                 <span><strong class="name">Eatin' with Izzy</strong><span class="handle">@eatinwithizzy</span></span>
             </div>
@@ -798,6 +857,20 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@emilymariko">TikTok</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emilymariko/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@emilymariko">YouTube</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Emily Romero food avatar">🍭</span>
+                <span><strong class="name">Emily Romero / Eat Me Las Vegas</strong><span class="handle">@eatmelasvegas</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Las Vegas food creator sharing colorful snacks, restaurants, and whimsical local food content.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Snacks</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatmelasvegas/">Instagram</a>
             </div>
         </article>
 
@@ -1103,6 +1176,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jonathan Tso food avatar">🌮</span>
+                <span><strong class="name">Jonathan Tso / Jay Tee Takes a Bite</strong><span class="handle">@jayteetakesabite</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Vegas food and travel creator helping people find places to eat, drink, and experience around Las Vegas.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jayteetakesabite/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Jon DiPippo food avatar">🥨</span>
                 <span><strong class="name">Jon DiPippo / The Philly Food Fanatic</strong><span class="handle">@thephillyfoodfanatic</span></span>
             </div>
@@ -1112,6 +1199,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thephillyfoodfanatic/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jorge Martinez food avatar">🍟</span>
+                <span><strong class="name">Jorge Martinez / Vegas Must Try</strong><span class="handle">@vegasmusttry</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Las Vegas food and travel creator sharing restaurant recommendations and must-try Vegas experiences.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vegasmusttry/">Instagram</a>
             </div>
         </article>
 
@@ -1347,6 +1448,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://pinchofyum.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pinchofyum/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Lindsay Stewart food avatar">🍿</span>
+                <span><strong class="name">Lindsay Stewart / The Las Vegas Foodie</strong><span class="handle">@thelasvegasfoodie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Vegas foodie and family creator sharing snackable Las Vegas food, local finds, and experiences.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Family-friendly</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thelasvegasfoodie/">Instagram</a>
             </div>
         </article>
 
@@ -1874,6 +1989,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pqui/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://voyagedenver.com/interview/meet-paul-qui-of-rino/">Profile</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Philip Tzeng food avatar">🎙️</span>
+                <span><strong class="name">Philip Tzeng / Las Vegas Fill</strong><span class="handle">@lasvegasfill</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Las Vegas food creator and podcast host covering restaurants across Sin City.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Podcast</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lasvegasfill/">Instagram</a>
             </div>
         </article>
 
@@ -2455,6 +2584,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/wilmington_eats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Yull Ryu food avatar">🥢</span>
+                <span><strong class="name">Yull Ryu / Ryusauce</strong><span class="handle">@ryusauce</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Vegas-based Korean food enthusiast sharing restaurant finds and dining content.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Korean food</span><span class="tag">Restaurants</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ryusauce/">Instagram</a>
             </div>
         </article>
 
