@@ -97,6 +97,22 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alex Gren food avatar">☕</span>
+                <span><strong class="name">Alex Gren / Alex Home Barista</strong><span class="handle">@alexhomebarista</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Salt Lake City coffee creator focused on espresso, home barista gear, cafe-style drinks, brewing, and coffee tutorials.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Salt Lake City</span><span class="tag">Coffee</span><span class="tag">Espresso</span><span class="tag">Home barista</span><span class="tag">Tutorials</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/alexhomebarista">Linktree</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alexhomebarista/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@alexhomebarista">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Alex Snodgrass food avatar">🍛</span>
                 <span><strong class="name">Alex Snodgrass / The Defined Dish</strong><span class="handle">@thedefineddish</span></span>
             </div>
@@ -121,6 +137,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dmv_appetites/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Amanda Wong food avatar">🌮</span>
+                <span><strong class="name">Amanda Wong / Austin Food Adventures</strong><span class="handle">@austinfoodadventures</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin food writer and creator sharing anonymous restaurant reviews, ATX food finds, travel eats, and recipes.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Reviews</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodadventures/">Instagram</a>
             </div>
         </article>
 
@@ -156,6 +186,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Anthony Matthews food avatar">🍖</span>
+                <span><strong class="name">Anthony Matthews / The Hungry Longhorn</strong><span class="handle">@thehungrylonghorn</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin-based creator sharing food to eat, things to do in Texas, travel ideas, and destination dining finds.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Things to do</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thehungrylonghorn/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Arielle Hart food avatar">🥂</span>
                 <span><strong class="name">Arielle Hart / Fab Foodie in the City</strong><span class="handle">@fabfoodieinthecity</span></span>
             </div>
@@ -165,6 +209,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fabfoodieinthecity/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Austin Food Heads food avatar">🍔</span>
+                <span><strong class="name">Austin Food Heads</strong><span class="handle">@austinfoodheads</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin food recommendation account focused on restaurants, local eats, food finds, and ATX dining ideas.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Food finds</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodheads/">Instagram</a>
             </div>
         </article>
 
@@ -207,6 +265,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phillyfoodladies/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Big Eat food avatar">🎥</span>
+                <span><strong class="name">Big Eat</strong><span class="handle">@big.eatsy</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Orleans and travel food creator and filmmaker sharing restaurants, food videos, and regional dining discoveries.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Video</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/big.eatsy/">Instagram</a>
             </div>
         </article>
 
@@ -272,6 +344,51 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Brookelyn Meyer food avatar">🥤</span>
+                <span><strong class="name">Brookelyn Meyer / Brookelyn Likes Espresso</strong><span class="handle">@brookelynlikesespresso</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Coffee creator sharing iced coffee, espresso drinks, daily coffee content, recipes, beans, and cafe-at-home inspiration.</p>
+                <div class="tags"><span class="tag">Midwest</span><span class="tag">Coffee</span><span class="tag">Espresso</span><span class="tag">Coffee recipes</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/brookelynlikesespresso">Linktree</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/brookelynlikesespresso/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@brookelynlikesespresso">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Cafe Hopping NYC food avatar">☕</span>
+                <span><strong class="name">Cafe Hopping NYC</strong><span class="handle">@cafehoppingnyc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC cafe-discovery account highlighting coffee shops, desserts, brunch spots, and photogenic places to eat and drink.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Coffee shops</span><span class="tag">Cafe guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cafehoppingnyc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Caitlin Minshew food avatar">🍽️</span>
+                <span><strong class="name">Caitlin Minshew / Eating With Caitt</strong><span class="handle">@eatingwithcaitt</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NOLA native and local foodie sharing restaurant recommendations, girls' weekend ideas, drinks, and insider New Orleans food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Drinks</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.neworleans.com/blog/post/my-new-orleans-20-questions-with-caitlin-minshew/">NewOrleans.com Profile</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatingwithcaitt/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Carl Alexon Cuaresma food avatar">🍣</span>
                 <span><strong class="name">Carl Alexon Cuaresma</strong><span class="handle">@alexon</span></span>
             </div>
@@ -282,6 +399,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://collabstr.com/top-influencers/sushi">Profile</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@alexon">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Carla Pesono food avatar">🍹</span>
+                <span><strong class="name">Carla Pesono</strong><span class="handle">@carlapesono</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Orleans food personality, podcast host, and creator covering restaurants, food culture, drinks, and local experiences.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Food media</span><span class="tag">Podcast</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/carlapesono/">Instagram</a>
             </div>
         </article>
 
@@ -355,6 +486,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chicagofoodauthority/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@chicagofoodauthority">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Chi City Coffee food avatar">☕</span>
+                <span><strong class="name">Chi City Coffee</strong><span class="handle">@chicitycoffee</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Curated Chicagoland coffee-shop guide personally reviewing cafes across neighborhoods, coffee quality, vibe, food, price, and location.</p>
+                <div class="tags"><span class="tag">Midwest</span><span class="tag">Chicago</span><span class="tag">Coffee shops</span><span class="tag">Cafe guide</span><span class="tag">Reviews</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://chicitycoffee.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chicitycoffee/">Instagram</a>
             </div>
         </article>
 
@@ -581,6 +727,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Eatin' with Izzy food avatar">🍣</span>
+                <span><strong class="name">Eatin' with Izzy</strong><span class="handle">@eatinwithizzy</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NOLA and Baton Rouge food and lifestyle creator sharing restaurants, sushi, casual eats, and regional food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Baton Rouge</span><span class="tag">Restaurants</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatinwithizzy/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Eden Hagos food avatar">🍛</span>
                 <span><strong class="name">Eden Hagos / Black Foodie</strong><span class="handle">@blackfoodie.co</span></span>
             </div>
@@ -643,6 +803,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Emma food avatar">☕</span>
+                <span><strong class="name">Emma / Emma's Edition</strong><span class="handle">@emmasedition</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Seattle lifestyle creator with coffee-shop guides, Instagrammable cafe roundups, travel, and local discovery content.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Seattle</span><span class="tag">Coffee shops</span><span class="tag">Cafe guide</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.emmasedition.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emmasedition/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Erwina food avatar">🌶️</span>
                 <span><strong class="name">Erwina / Erwina and The Boys</strong><span class="handle">@erwinaandtheboys</span></span>
             </div>
@@ -667,6 +842,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cookingwithfiona/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Hannah Kopach food avatar">☕</span>
+                <span><strong class="name">Hannah Kopach / Cuppa Chicago</strong><span class="handle">@cuppachicago</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Chicago coffee-shop creator documenting local cafes, coffee crawls, shop reviews, and neighborhood cafe culture.</p>
+                <div class="tags"><span class="tag">Midwest</span><span class="tag">Chicago</span><span class="tag">Coffee shops</span><span class="tag">Cafe guide</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.hannahkopach.com/portfolio/cuppachicago">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cuppachicago/">Instagram</a>
             </div>
         </article>
 
@@ -725,6 +915,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pdxfoodfinds/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jane Ko food avatar">🥗</span>
+                <span><strong class="name">Jane Ko / A Taste of Koko</strong><span class="handle">@atasteofkoko</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin food and lifestyle creator covering restaurants, city guides, openings, travel, and local experiences.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Lifestyle</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.atasteofkoko.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/atasteofkoko/">Instagram</a>
             </div>
         </article>
 
@@ -986,6 +1191,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Karen food avatar">🍩</span>
+                <span><strong class="name">Karen / A Foodie in Austin</strong><span class="handle">@afoodieinaustin</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin content creator covering food, travel, local life, pop-ups, sweets, restaurants, and joyful ATX discoveries.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/afoodieinaustin/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Kass food avatar">🍝</span>
                 <span><strong class="name">Kass / Philly Food Girl</strong><span class="handle">@phillyfoodgirl</span></span>
             </div>
@@ -1162,6 +1381,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Liza food avatar">🍴</span>
+                <span><strong class="name">Liza / Fork It Over</strong><span class="handle">@_forkitover_</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Orleans food creator covering local dining, collaborations, restaurant finds, and travel eats.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_forkitover_/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Long Nguyen food avatar">🍛</span>
                 <span><strong class="name">Long Nguyen / FoodWithZen</strong><span class="handle">@foodwithzen</span></span>
             </div>
@@ -1236,6 +1469,50 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mariana food avatar">☕</span>
+                <span><strong class="name">Mariana in LA</strong><span class="handle">@marianainla</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Los Angeles local guide covering neighborhood gems, coffee shops, restaurants, and LA/OC food finds.</p>
+                <div class="tags"><span class="tag">West</span><span class="tag">Los Angeles</span><span class="tag">LA</span><span class="tag">Coffee shops</span><span class="tag">Local guide</span><span class="tag">Restaurants</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://marianainla.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/marianainla/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Marisa D food avatar">🌶️</span>
+                <span><strong class="name">Marisa D / Risa's Cuisine</strong><span class="handle">@risascuisine</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Orleans-born creator focused on Creole cooking, recipes, cookbook content, and Louisiana food traditions.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Creole</span><span class="tag">Recipes</span><span class="tag">Louisiana food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/risascuisine/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mark Magat food avatar">☕</span>
+                <span><strong class="name">Mark Magat / Ju5tbrew</strong><span class="handle">@ju5tbrew</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Coffee creator sharing espresso gear, home barista setups, coffee cart builds, brewing tools, and coffee product content.</p>
+                <div class="tags"><span class="tag">Coffee</span><span class="tag">Espresso</span><span class="tag">Home barista</span><span class="tag">Coffee gear</span><span class="tag">Creator</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/ju5tbrew">Linktree</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ju5tbrew/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Marley Goldin food avatar">🐟</span>
                 <span><strong class="name">Marley Goldin / Marley's Menu</strong><span class="handle">@marleysmenu</span></span>
             </div>
@@ -1275,6 +1552,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://pipingpotcurry.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pipingpotcurry/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Melissa Male food avatar">☕</span>
+                <span><strong class="name">Melissa Male</strong><span class="handle">@melissamale</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NYC content creator known for coffee, brunch, cute storefronts, travel, and city cafe visuals.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Coffee shops</span><span class="tag">Brunch</span><span class="tag">Lifestyle</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.melissamale.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/melissamale/">Instagram</a>
             </div>
         </article>
 
@@ -1334,6 +1626,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://minimalistbaker.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/minimalistbaker/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Mohammad Alkurd food avatar">🍛</span>
+                <span><strong class="name">Mohammad Alkurd / Mo Munchies</strong><span class="handle">@momunchiesllc</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">NOLA, New York, and New Jersey food and culture creator sharing restaurant content, travel eats, and social food storytelling.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Food culture</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/momunchiesllc/">Instagram</a>
             </div>
         </article>
 
@@ -1441,6 +1747,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nicole Caridad Ralston food avatar">🍤</span>
+                <span><strong class="name">Nicole Caridad Ralston / Eaten Path NOLA</strong><span class="handle">@eatenpathnola</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Orleans food blogger sharing local eats with cultural history, foodways, and social context around the city's dining scene.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Food writing</span><span class="tag">Food culture</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.neworleans.com/new-orleans-local-influencers/nicole-caridad-ralston/">NewOrleans.com Profile</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatenpathnola/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nije Banks food avatar">🥂</span>
                 <span><strong class="name">Nije Banks / Fueled on Philly</strong><span class="handle">@fueledonphilly</span></span>
             </div>
@@ -1450,6 +1771,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fueledonphilly/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="NOLA Eats food avatar">🥣</span>
+                <span><strong class="name">NOLA Eats</strong><span class="handle">@nola.eats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Long-running New Orleans dining account from a former food and dining writer, covering restaurants, gumbo, food events, and city dining.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Food writing</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nola.eats/">Instagram</a>
             </div>
         </article>
 
@@ -1574,6 +1909,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rachel food avatar">🌮</span>
+                <span><strong class="name">Rachel / 512 Bites</strong><span class="handle">@512bites</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin food and drink creator helping locals find restaurants, bars, iconic eats, and things to do around the city.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Bars</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/512bites/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Rachel Lorton food avatar">🍇</span>
                 <span><strong class="name">Rachel Lorton</strong><span class="handle">@rachelrenelorton</span></span>
             </div>
@@ -1597,6 +1946,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedonutwearsprada/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rachel Thornton food avatar">🍽️</span>
+                <span><strong class="name">Rachel Thornton / Austin Foodstagram</strong><span class="handle">@austinfoodstagram</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Texas Hill Country and Austin creator sharing food, travel, family-friendly finds, events, and restaurant recommendations.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas Hill Country</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Events</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodstagram/">Instagram</a>
             </div>
         </article>
 
@@ -1819,6 +2182,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sofia H. food avatar">☕</span>
+                <span><strong class="name">Sofia H. / Fifi's Home Coffee Bar</strong><span class="handle">@fifiscoffee</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Philly coffee creator sharing coffee recipes, home coffee bar drinks, espresso ideas, and Spanglish coffee content.</p>
+                <div class="tags"><span class="tag">Northeast</span><span class="tag">Philadelphia</span><span class="tag">Philly</span><span class="tag">Coffee</span><span class="tag">Coffee recipes</span><span class="tag">Home barista</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fifiscoffee/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Stacey Little food avatar">🥧</span>
                 <span><strong class="name">Stacey Little / Southern Bite</strong><span class="handle">@southernbite</span></span>
             </div>
@@ -1932,6 +2309,34 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.taliacadet.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/taliacadet/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Tamsy food avatar">🥘</span>
+                <span><strong class="name">Tamsy / Tam Loves to Eat</strong><span class="handle">@tamlovestoeat</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">New Orleans food, travel, and lifestyle creator highlighting local restaurants, Black-owned spots, community dining, and NOLA experiences.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">New Orleans</span><span class="tag">NOLA</span><span class="tag">Restaurants</span><span class="tag">Black-owned</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tamlovestoeat/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Taylor Elliot food avatar">🍜</span>
+                <span><strong class="name">Taylor Elliot / Austin Eater</strong><span class="handle">@austineater</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Austin food and hospitality media creator focused on restaurant discovery, campaign content, and local dining storytelling.</p>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Hospitality</span><span class="tag">Food media</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austineater/">Instagram</a>
             </div>
         </article>
 
