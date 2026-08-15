@@ -6,22 +6,6 @@
     </div>
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Abi Balingit food avatar">🧁</span>
-                <span><strong class="name">Abi Balingit / The Dusky Kitchen</strong><span class="handle">@theduskykitchen</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Brooklyn-based baker and cookbook author focused on Filipino American desserts, ube, baking, and creative pastry remixes.</p>
-                <div class="tags"><span class="tag">Northeast</span><span class="tag">Brooklyn</span><span class="tag">Filipino</span><span class="tag">Dessert</span><span class="tag">Baking</span><span class="tag">Cookbook author</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://theduskykitchen.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/theduskykitchen/">Instagram</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.mercadovicente.com/abibalingit">Profile</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Abram Plaut food avatar">🍜</span>
                 <span><strong class="name">Abram Plaut / Ramen Beast</strong><span class="handle">@ramen_beast</span></span>
             </div>
@@ -666,21 +650,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Caroline Schiff food avatar">🍰</span>
-                <span><strong class="name">Caroline Schiff</strong><span class="handle">@pastryschiff</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">NYC pastry chef and cookbook author sharing desserts, pastry technique, baking projects, and sweet and savory recipes.</p>
-                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">NYC</span><span class="tag">New York City</span><span class="tag">Cookbooks</span><span class="tag">Baking</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.carolineschiff.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pastryschiff/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Carrie Morey food avatar">🧈</span>
                 <span><strong class="name">Carrie Morey / Callie's Hot Little Biscuit</strong><span class="handle">@carriebaileymorey</span></span>
             </div>
@@ -943,21 +912,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Damian Ocampo food avatar">🍕</span>
-                <span><strong class="name">Damian Ocampo / Hooked LV</strong><span class="handle">@hookedlv</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Las Vegas food creator highlighting restaurants, dishes, and local dining finds.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Food finds</span><span class="tag">Local guide</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://hookedlv.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hookedlv/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Dana Rozansky food avatar">🍕</span>
                 <span><strong class="name">Dana Rozansky / Miami Food Porn</strong><span class="handle">@miami_foodporn</span></span>
             </div>
@@ -1149,21 +1103,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Drew Belcher food avatar">🍔</span>
-                <span><strong class="name">Drew Belcher / UNLOKT</strong><span class="handle">@unlokt</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Las Vegas food and local experiences account focused on restaurants, events, and must-try Vegas finds.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Las Vegas</span><span class="tag">Vegas</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food experiences</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://blog.unlokt.com/city/las-vegas">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/unlokt/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Eatin' with Izzy food avatar">🍣</span>
                 <span><strong class="name">Eatin' with Izzy</strong><span class="handle">@eatinwithizzy</span></span>
             </div>
@@ -1278,21 +1217,6 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatmelasvegas/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Emma food avatar">☕</span>
-                <span><strong class="name">Emma / Emma's Edition</strong><span class="handle">@emmasedition</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Seattle lifestyle creator with coffee-shop guides, Instagrammable cafe roundups, travel, and local discovery content.</p>
-                <div class="tags"><span class="tag">West</span><span class="tag">Seattle</span><span class="tag">Coffee shops</span><span class="tag">Cafe guide</span><span class="tag">Lifestyle</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.emmasedition.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emmasedition/">Instagram</a>
             </div>
         </article>
 
@@ -1617,21 +1541,6 @@
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://butternutbakeryblog.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/butternutbakery">Recipe hub</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/butternutbakery/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Jeremy E Joyce food avatar">🍖</span>
-                <span><strong class="name">Jeremy E. Joyce / Black People Eats</strong><span class="handle">@blackpeopleeats</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Chicago-born food platform focused on connecting people with Black-owned restaurants, bars, food startups, and local restaurant stories.</p>
-                <div class="tags"><span class="tag">Black-owned</span><span class="tag">Chicago</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food review</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://blackpeopleeats.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/blackpeopleeats/">Instagram</a>
             </div>
         </article>
 
@@ -2381,36 +2290,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Maya Frenklach food avatar">🍪</span>
-                <span><strong class="name">Maya Frenklach / Painted Ladies Pastry</strong><span class="handle">@paintedladiespastry</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Bay Area baker and cookie artist creating detailed royal icing cookies, pastry art, classes, and custom bakes.</p>
-                <div class="tags"><span class="tag">Dessert</span><span class="tag">Pastry</span><span class="tag">Bay Area</span><span class="tag">Cookies</span><span class="tag">Food art</span><span class="tag">Classes</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://paintedladiespastry.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/paintedladiespastry/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Meeta Arora food avatar">🍛</span>
-                <span><strong class="name">Meeta Arora / Piping Pot Curry</strong><span class="handle">@pipingpotcurry</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">California-based creator sharing Indian recipes, Instant Pot cooking, air fryer dishes, curries, and family-friendly meals.</p>
-                <div class="tags"><span class="tag">Indian food</span><span class="tag">Instant Pot</span><span class="tag">Curries</span><span class="tag">Family meals</span><span class="tag">Weeknight</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://pipingpotcurry.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pipingpotcurry/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Melissa Male food avatar">☕</span>
                 <span><strong class="name">Melissa Male</strong><span class="handle">@melissamale</span></span>
             </div>
@@ -2615,21 +2494,6 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Nick Munro food avatar">🍝</span>
-                <span><strong class="name">Nick Munro / The Rigaytoni</strong><span class="handle">@therigaytoni</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Italian-American pasta creator sharing pasta-heavy recipes, coastal New England influence, family cooking, and entertaining-friendly dishes.</p>
-                <div class="tags"><span class="tag">Italian food</span><span class="tag">Italian-American</span><span class="tag">Pasta</span><span class="tag">Home cooking</span><span class="tag">Entertaining</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.therigaytoni.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/therigaytoni/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nick Nesgoda food avatar">🔥</span>
                 <span><strong class="name">Nick Nesgoda / Burnt Pellet BBQ</strong><span class="handle">@burnt_pellet_bbq</span></span>
             </div>
@@ -2654,21 +2518,6 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.neworleans.com/new-orleans-local-influencers/nicole-caridad-ralston/">NewOrleans.com Profile</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatenpathnola/">Instagram</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Nicole Lopez-Alvar food avatar">📰</span>
-                <span><strong class="name">Nicole Lopez-Alvar</strong><span class="handle">@nicolelovar</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Miami food and drink editor, journalist, and creator covering restaurants, dining news, and local food culture.</p>
-                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Food media</span><span class="tag">Journalism</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.nicolelovar.com/">Website</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nicolelovar/">Instagram</a>
             </div>
         </article>
 
@@ -3402,22 +3251,6 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sushicravings/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://influencers.feedspot.com/southern_california_sushi_instagram_influencers/">Profile</a>
-            </div>
-        </article>
-
-    <article class="person-row" role="row">
-            <div class="person-cell identity" role="cell">
-                <span class="avatar emoji-avatar" role="img" aria-label="Tabitha Brown food avatar">🥑</span>
-                <span><strong class="name">Tabitha Brown</strong><span class="handle">@iamtabithabrown</span></span>
-            </div>
-            <div class="person-cell" role="cell">
-                <p class="bio">Beloved vegan comfort-food and lifestyle creator known for warmth, plant-based recipes, family cooking, and uplifting video content.</p>
-                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Vegan</span><span class="tag">Comfort food</span><span class="tag">Lifestyle</span></div>
-            </div>
-            <div class="person-cell links" role="cell">
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/iamtabithabrown/">Instagram</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@iamtabithabrown">TikTok</a>
-                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@TabithaBrown">YouTube</a>
             </div>
         </article>
 
