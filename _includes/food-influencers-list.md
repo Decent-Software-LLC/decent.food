@@ -143,6 +143,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alex Rios food avatar">🇨🇺</span>
+                <span><strong class="name">Alex Rios / Alex Rios Cooks</strong><span class="handle">@alexrioscooks</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami Cuban and Latino food creator and personal chef sharing recipes, cooking videos, and full recipe content.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Cuban food</span><span class="tag">Latin food</span><span class="tag">Recipes</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alexrioscooks/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Alex Snodgrass food avatar">🍛</span>
                 <span><strong class="name">Alex Snodgrass / The Defined Dish</strong><span class="handle">@thedefineddish</span></span>
             </div>
@@ -153,6 +167,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://thedefineddish.com">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedefineddish/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Allie Eaton food avatar">🍽️</span>
+                <span><strong class="name">Allie Eaton / ATL Peachy Eats</strong><span class="handle">@atlpeachyeats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food creator covering restaurants, local eats, city guides, and Peachy Eats Passport food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Restaurants</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/atlpeachyeats/">Instagram</a>
             </div>
         </article>
 
@@ -172,6 +200,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Alyssa Fagien food avatar">🍑</span>
+                <span><strong class="name">Alyssa Fagien / ATL Bucket List</strong><span class="handle">@atl_bucketlist</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta creator sharing things to do, places to explore, restaurants, events, and local food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Restaurants</span><span class="tag">Things to do</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.atlbucketlist.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/atl_bucketlist/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Amanda Wong food avatar">🌮</span>
                 <span><strong class="name">Amanda Wong / Austin Food Adventures</strong><span class="handle">@austinfoodadventures</span></span>
             </div>
@@ -181,6 +224,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodadventures/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Amethyst Ganaway food avatar">🍲</span>
+                <span><strong class="name">Amethyst Ganaway</strong><span class="handle">@thizzg</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">North Charleston chef, writer, and curator focused on Southern food, Lowcountry foodways, and cultural food storytelling.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Lowcountry</span><span class="tag">Chef-led</span><span class="tag">Food writing</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thizzg/">Instagram</a>
             </div>
         </article>
 
@@ -231,6 +288,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Angie Williams food avatar">🍗</span>
+                <span><strong class="name">Angie Williams / Gourmet Angiie</strong><span class="handle">@gourmetangiie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food, travel, and experiences creator highlighting restaurants, soul food, chef-led meals, and local events.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Soul food</span><span class="tag">Experiences</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gourmetangiie/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Anthony Matthews food avatar">🍖</span>
                 <span><strong class="name">Anthony Matthews / The Hungry Longhorn</strong><span class="handle">@thehungrylonghorn</span></span>
             </div>
@@ -269,6 +340,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fabfoodieinthecity/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ashley Lowman food avatar">🌾</span>
+                <span><strong class="name">Ashley Lowman / Gullah Eats CHS</strong><span class="handle">@gullaheatschs</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Lowcountry food writer and blogger covering Charleston food, travel, cooking, Gullah food culture, and regional dining.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Lowcountry</span><span class="tag">Gullah food</span><span class="tag">Food writing</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gullaheatschs/">Instagram</a>
             </div>
         </article>
 
@@ -325,6 +410,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/phillyfoodladies/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Benjamin Dennis food avatar">🌾</span>
+                <span><strong class="name">Benjamin Dennis / BJ Dennis</strong><span class="handle">@chefbjdennis</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Bluffton and Charleston personal chef and caterer focused on Gullah Geechee cuisine, Lowcountry foodways, seafood, rice culture, and African diaspora food traditions.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Lowcountry</span><span class="tag">Gullah food</span><span class="tag">Charleston SC</span><span class="tag">Bluffton SC</span><span class="tag">Chef-led</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chefbjdennis/">Instagram</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://charlestonwineandfood.com/participants/bj-dennis/">Charleston Wine + Food</a>
             </div>
         </article>
 
@@ -576,6 +676,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.carolineschiff.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pastryschiff/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Carrie Morey food avatar">🧈</span>
+                <span><strong class="name">Carrie Morey / Callie's Hot Little Biscuit</strong><span class="handle">@carriebaileymorey</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston biscuit maker, founder, author, and TV personality sharing handmade biscuits, Southern baking, business, and family food stories.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Biscuits</span><span class="tag">Southern food</span><span class="tag">Baking</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://calliesbiscuits.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/carriebaileymorey/">Instagram</a>
             </div>
         </article>
 
@@ -843,6 +958,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Dana Rozansky food avatar">🍕</span>
+                <span><strong class="name">Dana Rozansky / Miami Food Porn</strong><span class="handle">@miami_foodporn</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami-based food creator sharing indulgent restaurant content, travel dining, and local food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Indulgent</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/miami_foodporn/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Daniel Corpuz food avatar">🍫</span>
                 <span><strong class="name">Daniel Corpuz</strong><span class="handle">@danielcorpuz</span></span>
             </div>
@@ -927,6 +1056,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/feedingtimetv/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="David White food avatar">📍</span>
+                <span><strong class="name">David White / The Dropping Pin</strong><span class="handle">@thedroppingpin</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston food creator known as The Black Food Guy of Charleston, highlighting local taste experiences and restaurant discoveries.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Black-owned</span><span class="tag">Restaurants</span><span class="tag">Food culture</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thedroppingpin/">Instagram</a>
             </div>
         </article>
 
@@ -1081,6 +1224,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Elise Devoe food avatar">🍹</span>
+                <span><strong class="name">Elise Devoe / Cookin With Booze</strong><span class="handle">@cookinwithbooze</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston food writer and photographer sharing where to eat and drink in Charleston, restaurant finds, and local dining tips.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Restaurants</span><span class="tag">Drinks</span><span class="tag">Food photography</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cookinwithbooze/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Emily Chan food avatar">🍽️</span>
                 <span><strong class="name">Emily Chan / Boston Foodgram</strong><span class="handle">@bostonfoodgram</span></span>
             </div>
@@ -1141,6 +1298,50 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Emma Waugh food avatar">🍽️</span>
+                <span><strong class="name">Emma Waugh / Girl Eats Everything</strong><span class="handle">@girleatseverything</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston creator sharing what to eat, drink, and do around Charleston and beyond.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Restaurants</span><span class="tag">Drinks</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/girleatseverything/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Erica Davis food avatar">🦐</span>
+                <span><strong class="name">Erica Davis / Erica Davis Lowcountry</strong><span class="handle">@ericadavislowcountry</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Savannah restaurateur and caterer focused on Lowcountry cuisine, seafood, oyster roasts, Lowcountry boils, and regional Southern food.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Lowcountry</span><span class="tag">Savannah</span><span class="tag">Seafood</span><span class="tag">Southern food</span><span class="tag">Restaurants</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.ericadavislowcountry.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ericadavislowcountry/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Erica Key food avatar">🍴</span>
+                <span><strong class="name">Erica Key / Eating With Erica</strong><span class="handle">@eatingwitherica</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food storyteller and supper club curator sharing where to dine, what to cook, and how to gather.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Food culture</span><span class="tag">Supper club</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://eatingwitherica.com/blog">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatingwitherica/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Erwina food avatar">🌶️</span>
                 <span><strong class="name">Erwina / Erwina and The Boys</strong><span class="handle">@erwinaandtheboys</span></span>
             </div>
@@ -1165,6 +1366,36 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/cookingwithfiona/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="George Arango food avatar">🗺️</span>
+                <span><strong class="name">George Arango / Mr. Eats 305</strong><span class="handle">@mr.eats305</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami food creator behind a Miami food map, sharing restaurant finds and local dining recommendations.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food map</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://mreats305.com/blog">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mr.eats305/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Gina Capers-Willis food avatar">🍚</span>
+                <span><strong class="name">Gina Capers-Willis / What's Gina Cooking</strong><span class="handle">@whatsginacooking</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Savannah-based Gullah Geechee chef sharing Lowcountry recipes, videos, red rice, and regional cooking rooted in Daufuskie Island and Sea Islands food culture.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Lowcountry</span><span class="tag">Gullah food</span><span class="tag">Savannah</span><span class="tag">Recipes</span><span class="tag">Chef-led</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.whatsginacooking.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/whatsginacooking/">Instagram</a>
             </div>
         </article>
 
@@ -1244,6 +1475,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Ivette Lopez food avatar">🍽️</span>
+                <span><strong class="name">Ivette Lopez / Ivie the Foodie</strong><span class="handle">@iviethefoodie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami restaurant guide creator sharing what to order, local food maps, and dining recommendations.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food map</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/iviethefoodie/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Jackie Frei food avatar">🍔</span>
                 <span><strong class="name">Jackie Frei / Bon Nappetit</strong><span class="handle">@bon_nappetit</span></span>
             </div>
@@ -1281,6 +1526,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pdxfoodfinds/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Jai Jones food avatar">🦪</span>
+                <span><strong class="name">Jai Jones / Jai Eats</strong><span class="handle">@jaieats</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston food writer and creator covering restaurants, drinks, and local dining; contributor to The Infatuation and Food & Wine.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Restaurants</span><span class="tag">Food writing</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://jaieats.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/jaieats/">Instagram</a>
             </div>
         </article>
 
@@ -1584,6 +1844,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Juliana Alvarez food avatar">🌴</span>
+                <span><strong class="name">Juliana Alvarez / Miami Foodiez</strong><span class="handle">@miami.foodiez</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami food creator bringing local restaurant flavors, food finds, and dining recommendations to social feeds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/miami.foodiez/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Justine Doiron food avatar">🥗</span>
                 <span><strong class="name">Justine Doiron / Justine Snacks</strong><span class="handle">@justine_snacks</span></span>
             </div>
@@ -1609,6 +1883,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/smoothieflip/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kardea Brown food avatar">🍤</span>
+                <span><strong class="name">Kardea Brown</strong><span class="handle">@kardeabrown</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston-based Food Network host, cookbook author, and Southern food creator known for Lowcountry and Gullah Geechee-inspired cooking.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Lowcountry</span><span class="tag">Southern food</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kardeabrown/">Instagram</a>
             </div>
         </article>
 
@@ -1673,6 +1961,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kevin Escalera food avatar">🍟</span>
+                <span><strong class="name">Kevin Escalera / Snack Eating Snackss</strong><span class="handle">@snackeatingsnackss</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami food and travel creator sharing restaurant finds, snackable food videos, and travel eats.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Food finds</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/snackeatingsnackss/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Kevin Ortega food avatar">🥩</span>
                 <span><strong class="name">Kevin Ortega / BBQ Foodie</strong><span class="handle">@bbq_foodie</span></span>
             </div>
@@ -1710,6 +2012,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nomtasticdc/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Kristen Abdus-Salaam Truitt food avatar">🍤</span>
+                <span><strong class="name">Kristen Abdus-Salaam Truitt / Atlanta Food Guy</strong><span class="handle">@atlantafoodguy</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food creator known for bold restaurant videos, soul food, cajun food, brunch, halal, vegan spots, and metro-area eats.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Soul food</span><span class="tag">Restaurant video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/atlantafoodguy/">Instagram</a>
             </div>
         </article>
 
@@ -1783,6 +2099,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/lmhallman/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Leslie Diaz food avatar">🍰</span>
+                <span><strong class="name">Leslie Diaz / Treat Yo Self Everywhere</strong><span class="handle">@treatyoselfeverywhere</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami food and travel creator covering restaurants, cruises, desserts, and treat-yourself dining ideas.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Dessert</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/treatyoselfeverywhere/">Instagram</a>
             </div>
         </article>
 
@@ -2096,6 +2426,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Meredith Moore Fischl food avatar">🍍</span>
+                <span><strong class="name">Meredith Moore Fischl / Eat Drink Play Charleston</strong><span class="handle">@eatdrinkplaycharleston</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston-area creator sharing how to eat, drink, and play across Charleston and Mt. Pleasant.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Mt Pleasant</span><span class="tag">Restaurants</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatdrinkplaycharleston/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Meryl Feinstein food avatar">🍝</span>
                 <span><strong class="name">Meryl Feinstein / Pasta Social Club</strong><span class="handle">@pastasocialclub</span></span>
             </div>
@@ -2315,6 +2659,21 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nicole Lopez-Alvar food avatar">📰</span>
+                <span><strong class="name">Nicole Lopez-Alvar</strong><span class="handle">@nicolelovar</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami food and drink editor, journalist, and creator covering restaurants, dining news, and local food culture.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Food media</span><span class="tag">Journalism</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.nicolelovar.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/nicolelovar/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nicole food avatar">🍔</span>
                 <span><strong class="name">Nicole / My Diet Is Trash</strong><span class="handle">@mydietistrash</span></span>
             </div>
@@ -2329,6 +2688,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nico Norena food avatar">🍔</span>
+                <span><strong class="name">Nico Norena / Succulent Bite</strong><span class="handle">@succulentbite</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Miami food creator sharing indulgent recipes, restaurant content, and Latin-influenced food videos.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">Florida</span><span class="tag">Restaurants</span><span class="tag">Latin food</span><span class="tag">Recipe video</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/succulentbite/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Nije Banks food avatar">🥂</span>
                 <span><strong class="name">Nije Banks / Fueled on Philly</strong><span class="handle">@fueledonphilly</span></span>
             </div>
@@ -2338,6 +2711,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/fueledonphilly/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Nikka Shae food avatar">🍸</span>
+                <span><strong class="name">Nikka Shae / Oh Nikka</strong><span class="handle">@ohnikka</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta tastemaker covering food, lifestyle, hotels, events, and dining experiences.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Lifestyle</span><span class="tag">Experiences</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/ohnikka/">Instagram</a>
             </div>
         </article>
 
@@ -2410,6 +2797,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/odestereats/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Olivia Arnold food avatar">🥞</span>
+                <span><strong class="name">Olivia Arnold / Foodistagirl</strong><span class="handle">@foodistagirl</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta native sharing food, brunch, local restaurants, and fun ATL food discoveries.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Brunch</span><span class="tag">Local guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/foodistagirl/">Instagram</a>
             </div>
         </article>
 
@@ -2532,6 +2933,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rachel Seiden food avatar">🧀</span>
+                <span><strong class="name">Rachel Seiden / That Red Headed Foodie</strong><span class="handle">@thatredheadedfoodie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food and drink creator sharing where to eat, drink, and play around the city with original content.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Restaurants</span><span class="tag">Drinks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thatredheadedfoodie/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Rachel food avatar">🍩</span>
                 <span><strong class="name">Rachel / The Donut Wears Prada</strong><span class="handle">@thedonutwearsprada</span></span>
             </div>
@@ -2569,6 +2984,21 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/da_poke_man/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Rebekah Faulk Lingenfelser food avatar">🥘</span>
+                <span><strong class="name">Rebekah Faulk Lingenfelser / Some Kinda Good</strong><span class="handle">@skgfoodblog</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Savannah food writer, author, and recipe creator sharing Southern recipes, cooking tips, restaurant recommendations, and coastal Georgia food stories.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Lowcountry</span><span class="tag">Savannah</span><span class="tag">Southern food</span><span class="tag">Recipes</span><span class="tag">Food writing</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://somekindagood.com/">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/skgfoodblog/">Instagram</a>
             </div>
         </article>
 
@@ -2675,6 +3105,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Samantha food avatar">🍔</span>
+                <span><strong class="name">Samantha / Samantha in Savannah</strong><span class="handle">@samanthainsavannah</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Savannah creator sharing local restaurants, date-night ideas, kid-friendly activities, and Lowcountry city guides.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Lowcountry</span><span class="tag">Savannah</span><span class="tag">Restaurants</span><span class="tag">Local guide</span><span class="tag">Family-friendly</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/samanthainsavannah/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="The Naughty Fork food avatar">🍔</span>
                 <span><strong class="name">Samantha Schnur / The Naughty Fork</strong><span class="handle">@thenaughtyfork</span></span>
             </div>
@@ -2685,6 +3129,21 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thenaughtyfork/">Instagram</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@thenaughtyfork">TikTok</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sam Nadolski food avatar">🥂</span>
+                <span><strong class="name">Sam Nadolski / Eating Through Atlanta</strong><span class="handle">@eatingthroughatlanta</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food blogger exploring restaurants, dishes, drinks, and local dining recommendations.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Restaurants</span><span class="tag">Food blog</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://eatingthroughatlanta.com/blog">Website</a>
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/eatingthroughatlanta/">Instagram</a>
             </div>
         </article>
 
@@ -2719,6 +3178,20 @@
 
     <article class="person-row" role="row">
             <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Sarah Puett food avatar">🌮</span>
+                <span><strong class="name">Sarah Puett / Atlanta Best Bites</strong><span class="handle">@atlantabestbites</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Atlanta food and drink guide creator covering restaurants, tacos, local bites, TikTok, and YouTube food content.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Atlanta</span><span class="tag">ATL</span><span class="tag">Georgia</span><span class="tag">Restaurants</span><span class="tag">Food guide</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/atlantabestbites/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
                 <span class="avatar emoji-avatar" role="img" aria-label="Sarah Stusek food avatar">🍔</span>
                 <span><strong class="name">Sarah Stusek</strong><span class="handle">@sarahstusek</span></span>
             </div>
@@ -2743,6 +3216,20 @@
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dmvbite/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Shalean and Stephanie Ghitis food avatar">🥘</span>
+                <span><strong class="name">Shalean & Stephanie Ghitis / Soflofooodie</strong><span class="handle">@soflofooodie</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">South Florida creators and cookbook authors sharing recipes, food, travel, cruises, and local dining content.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Miami</span><span class="tag">South Florida</span><span class="tag">Restaurants</span><span class="tag">Recipes</span><span class="tag">Cookbooks</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/soflofooodie/">Instagram</a>
             </div>
         </article>
 
@@ -3092,6 +3579,20 @@
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://panlasangpinoy.com/">Website</a>
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/panlasangpinoy/">Instagram</a>
+            </div>
+        </article>
+
+    <article class="person-row" role="row">
+            <div class="person-cell identity" role="cell">
+                <span class="avatar emoji-avatar" role="img" aria-label="Vi Fessenden food avatar">🥘</span>
+                <span><strong class="name">Vi Fessenden / Hoang Vi Ton</strong><span class="handle">@hoangviton</span></span>
+            </div>
+            <div class="person-cell" role="cell">
+                <p class="bio">Charleston food, lifestyle, and travel creator sharing restaurant reviews, recipes, family travel, and local food finds.</p>
+                <div class="tags"><span class="tag">South / Southeast</span><span class="tag">Charleston SC</span><span class="tag">South Carolina</span><span class="tag">Restaurants</span><span class="tag">Recipes</span><span class="tag">Travel food</span></div>
+            </div>
+            <div class="person-cell links" role="cell">
+                <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/hoangviton/">Instagram</a>
             </div>
         </article>
 
