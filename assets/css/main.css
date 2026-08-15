@@ -870,8 +870,19 @@ body {
     padding: 0.25rem 0.55rem;
     color: var(--primary-dark);
     background: rgba(59, 134, 246, 0.08);
+    cursor: pointer;
     font-size: 0.74rem;
     font-weight: 820;
+    text-decoration: none;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.foodies-page .tag:hover,
+.foodies-page .tag:focus-visible {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: var(--white);
+    text-decoration: none;
 }
 
 .foodies-page .links {
@@ -1041,6 +1052,10 @@ body {
 
     .card-image {
         height: 160px;
+    }
+
+    .foodies-search {
+        margin-top: 1rem;
     }
 
     .foodies-page .content-link {

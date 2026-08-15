@@ -7,6 +7,26 @@ permalink: /food-influencers.html
 
 {% capture foodies_markup %}{% include food-influencers-list.md %}{% endcapture %}
 {% assign foodies_count = foodies_markup | split: '<article class="person-row"' | size | minus: 1 %}
+{% assign foodies_tag_chunks = foodies_markup | split: '<span class="tag">' %}
+{% capture foodies_linked_markup %}{{ foodies_tag_chunks | first }}{% endcapture %}
+{% for chunk in foodies_tag_chunks offset: 1 %}
+    {% assign tag_term = chunk | split: '</span>' | first | strip %}
+    {% assign tag_tail = chunk | remove_first: tag_term | remove_first: '</span>' %}
+    {% assign tag_count = 0 %}
+    {% for count_chunk in foodies_tag_chunks offset: 1 %}
+        {% assign count_term = count_chunk | split: '</span>' | first | strip %}
+        {% if count_term == tag_term %}
+            {% assign tag_count = tag_count | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+    {% if tag_count > 1 %}
+        {% assign encoded_tag_term = tag_term | url_encode %}
+        {% assign tag_url = "/food-influencers.html?foodies=" | append: encoded_tag_term | relative_url %}
+        {% capture foodies_linked_markup %}{{ foodies_linked_markup }}<a class="tag" href="{{ tag_url }}">{{ tag_term }}</a>{{ tag_tail }}{% endcapture %}
+    {% else %}
+        {% capture foodies_linked_markup %}{{ foodies_linked_markup }}<span class="tag">{{ tag_term }}</span>{{ tag_tail }}{% endcapture %}
+    {% endif %}
+{% endfor %}
 
 <div class="hero">
     <div class="container">
@@ -23,7 +43,7 @@ permalink: /food-influencers.html
 
     <h3 class="foodies-count-heading" id="foodies-count-heading">{{ foodies_count }} foodies found</h3>
 
-    {{ foodies_markup }}
+    {{ foodies_linked_markup }}
 
     <div class="no-results foodies-no-results" id="foodies-no-results" style="display: none;">
         <p>No foodies found matching your search.</p>

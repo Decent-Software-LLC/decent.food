@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const noResults = document.getElementById('no-results');
     const foodiesSearchInput = document.getElementById('foodies-search');
     const foodiesTagSuggestions = document.getElementById('foodies-tag-suggestions');
+    const foodiesPage = document.querySelector('.foodies-page');
     const foodieRows = document.querySelectorAll('.foodies-page .person-row');
     const foodiesNoResults = document.getElementById('foodies-no-results');
     const foodiesCountHeading = document.getElementById('foodies-count-heading');
@@ -76,6 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (foodiesSearchInput) {
         foodiesTags = getFoodiesTags();
+        setupFoodiesTagFilters();
         updateFoodiesTagSuggestions('');
 
         const foodiesUrlSearchTerm = getFoodiesUrlSearchTerm();
@@ -227,6 +229,65 @@ document.addEventListener('DOMContentLoaded', function() {
             option.value = tag;
             return option;
         }));
+    }
+
+    function filterFoodiesByTag(tag) {
+        const safeTag = sanitizeFoodiesSearchTerm(tag).trim();
+        if (!safeTag) {
+            return;
+        }
+
+        foodiesSearchInput.value = safeTag;
+        updateFoodiesTagSuggestions(safeTag);
+        filterFoodies(safeTag);
+        foodiesSearchInput.focus();
+    }
+
+    function setupFoodiesTagFilters() {
+        if (!foodiesPage) {
+            return;
+        }
+
+        foodiesPage.querySelectorAll('.tag').forEach(tag => {
+            const tagText = tag.textContent.trim();
+            if (tag instanceof HTMLAnchorElement) {
+                tag.setAttribute('aria-label', `View ${tagText} foodies`);
+                return;
+            }
+
+            tag.setAttribute('role', 'button');
+            tag.setAttribute('tabindex', '0');
+            tag.setAttribute('aria-label', `Filter foodies by ${tagText}`);
+        });
+
+        foodiesPage.addEventListener('click', event => {
+            const target = event.target instanceof Element ? event.target : event.target?.parentElement;
+            const tag = target?.closest('.tag');
+            if (tag && foodiesPage.contains(tag)) {
+                if (
+                    tag instanceof HTMLAnchorElement &&
+                    (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0)
+                ) {
+                    return;
+                }
+
+                event.preventDefault();
+                filterFoodiesByTag(tag.textContent);
+            }
+        });
+
+        foodiesPage.addEventListener('keydown', event => {
+            if (event.key !== 'Enter' && event.key !== ' ') {
+                return;
+            }
+
+            const target = event.target instanceof Element ? event.target : event.target?.parentElement;
+            const tag = target?.closest('.tag');
+            if (tag && foodiesPage.contains(tag)) {
+                event.preventDefault();
+                filterFoodiesByTag(tag.textContent);
+            }
+        });
     }
 
     function toFoodiesTitleCase(value) {
