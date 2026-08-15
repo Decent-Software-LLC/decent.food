@@ -744,6 +744,42 @@ body {
     margin-bottom: 1rem;
 }
 
+.foodies-search-control {
+    position: relative;
+}
+
+.foodies-search-clear {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 50%;
+    background: var(--primary-color);
+    color: var(--white);
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 1;
+    transform: translateY(-50%);
+}
+
+.foodies-search-clear:focus {
+    outline: 2px solid var(--secondary-color);
+    outline-offset: 2px;
+}
+
+@media (hover: none), (pointer: coarse) {
+    .foodies-search-control input {
+        padding-right: 3rem;
+    }
+
+    .foodies-search.has-value .foodies-search-clear {
+        display: block;
+    }
+}
+
 .foodies-count-heading {
     margin: 0 0 1.25rem;
     color: var(--text-color);

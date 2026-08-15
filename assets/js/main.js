@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const guideCards = document.querySelectorAll('.guide-card');
     const noResults = document.getElementById('no-results');
     const foodiesSearchInput = document.getElementById('foodies-search');
+    const foodiesSearchClear = document.getElementById('foodies-search-clear');
+    const foodiesSearchBox = document.querySelector('.foodies-search');
     const foodiesTagSuggestions = document.getElementById('foodies-tag-suggestions');
     const foodiesPage = document.querySelector('.foodies-page');
     const foodieRows = document.querySelectorAll('.foodies-page .person-row');
@@ -100,6 +102,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 filterFoodies(safeSearchTerm);
             });
         });
+
+        if (foodiesSearchClear) {
+            foodiesSearchClear.addEventListener('click', function() {
+                foodiesSearchInput.value = '';
+                updateFoodiesTagSuggestions('');
+                filterFoodies('');
+                foodiesSearchInput.focus();
+            });
+        }
 
         if (!foodiesUrlSearchTerm) {
             filterFoodies('', { updateUrl: false });
@@ -231,6 +242,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }));
     }
 
+    function updateFoodiesSearchClear(searchTerm) {
+        if (!foodiesSearchBox) {
+            return;
+        }
+
+        foodiesSearchBox.classList.toggle('has-value', Boolean(searchTerm.trim()));
+    }
+
     function filterFoodiesByTag(tag) {
         const safeTag = sanitizeFoodiesSearchTerm(tag).trim();
         if (!safeTag) {
@@ -239,6 +258,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         foodiesSearchInput.value = safeTag;
         updateFoodiesTagSuggestions(safeTag);
+        updateFoodiesSearchClear(safeTag);
         filterFoodies(safeTag);
         foodiesSearchInput.focus();
     }
@@ -385,6 +405,7 @@ document.addEventListener('DOMContentLoaded', function() {
             foodiesNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
         }
 
+        updateFoodiesSearchClear(safeSearchTerm);
         updateFoodiesHero(safeSearchTerm);
         updateFoodiesCountHeading(visibleCount, safeSearchTerm);
         updateFoodiesMetadata();

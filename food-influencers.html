@@ -37,7 +37,10 @@ permalink: /food-influencers.html
 
 <div class="foodies-page container">
     <div class="foodies-search search-box">
-        <input type="search" id="foodies-search" list="foodies-tag-suggestions" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">
+        <div class="foodies-search-control">
+            <input type="search" id="foodies-search" list="foodies-tag-suggestions" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">
+            <button type="button" class="foodies-search-clear" id="foodies-search-clear" aria-label="Clear foodie search">X</button>
+        </div>
         <datalist id="foodies-tag-suggestions"></datalist>
     </div>
 
