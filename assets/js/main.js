@@ -16,10 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodiesHeroDescription = document.querySelector('.foodies-hero-description');
     const defaultFoodiesHeroDescription = foodiesHeroDescription?.textContent || '';
     const foodiesMetaDescription = document.querySelector('meta[name="description"]');
+    const foodiesCanonicalLink = document.querySelector('link[rel="canonical"]');
+    const foodiesOgUrl = document.querySelector('meta[property="og:url"]');
     const defaultDocumentTitle = document.title;
     const siteTitle = defaultDocumentTitle.includes(' | ')
         ? defaultDocumentTitle.split(' | ').pop()
         : 'decent.food';
+    const defaultFoodiesCanonicalHref = foodiesCanonicalLink?.href || '';
     let foodiesTags = [];
 
     let currentArticleType = 'all';
@@ -364,6 +367,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 'content',
                 `${foodiesCountHeading.textContent.trim()}. ${foodiesHeroDescription.textContent.trim()}`
             );
+        }
+
+        if (foodiesCanonicalLink) {
+            const canonicalUrl = new URL(defaultFoodiesCanonicalHref || window.location.href);
+            const matchingTag = getMatchingFoodiesTag(foodiesSearchInput?.value || '');
+            canonicalUrl.search = '';
+            canonicalUrl.hash = '';
+
+            if (matchingTag) {
+                canonicalUrl.searchParams.set('foodies', matchingTag);
+            }
+
+            foodiesCanonicalLink.href = canonicalUrl.toString();
+
+            if (foodiesOgUrl) {
+                foodiesOgUrl.setAttribute('content', canonicalUrl.toString());
+            }
         }
     }
 
