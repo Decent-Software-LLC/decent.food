@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const defaultFoodiesHeroDescription = foodiesHeroDescription?.textContent || '';
     const foodiesMetaDescription = document.querySelector('meta[name="description"]');
     const foodiesCanonicalLink = document.querySelector('link[rel="canonical"]');
+    const foodiesOgTitle = document.querySelector('meta[property="og:title"]');
+    const foodiesOgDescription = document.querySelector('meta[property="og:description"]');
     const foodiesOgUrl = document.querySelector('meta[property="og:url"]');
     const defaultDocumentTitle = document.title;
     const siteTitle = defaultDocumentTitle.includes(' | ')
@@ -358,15 +360,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateFoodiesMetadata() {
+        const pageTitle = foodiesHeroTitle
+            ? `${foodiesHeroTitle.textContent.trim()} | ${siteTitle}`
+            : document.title;
+        const pageDescription = foodiesCountHeading && foodiesHeroDescription
+            ? `${foodiesCountHeading.textContent.trim()}. ${foodiesHeroDescription.textContent.trim()}`
+            : foodiesMetaDescription?.getAttribute('content') || '';
+
         if (foodiesHeroTitle) {
-            document.title = `${foodiesHeroTitle.textContent.trim()} | ${siteTitle}`;
+            document.title = pageTitle;
         }
 
         if (foodiesMetaDescription && foodiesCountHeading && foodiesHeroDescription) {
-            foodiesMetaDescription.setAttribute(
-                'content',
-                `${foodiesCountHeading.textContent.trim()}. ${foodiesHeroDescription.textContent.trim()}`
-            );
+            foodiesMetaDescription.setAttribute('content', pageDescription);
+        }
+
+        if (foodiesOgTitle) {
+            foodiesOgTitle.setAttribute('content', pageTitle);
+        }
+
+        if (foodiesOgDescription && pageDescription) {
+            foodiesOgDescription.setAttribute('content', pageDescription);
         }
 
         if (foodiesCanonicalLink) {
