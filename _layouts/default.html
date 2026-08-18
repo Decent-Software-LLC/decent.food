@@ -15,7 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% assign meta_description = page.description | default: site.description %}
-    {% if page.url == "/food-influencers.html" %}
+    {% if page.foodie_tag %}
+        {% assign foodies_head_count = page.foodie_count | default: 0 %}
+        {% assign meta_description = foodies_head_count | append: " " | append: page.foodie_tag | append: " Foodies found. " | append: page.description %}
+    {% elsif page.url == "/food-influencers.html" %}
         {% capture foodies_head_markup %}{% include food-influencers-list.md %}{% endcapture %}
         {% assign foodies_head_count = foodies_head_markup | split: '<article class="person-row"' | size | minus: 1 %}
         {% assign meta_description = foodies_head_count | append: " foodies found. " | append: page.description %}
@@ -32,8 +35,8 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="stylesheet" href="{{ '/assets/css/seo-enhancements.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    {% if page.url == "/food-influencers.html" %}
-        <meta property="og:title" content="{{ page.title | escape }}" />
+    {% if page.url == "/food-influencers.html" or page.foodie_tag %}
+        <meta property="og:title" content="{% if page.title %}{{ page.title | append: ' | ' | append: site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
         <meta property="og:description" content="{{ meta_description | escape }}" />
         <meta property="og:url" content="{{ page.url | absolute_url }}" />
         <meta property="og:site_name" content="{{ site.title | escape }}" />

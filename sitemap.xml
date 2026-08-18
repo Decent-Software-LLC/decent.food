@@ -3,8 +3,6 @@ layout: null
 sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-{% capture foodies_markup %}{% include food-influencers-list.md %}{% endcapture %}
-{% assign tag_chunks = foodies_markup | split: '<span class="tag">' %}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>{{ "/" | absolute_url }}</loc>
@@ -27,28 +25,12 @@ sitemap: false
         <priority>0.60</priority>
     </url>
     {% endfor %}
-    {% assign listed_foodie_tags = "|" %}
-    {% for chunk in tag_chunks offset: 1 %}
-    {% assign term = chunk | split: '</span>' | first | strip %}
-    {% assign wrapped_term = term | prepend: "|" | append: "|" %}
-    {% unless listed_foodie_tags contains wrapped_term %}
-    {% assign tag_count = 0 %}
-    {% for count_chunk in tag_chunks offset: 1 %}
-    {% assign count_term = count_chunk | split: '</span>' | first | strip %}
-    {% if count_term == term %}
-    {% assign tag_count = tag_count | plus: 1 %}
-    {% endif %}
-    {% endfor %}
-    {% if tag_count > 1 %}
-    {% assign encoded_term = term | url_encode %}
+    {% for foodie_tag in site.data.foodie_tags %}
     <url>
-        <loc>{{ "/food-influencers.html?foodies=" | append: encoded_term | absolute_url }}</loc>
+        <loc>{{ "/foodie-search/" | append: foodie_tag.slug | append: "/" | absolute_url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
     </url>
-    {% endif %}
-    {% assign listed_foodie_tags = listed_foodie_tags | append: term | append: "|" %}
-    {% endunless %}
     {% endfor %}
 </urlset>

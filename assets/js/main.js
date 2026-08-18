@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const foodiesOgTitle = document.querySelector('meta[property="og:title"]');
     const foodiesOgDescription = document.querySelector('meta[property="og:description"]');
     const foodiesOgUrl = document.querySelector('meta[property="og:url"]');
+    const foodiesPageTag = foodiesPage?.dataset.foodieTag || '';
     const defaultDocumentTitle = document.title;
     const siteTitle = defaultDocumentTitle.includes(' | ')
         ? defaultDocumentTitle.split(' | ').pop()
@@ -88,36 +89,77 @@ document.addEventListener('DOMContentLoaded', function() {
         updateFoodiesTagSuggestions('');
 
         const foodiesUrlSearchTerm = getFoodiesUrlSearchTerm();
-        if (foodiesUrlSearchTerm) {
-            const safeFoodiesUrlSearchTerm = sanitizeFoodiesSearchTerm(foodiesUrlSearchTerm);
+        const initialFoodiesSearchTerm = foodiesUrlSearchTerm || foodiesPageTag;
+        if (initialFoodiesSearchTerm) {
+            const safeFoodiesUrlSearchTerm = sanitizeFoodiesSearchTerm(initialFoodiesSearchTerm);
+            const initialTagUrl = !foodiesPageTag && foodiesUrlSearchTerm
+                ? getFoodiesTagUrl(safeFoodiesUrlSearchTerm)
+                : '';
+            if (initialTagUrl) {
+                window.location.replace(initialTagUrl);
+                return;
+            }
+
             foodiesSearchInput.value = safeFoodiesUrlSearchTerm;
             updateFoodiesTagSuggestions(safeFoodiesUrlSearchTerm);
             filterFoodies(safeFoodiesUrlSearchTerm, {
-                updateUrl: safeFoodiesUrlSearchTerm !== foodiesUrlSearchTerm
+                updateUrl: Boolean(foodiesUrlSearchTerm) && safeFoodiesUrlSearchTerm !== foodiesUrlSearchTerm
             });
         }
 
-        ['input', 'keyup', 'search', 'change'].forEach(eventName => {
+        ['input', 'keyup', 'search'].forEach(eventName => {
             foodiesSearchInput.addEventListener(eventName, function() {
                 const safeSearchTerm = sanitizeFoodiesSearchTerm(this.value);
                 if (safeSearchTerm !== this.value) {
                     this.value = safeSearchTerm;
                 }
+
+                if (foodiesPageTag && !safeSearchTerm.trim()) {
+                    window.location.href = '/food-influencers.html';
+                    return;
+                }
+
                 updateFoodiesTagSuggestions(safeSearchTerm);
                 filterFoodies(safeSearchTerm);
             });
+        });
+
+        foodiesSearchInput.addEventListener('change', function() {
+            const safeSearchTerm = sanitizeFoodiesSearchTerm(this.value);
+            if (safeSearchTerm !== this.value) {
+                this.value = safeSearchTerm;
+            }
+
+            if (foodiesPageTag && !safeSearchTerm.trim()) {
+                window.location.href = '/food-influencers.html';
+                return;
+            }
+
+            const tagUrl = getFoodiesTagUrl(safeSearchTerm);
+            if (tagUrl && window.location.pathname !== new URL(tagUrl, window.location.origin).pathname) {
+                window.location.href = tagUrl;
+                return;
+            }
+
+            updateFoodiesTagSuggestions(safeSearchTerm);
+            filterFoodies(safeSearchTerm);
         });
 
         if (foodiesSearchClear) {
             foodiesSearchClear.addEventListener('click', function() {
                 foodiesSearchInput.value = '';
                 updateFoodiesTagSuggestions('');
+                if (foodiesPageTag) {
+                    window.location.href = '/food-influencers.html';
+                    return;
+                }
+
                 filterFoodies('');
                 foodiesSearchInput.focus();
             });
         }
 
-        if (!foodiesUrlSearchTerm) {
+        if (!initialFoodiesSearchTerm) {
             filterFoodies('', { updateUrl: false });
         }
     }
@@ -202,21 +244,57 @@ document.addEventListener('DOMContentLoaded', function() {
             return '';
         }
 
-        const tags = document.querySelectorAll('.foodies-page .tag');
-        for (const tag of tags) {
-            const tagText = tag.textContent.trim();
-            if (tagText.toLowerCase() === normalizedSearchTerm) {
-                return tagText;
+        for (const tag of foodiesTags) {
+            if (tag.toLowerCase() === normalizedSearchTerm) {
+                return tag;
             }
         }
 
         return '';
     }
 
-    function getFoodiesTags() {
+    function getFoodiesTagIndexItems() {
+        const tagIndex = document.getElementById('foodies-tag-index');
+        if (!tagIndex?.textContent) {
+            return [];
+        }
+
+        try {
+            return JSON.parse(tagIndex.textContent)
+                .map(item => ({
+                    tag: item.tag || '',
+                    slug: item.slug || '',
+                    url: item.url ? new URL(item.url, window.location.origin).href : ''
+                }))
+                .filter(item => item.tag && item.url);
+        } catch {
+            return [];
+        }
+    }
+
+    function getFoodiesPageTags() {
         return Array.from(document.querySelectorAll('.foodies-page .tag'))
             .map(tag => tag.textContent.trim())
-            .filter(Boolean)
+            .filter(Boolean);
+    }
+
+    function getFoodiesTagUrl(searchTerm) {
+        const normalizedSearchTerm = searchTerm.trim().toLowerCase();
+        if (!normalizedSearchTerm) {
+            return '';
+        }
+
+        const match = getFoodiesTagIndexItems()
+            .find(item => item.tag.toLowerCase() === normalizedSearchTerm);
+
+        return match?.url || '';
+    }
+
+    function getFoodiesTags() {
+        const indexedTags = getFoodiesTagIndexItems().map(item => item.tag);
+        const pageTags = getFoodiesPageTags();
+
+        return [...indexedTags, ...pageTags]
             .filter((tag, index, tags) => tags.findIndex(item => item.toLowerCase() === tag.toLowerCase()) === index)
             .sort((a, b) => a.localeCompare(b));
     }
@@ -289,10 +367,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const target = event.target instanceof Element ? event.target : event.target?.parentElement;
             const tag = target?.closest('.tag');
             if (tag && foodiesPage.contains(tag)) {
-                if (
-                    tag instanceof HTMLAnchorElement &&
-                    (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0)
-                ) {
+                if (tag instanceof HTMLAnchorElement) {
                     return;
                 }
 
@@ -309,6 +384,10 @@ document.addEventListener('DOMContentLoaded', function() {
             const target = event.target instanceof Element ? event.target : event.target?.parentElement;
             const tag = target?.closest('.tag');
             if (tag && foodiesPage.contains(tag)) {
+                if (tag instanceof HTMLAnchorElement) {
+                    return;
+                }
+
                 event.preventDefault();
                 filterFoodiesByTag(tag.textContent);
             }
@@ -386,10 +465,15 @@ document.addEventListener('DOMContentLoaded', function() {
         if (foodiesCanonicalLink) {
             const canonicalUrl = new URL(defaultFoodiesCanonicalHref || window.location.href);
             const matchingTag = getMatchingFoodiesTag(foodiesSearchInput?.value || '');
+            const tagUrl = getFoodiesTagUrl(matchingTag);
             canonicalUrl.search = '';
             canonicalUrl.hash = '';
 
-            if (matchingTag) {
+            if (tagUrl) {
+                const staticTagUrl = new URL(tagUrl, window.location.origin);
+                canonicalUrl.pathname = staticTagUrl.pathname;
+                canonicalUrl.search = '';
+            } else if (matchingTag && !foodiesPageTag) {
                 canonicalUrl.searchParams.set('foodies', matchingTag);
             }
 
@@ -404,6 +488,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateFoodiesSearchUrl(searchTerm) {
         const url = new URL(window.location.href);
         const normalizedSearchTerm = sanitizeFoodiesSearchTerm(searchTerm).trim();
+
+        if (foodiesPageTag) {
+            return;
+        }
 
         if (normalizedSearchTerm) {
             url.searchParams.set('foodies', normalizedSearchTerm);

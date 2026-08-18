@@ -1,0 +1,11 @@
+<script type="application/json" id="foodies-tag-index">
+[
+    {% for foodie_tag in site.data.foodie_tags %}
+        {
+            "tag": {{ foodie_tag.tag | jsonify }},
+            "slug": {{ foodie_tag.slug | jsonify }},
+            "url": {{ '/foodie-search/' | append: foodie_tag.slug | append: '/' | relative_url | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
+</script>

@@ -1,13 +1,27 @@
 ---
 layout: default
-title: Foodies
-description: U.S. food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content.
-permalink: /food-influencers.html
 ---
-
+{% assign page_tag_slug = page.foodie_tag | slugify %}
 {% capture foodies_markup %}{% include food-influencers-list.md %}{% endcapture %}
-{% assign foodies_count = foodies_markup | split: '<article class="person-row"' | size | minus: 1 %}
-{% assign foodies_tag_chunks = foodies_markup | split: '<span class="tag">' %}
+{% assign foodies_articles = foodies_markup | split: '<article class="person-row" role="row">' %}
+{% assign foodies_count = page.foodie_count | default: 0 %}
+{% capture filtered_foodies_markup %}{{ foodies_articles | first }}{% endcapture %}
+{% for article in foodies_articles offset: 1 %}
+    {% assign article_matches = false %}
+    {% assign article_tag_chunks = article | split: '<span class="tag">' %}
+    {% for tag_chunk in article_tag_chunks offset: 1 %}
+        {% assign article_tag = tag_chunk | split: '</span>' | first | strip %}
+        {% assign article_tag_slug = article_tag | slugify %}
+        {% if article_tag_slug == page_tag_slug %}
+            {% assign article_matches = true %}
+        {% endif %}
+    {% endfor %}
+    {% if article_matches %}
+        {% capture filtered_foodies_markup %}{{ filtered_foodies_markup }}<article class="person-row" role="row">{{ article }}{% endcapture %}
+    {% endif %}
+{% endfor %}
+
+{% assign foodies_tag_chunks = filtered_foodies_markup | split: '<span class="tag">' %}
 {% capture foodies_linked_markup %}{{ foodies_tag_chunks | first }}{% endcapture %}
 {% for chunk in foodies_tag_chunks offset: 1 %}
     {% assign tag_term = chunk | split: '</span>' | first | strip %}
@@ -24,12 +38,12 @@ permalink: /food-influencers.html
 
 <div class="hero">
     <div class="container">
-        <h1 class="hero-title foodies-hero-title">Foodies</h1>
-        <h2 class="hero-description foodies-hero-description">U.S. food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content.</h2>
+        <h1 class="hero-title foodies-hero-title">{{ page.foodie_tag }} Foodies</h1>
+        <h2 class="hero-description foodies-hero-description">{{ page.foodie_tag }} food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content.</h2>
     </div>
 </div>
 
-<div class="foodies-page container">
+<div class="foodies-page container" data-foodie-tag="{{ page.foodie_tag | escape }}">
     <div class="foodies-search search-box">
         <div class="foodies-search-control">
             <input type="search" id="foodies-search" list="foodies-tag-suggestions" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">
@@ -38,7 +52,7 @@ permalink: /food-influencers.html
         <datalist id="foodies-tag-suggestions"></datalist>
     </div>
 
-    <h3 class="foodies-count-heading" id="foodies-count-heading">{{ foodies_count }} foodies found</h3>
+    <h3 class="foodies-count-heading" id="foodies-count-heading">{{ foodies_count }} {{ page.foodie_tag }} Foodies found</h3>
 
     {{ foodies_linked_markup }}
     {% include foodies-tag-index.html %}
