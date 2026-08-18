@@ -43,7 +43,9 @@ layout: default
     </div>
 </div>
 
-<div class="foodies-page container" data-foodie-tag="{{ page.foodie_tag | escape }}">
+<div class="foodies-page foodies-search-page container" data-foodie-tag="{{ page.foodie_tag | escape }}">
+    {% include foodies-breadcrumbs.html %}
+
     <div class="foodies-search search-box">
         <div class="foodies-search-control">
             <input type="search" id="foodies-search" list="foodies-tag-suggestions" placeholder="Search foodies..." aria-label="Search food influencers" maxlength="80" autocomplete="off" spellcheck="false">

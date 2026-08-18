@@ -1,0 +1,23 @@
+<!-- Breadcrumb Navigation -->
+<nav aria-label="Breadcrumb" class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb-list">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ '/' | relative_url }}">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+      <span class="breadcrumb-separator">/</span>
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ '/food-influencers.html' | relative_url }}">
+        <span itemprop="name">Foodies</span>
+      </a>
+      <meta itemprop="position" content="2" />
+      <span class="breadcrumb-separator">/</span>
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-current">
+      <span itemprop="name">{{ page.foodie_tag }}</span>
+      <meta itemprop="position" content="3" />
+    </li>
+  </ol>
+</nav>

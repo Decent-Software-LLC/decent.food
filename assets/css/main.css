@@ -706,6 +706,10 @@ body {
     padding: 3rem 20px 4.5rem;
 }
 
+.foodies-search-page {
+    padding-top: 1rem;
+}
+
 .foodies-page .content-link {
     min-height: 36px;
     display: inline-flex;
