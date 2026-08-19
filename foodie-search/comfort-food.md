@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "Comfort food Foodies"
-foodie_tag: "Comfort food"
+title: "Comfort Food Foodies"
+foodie_tag: "Comfort Food"
 foodie_count: 4
-description: "Comfort food food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Comfort Food food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/comfort-food/
 ---

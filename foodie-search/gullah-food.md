@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "Gullah food Foodies"
-foodie_tag: "Gullah food"
+title: "Gullah Food Foodies"
+foodie_tag: "Gullah Food"
 foodie_count: 3
-description: "Gullah food food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Gullah Food food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/gullah-food/
 ---

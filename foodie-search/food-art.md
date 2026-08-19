@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "Food art Foodies"
-foodie_tag: "Food art"
+title: "Food Art Foodies"
+foodie_tag: "Food Art"
 foodie_count: 3
-description: "Food art food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Food Art food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/food-art/
 ---

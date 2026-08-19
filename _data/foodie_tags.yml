@@ -1,7 +1,7 @@
 - tag: "757"
   slug: "757"
   count: 4
-- tag: "Acai bowls"
+- tag: "Acai Bowls"
   slug: "acai-bowls"
   count: 2
 - tag: "Asian Food"
@@ -19,7 +19,7 @@
 - tag: "Austin"
   slug: "austin"
   count: 10
-- tag: "Backyard cooking"
+- tag: "Backyard Cooking"
   slug: "backyard-cooking"
   count: 3
 - tag: "Bakery"
@@ -27,7 +27,10 @@
   count: 3
 - tag: "Baking"
   slug: "baking"
-  count: 16
+  count: 25
+- tag: "Baking Science"
+  slug: "baking-science"
+  count: 7
 - tag: "Bay Area"
   slug: "bay-area"
   count: 4
@@ -37,7 +40,7 @@
 - tag: "Bento"
   slug: "bento"
   count: 2
-- tag: "Black-owned"
+- tag: "Black-Owned"
   slug: "black-owned"
   count: 11
 - tag: "Boston"
@@ -49,49 +52,58 @@
 - tag: "Brooklyn"
   slug: "brooklyn"
   count: 2
+- tag: "Brownies"
+  slug: "brownies"
+  count: 3
 - tag: "Brunch"
   slug: "brunch"
   count: 2
-- tag: "Cafe guide"
+- tag: "Cafe Guide"
   slug: "cafe-guide"
   count: 3
 - tag: "Cakes"
   slug: "cakes"
-  count: 6
+  count: 11
 - tag: "California"
   slug: "california"
   count: 5
 - tag: "Charleston SC"
   slug: "charleston-sc"
   count: 11
-- tag: "Chef-led"
+- tag: "Chef-Led"
   slug: "chef-led"
   count: 13
 - tag: "Chicago"
   slug: "chicago"
-  count: 6
+  count: 8
 - tag: "Chinese"
   slug: "chinese"
   count: 2
+- tag: "Chocolate"
+  slug: "chocolate"
+  count: 11
 - tag: "Coffee"
   slug: "coffee"
   count: 4
-- tag: "Coffee recipes"
+- tag: "Coffee Recipes"
   slug: "coffee-recipes"
   count: 2
-- tag: "Coffee shops"
+- tag: "Coffee Shops"
   slug: "coffee-shops"
   count: 5
-- tag: "Comfort food"
+- tag: "Comfort Food"
   slug: "comfort-food"
   count: 4
+- tag: "Cookbook Author"
+  slug: "cookbook-author"
+  count: 5
 - tag: "Cookbooks"
   slug: "cookbooks"
   count: 10
 - tag: "Cookies"
   slug: "cookies"
-  count: 3
-- tag: "Cooking video"
+  count: 5
+- tag: "Cooking Video"
   slug: "cooking-video"
   count: 2
 - tag: "Creator"
@@ -102,7 +114,7 @@
   count: 2
 - tag: "Dessert"
   slug: "dessert"
-  count: 17
+  count: 32
 - tag: "DMV"
   slug: "dmv"
   count: 15
@@ -121,103 +133,106 @@
 - tag: "Experiences"
   slug: "experiences"
   count: 9
-- tag: "Family meals"
+- tag: "Family Meals"
   slug: "family-meals"
   count: 3
-- tag: "Family recipes"
+- tag: "Family Recipes"
   slug: "family-recipes"
   count: 3
-- tag: "Family-friendly"
+- tag: "Family-Friendly"
   slug: "family-friendly"
   count: 2
 - tag: "Filipino"
   slug: "filipino"
   count: 6
-- tag: "Fish recipes"
+- tag: "Fish Recipes"
   slug: "fish-recipes"
   count: 2
 - tag: "Florida"
   slug: "florida"
   count: 8
-- tag: "Food art"
+- tag: "Food Art"
   slug: "food-art"
   count: 3
-- tag: "Food culture"
+- tag: "Food Culture"
   slug: "food-culture"
   count: 6
-- tag: "Food finds"
+- tag: "Food Finds"
   slug: "food-finds"
   count: 9
-- tag: "Food map"
+- tag: "Food Map"
   slug: "food-map"
   count: 2
-- tag: "Food media"
+- tag: "Food Media"
   slug: "food-media"
   count: 3
-- tag: "Food photography"
+- tag: "Food Photography"
   slug: "food-photography"
   count: 7
-- tag: "Food review"
+- tag: "Food Review"
   slug: "food-review"
   count: 6
-- tag: "Food styling"
+- tag: "Food Styling"
   slug: "food-styling"
   count: 2
-- tag: "Food writing"
+- tag: "Food Writing"
   slug: "food-writing"
   count: 9
 - tag: "Georgia"
   slug: "georgia"
   count: 10
+- tag: "Gluten-Free"
+  slug: "gluten-free"
+  count: 2
 - tag: "Grilling"
   slug: "grilling"
   count: 11
-- tag: "Gullah food"
+- tag: "Gullah Food"
   slug: "gullah-food"
   count: 3
-- tag: "Handmade pasta"
+- tag: "Handmade Pasta"
   slug: "handmade-pasta"
   count: 4
-- tag: "Hawaiian food"
+- tag: "Hawaiian Food"
   slug: "hawaiian-food"
   count: 2
-- tag: "Healthy drinks"
+- tag: "Healthy Drinks"
   slug: "healthy-drinks"
   count: 3
-- tag: "Healthy eating"
+- tag: "Healthy Eating"
   slug: "healthy-eating"
-  count: 3
-- tag: "Home baking"
+  count: 4
+- tag: "Home Baking"
   slug: "home-baking"
   count: 2
-- tag: "Home barista"
+- tag: "Home Barista"
   slug: "home-barista"
   count: 3
-- tag: "Home cooking"
+- tag: "Home Cooking"
   slug: "home-cooking"
   count: 14
 - tag: "Houston"
   slug: "houston"
   count: 2
-- tag: "Indian food"
+- tag: "Indian Food"
   slug: "indian-food"
   count: 3
 - tag: "Indulgent"
   slug: "indulgent"
   count: 2
-- tag: "Italian food"
+- tag: "Italian Food"
   slug: "italian-food"
   count: 8
 - tag: "Italian-American"
   slug: "italian-american"
   count: 3
-- tag: "Japanese food"
+- tag: "Japanese Food"
   slug: "japanese-food"
   count: 9
 - tag: "Korean"
   slug: "korean"
   count: 2
-- tag: "Korean food"
+- tag: "Korean Food"
   slug: "korean-food"
   count: 2
 - tag: "LA"
@@ -226,13 +241,13 @@
 - tag: "Las Vegas"
   slug: "las-vegas"
   count: 9
-- tag: "Latin food"
+- tag: "Latin Food"
   slug: "latin-food"
   count: 2
 - tag: "Lifestyle"
   slug: "lifestyle"
   count: 12
-- tag: "Local guide"
+- tag: "Local Guide"
   slug: "local-guide"
   count: 56
 - tag: "Los Angeles"
@@ -244,7 +259,7 @@
 - tag: "Massachusetts"
   slug: "massachusetts"
   count: 10
-- tag: "Meal prep"
+- tag: "Meal Prep"
   slug: "meal-prep"
   count: 3
 - tag: "Miami"
@@ -292,7 +307,7 @@
 - tag: "Orange County"
   slug: "orange-county"
   count: 4
-- tag: "Outdoor cooking"
+- tag: "Outdoor Cooking"
   slug: "outdoor-cooking"
   count: 2
 - tag: "Pasta"
@@ -300,8 +315,8 @@
   count: 7
 - tag: "Pastry"
   slug: "pastry"
-  count: 7
-- tag: "Pastry chef"
+  count: 9
+- tag: "Pastry Chef"
   slug: "pastry-chef"
   count: 2
 - tag: "Pescatarian"
@@ -316,13 +331,13 @@
 - tag: "Pitmaster"
   slug: "pitmaster"
   count: 3
-- tag: "Plant-based"
+- tag: "Plant-Based"
   slug: "plant-based"
   count: 2
 - tag: "Podcast"
   slug: "podcast"
   count: 2
-- tag: "Poke bowls"
+- tag: "Poke Bowls"
   slug: "poke-bowls"
   count: 2
 - tag: "Portland"
@@ -331,13 +346,13 @@
 - tag: "Ramen"
   slug: "ramen"
   count: 7
-- tag: "Recipe video"
+- tag: "Recipe Video"
   slug: "recipe-video"
   count: 8
 - tag: "Recipes"
   slug: "recipes"
-  count: 36
-- tag: "Restaurant guide"
+  count: 37
+- tag: "Restaurant Guide"
   slug: "restaurant-guide"
   count: 3
 - tag: "Restaurants"
@@ -361,16 +376,16 @@
 - tag: "Seattle"
   slug: "seattle"
   count: 2
-- tag: "Short-form"
+- tag: "Short-Form"
   slug: "short-form"
   count: 4
-- tag: "Smoked meats"
+- tag: "Smoked Meats"
   slug: "smoked-meats"
   count: 6
 - tag: "Smoothie"
   slug: "smoothie"
   count: 7
-- tag: "Soul food"
+- tag: "Soul Food"
   slug: "soul-food"
   count: 3
 - tag: "South / Southeast"
@@ -379,36 +394,36 @@
 - tag: "South Carolina"
   slug: "south-carolina"
   count: 10
-- tag: "Southern food"
+- tag: "Southern Food"
   slug: "southern-food"
   count: 5
 - tag: "Southwest / Texas"
   slug: "southwest-texas"
   count: 14
-- tag: "Street food"
+- tag: "Street Food"
   slug: "street-food"
   count: 2
 - tag: "Sushi"
   slug: "sushi"
   count: 12
-- tag: "Tasting menu"
+- tag: "Tasting Menu"
   slug: "tasting-menu"
   count: 2
 - tag: "Texas"
   slug: "texas"
   count: 12
-- tag: "Things to do"
+- tag: "Things To Do"
   slug: "things-to-do"
   count: 5
-- tag: "Travel food"
+- tag: "Travel Food"
   slug: "travel-food"
   count: 32
 - tag: "Tutorials"
   slug: "tutorials"
-  count: 6
+  count: 10
 - tag: "Vegan"
   slug: "vegan"
-  count: 2
+  count: 5
 - tag: "Vegas"
   slug: "vegas"
   count: 8
@@ -433,6 +448,6 @@
 - tag: "Wilmington NC"
   slug: "wilmington-nc"
   count: 5
-- tag: "YouTube"
+- tag: "Youtube"
   slug: "youtube"
   count: 2

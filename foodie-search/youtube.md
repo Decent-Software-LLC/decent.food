@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "YouTube Foodies"
-foodie_tag: "YouTube"
+title: "Youtube Foodies"
+foodie_tag: "Youtube"
 foodie_count: 2
-description: "YouTube food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Youtube food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/youtube/
 ---

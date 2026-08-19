@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "Food map Foodies"
-foodie_tag: "Food map"
+title: "Food Map Foodies"
+foodie_tag: "Food Map"
 foodie_count: 2
-description: "Food map food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Food Map food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/food-map/
 ---

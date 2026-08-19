@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "Smoked meats Foodies"
-foodie_tag: "Smoked meats"
+title: "Smoked Meats Foodies"
+foodie_tag: "Smoked Meats"
 foodie_count: 6
-description: "Smoked meats food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Smoked Meats food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/smoked-meats/
 ---

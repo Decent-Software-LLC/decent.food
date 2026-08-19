@@ -1,8 +1,8 @@
 ---
 layout: foodie-search
-title: "Recipe video Foodies"
-foodie_tag: "Recipe video"
+title: "Recipe Video Foodies"
+foodie_tag: "Recipe Video"
 foodie_count: 8
-description: "Recipe video food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
+description: "Recipe Video food influencers with quick context and direct links to their recipe, restaurant, TikTok, Instagram, and video content."
 permalink: /foodie-search/recipe-video/
 ---
