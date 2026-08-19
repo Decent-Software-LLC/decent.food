@@ -204,7 +204,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin food writer and creator sharing anonymous restaurant reviews, ATX food finds, travel eats, and recipes.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Reviews</span><span class="tag">Travel food</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Reviews</span><span class="tag">Travel food</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodadventures/">Instagram</a>
@@ -291,7 +291,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin-based creator sharing food to eat, things to do in Texas, travel ideas, and destination dining finds.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Things to do</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Things to do</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/thehungrylonghorn/">Instagram</a>
@@ -348,7 +348,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin food recommendation account focused on restaurants, local eats, food finds, and ATX dining ideas.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Food finds</span><span class="tag">Local guide</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Food finds</span><span class="tag">Local guide</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodheads/">Instagram</a>
@@ -1489,7 +1489,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin food and lifestyle creator covering restaurants, city guides, openings, travel, and local experiences.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Lifestyle</span><span class="tag">Local guide</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Lifestyle</span><span class="tag">Local guide</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.atasteofkoko.com/">Website</a>
@@ -1816,7 +1816,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin content creator covering food, travel, local life, pop-ups, sweets, restaurants, and joyful ATX discoveries.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Local guide</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/afoodieinaustin/">Instagram</a>
@@ -2686,7 +2686,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin/Denver-linked chef and restaurateur behind modern omakase projects including Kokoni, with Japanese-inspired tasting-menu and chef-driven restaurant content.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Denver</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Chef-led</span><span class="tag">Tasting menu</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">Denver</span><span class="tag">Omakase</span><span class="tag">Sushi</span><span class="tag">Chef-led</span><span class="tag">Tasting menu</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pqui/">Instagram</a>
@@ -2759,7 +2759,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin food and drink creator helping locals find restaurants, bars, iconic eats, and things to do around the city.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Bars</span><span class="tag">Local guide</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Bars</span><span class="tag">Local guide</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/512bites/">Instagram</a>
@@ -2815,7 +2815,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Texas Hill Country and Austin creator sharing food, travel, family-friendly finds, events, and restaurant recommendations.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas Hill Country</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Events</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">Texas Hill Country</span><span class="tag">Restaurants</span><span class="tag">Travel food</span><span class="tag">Events</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austinfoodstagram/">Instagram</a>
@@ -3290,7 +3290,7 @@
             </div>
             <div class="person-cell" role="cell">
                 <p class="bio">Austin food and hospitality media creator focused on restaurant discovery, campaign content, and local dining storytelling.</p>
-                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Hospitality</span><span class="tag">Food media</span></div>
+                <div class="tags"><span class="tag">Southwest / Texas</span><span class="tag">Austin</span><span class="tag">Texas</span><span class="tag">ATX</span><span class="tag">Restaurants</span><span class="tag">Hospitality</span><span class="tag">Food media</span></div>
             </div>
             <div class="person-cell links" role="cell">
                 <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/austineater/">Instagram</a>
