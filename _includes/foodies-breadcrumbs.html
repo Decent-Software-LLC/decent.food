@@ -8,16 +8,23 @@
       <meta itemprop="position" content="1" />
       <span class="breadcrumb-separator">/</span>
     </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ '/food-influencers.html' | relative_url }}">
+    {% if page.foodie_tag %}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a itemprop="item" href="{{ '/food-influencers.html' | relative_url }}">
+          <span itemprop="name">Foodies</span>
+        </a>
+        <meta itemprop="position" content="2" />
+        <span class="breadcrumb-separator">/</span>
+      </li>
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-current">
+        <span itemprop="name">{{ page.foodie_tag }}</span>
+        <meta itemprop="position" content="3" />
+      </li>
+    {% else %}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-current">
         <span itemprop="name">Foodies</span>
-      </a>
-      <meta itemprop="position" content="2" />
-      <span class="breadcrumb-separator">/</span>
-    </li>
-    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-current">
-      <span itemprop="name">{{ page.foodie_tag }}</span>
-      <meta itemprop="position" content="3" />
-    </li>
+        <meta itemprop="position" content="2" />
+      </li>
+    {% endif %}
   </ol>
 </nav>
