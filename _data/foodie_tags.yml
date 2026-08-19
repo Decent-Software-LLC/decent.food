@@ -31,6 +31,9 @@
 - tag: "Baking Science"
   slug: "baking-science"
   count: 7
+- tag: "Baton Rouge"
+  slug: "baton-rouge"
+  count: 2
 - tag: "Bay Area"
   slug: "bay-area"
   count: 4
@@ -61,6 +64,9 @@
 - tag: "Cafe Guide"
   slug: "cafe-guide"
   count: 3
+- tag: "Cajun"
+  slug: "cajun"
+  count: 10
 - tag: "Cakes"
   slug: "cakes"
   count: 11
@@ -72,7 +78,7 @@
   count: 11
 - tag: "Chef-Led"
   slug: "chef-led"
-  count: 13
+  count: 14
 - tag: "Chicago"
   slug: "chicago"
   count: 8
@@ -93,10 +99,10 @@
   count: 5
 - tag: "Comfort Food"
   slug: "comfort-food"
-  count: 4
+  count: 5
 - tag: "Cookbook Author"
   slug: "cookbook-author"
-  count: 5
+  count: 7
 - tag: "Cookbooks"
   slug: "cookbooks"
   count: 10
@@ -105,10 +111,13 @@
   count: 5
 - tag: "Cooking Video"
   slug: "cooking-video"
-  count: 2
+  count: 7
 - tag: "Creator"
   slug: "creator"
   count: 2
+- tag: "Creole"
+  slug: "creole"
+  count: 4
 - tag: "Dallas"
   slug: "dallas"
   count: 2
@@ -138,7 +147,7 @@
   count: 3
 - tag: "Family Recipes"
   slug: "family-recipes"
-  count: 3
+  count: 4
 - tag: "Family-Friendly"
   slug: "family-friendly"
   count: 2
@@ -177,7 +186,7 @@
   count: 2
 - tag: "Food Writing"
   slug: "food-writing"
-  count: 9
+  count: 12
 - tag: "Georgia"
   slug: "georgia"
   count: 10
@@ -253,6 +262,9 @@
 - tag: "Los Angeles"
   slug: "los-angeles"
   count: 10
+- tag: "Louisiana Food"
+  slug: "louisiana-food"
+  count: 9
 - tag: "Lowcountry"
   slug: "lowcountry"
   count: 8
@@ -279,7 +291,7 @@
   count: 2
 - tag: "New Orleans"
   slug: "new-orleans"
-  count: 10
+  count: 12
 - tag: "New York City"
   slug: "new-york-city"
   count: 14
@@ -346,12 +358,15 @@
 - tag: "Ramen"
   slug: "ramen"
   count: 7
+- tag: "Recipe Developer"
+  slug: "recipe-developer"
+  count: 3
 - tag: "Recipe Video"
   slug: "recipe-video"
   count: 8
 - tag: "Recipes"
   slug: "recipes"
-  count: 37
+  count: 44
 - tag: "Restaurant Guide"
   slug: "restaurant-guide"
   count: 3
@@ -369,7 +384,7 @@
   count: 4
 - tag: "Seafood"
   slug: "seafood"
-  count: 6
+  count: 7
 - tag: "Seasonings"
   slug: "seasonings"
   count: 2
@@ -396,7 +411,7 @@
   count: 10
 - tag: "Southern Food"
   slug: "southern-food"
-  count: 5
+  count: 6
 - tag: "Southwest / Texas"
   slug: "southwest-texas"
   count: 14
