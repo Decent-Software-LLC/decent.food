@@ -90,6 +90,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.fixfeastflair.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alanakysar/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Aloha%20Kitchen%20Alana%20Kysar%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -1057,6 +1058,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.dannylovespasta.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/dannylovespasta/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Danny%20Loves%20Pasta%20Danny%20Freeman%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -1174,6 +1176,7 @@
                 <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.onesarcasticbaker.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/onesarcasticbaker/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Baking%20Science%20Dikla%20Levy%20Frances%20cookbook&tag=decentfood-20">Cookbooks</a>
                 </div>
             </article>
 
@@ -1381,6 +1384,7 @@
                 <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.erinjeannemcdowell.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/emcdowell/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Erin%20Jeanne%20McDowell%20cookbook&tag=decentfood-20">Cookbooks</a>
                 </div>
             </article>
 
@@ -1657,6 +1661,7 @@
             <div class="person-cell links" role="cell">
                     <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://cajunninja.com/pages/about">Website</a>
                     <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://linktr.ee/thecajunninja">Linktree</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=The%20Cajun%20Ninja%20cookbook%20Jason%20Derouen&tag=decentfood-20">Cookbooks</a>
             </div>
         </article>
 
@@ -1781,6 +1786,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.flourbakery.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/joannebchang/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Joanne%20Chang%20Flour%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -1969,6 +1975,7 @@
                     </div>
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kardeabrown/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Kardea%20Brown%20The%20Way%20Home%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -2346,6 +2353,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.maangchi.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/maangchi/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Maangchi%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -2567,6 +2575,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.pastasocialclub.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/pastasocialclub/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Pasta%20Every%20Day%20Meryl%20Feinstein%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -2611,6 +2620,7 @@
                 <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://mikebakesnyc.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/mikebakesnyc/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Mike%20Johnson%20Even%20Better%20Brownies%20cookbook&tag=decentfood-20">Cookbooks</a>
                 </div>
             </article>
 
@@ -2727,6 +2737,7 @@
                     </div>
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/the_pastaqueen/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=The%20Pasta%20Queen%20cookbook%20Nadia%20Caterina%20Munno&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -3146,6 +3157,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.veganricha.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/veganricha/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Vegan%20Richa%20cookbook%20Richa%20Hingle&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -3204,6 +3216,7 @@
                 <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.realbakingwithrose.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/realbakingwithrose/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Rose%20Levy%20Beranbaum%20cookbook&tag=decentfood-20">Cookbooks</a>
                 </div>
             </article>
 
@@ -3406,6 +3419,7 @@
                     </div>
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/soflofooodie/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Savory%20vs%20Sweet%20Shalean%20Stephanie%20Ghitis%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -3695,6 +3709,7 @@
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.halfbakedharvest.com">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/halfbakedharvest/">Instagram</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@halfbakedharvest">TikTok</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Half%20Baked%20Harvest%20cookbook%20Tieghan%20Gerard&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
@@ -3841,6 +3856,7 @@
                     <div class="person-cell links" role="cell">
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://zoebakes.com/">Website</a>
                         <a class="content-link" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/zoebakes/">Instagram</a>
+                        <a class="content-link" target="_blank" rel="noopener noreferrer sponsored" href="https://www.amazon.com/s?i=stripbooks&k=Zoe%20Francois%20cookbook&tag=decentfood-20">Cookbooks</a>
                     </div>
                 </article>
 
