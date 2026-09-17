@@ -1,36 +1,9 @@
----
-layout: null
-sitemap: false
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>{{ "/" | absolute_url }}</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>{{ "/food-influencers.html" | absolute_url }}</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    {% assign guides = site.guides | sort: "date" | reverse %}
-    {% for guide in guides %}
-    <url>
-        <loc>{{ guide.url | absolute_url }}</loc>
-        {% if guide.date %}<lastmod>{{ guide.date | date_to_xmlschema }}</lastmod>{% endif %}
-        <changefreq>monthly</changefreq>
-        <priority>0.60</priority>
-    </url>
-    {% endfor %}
-    {% for foodie_tag in site.data.foodie_tags %}
-    <url>
-        <loc>{{ "/foodie-search/" | append: foodie_tag.slug | append: "/" | absolute_url }}</loc>
-        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.70</priority>
-    </url>
-    {% endfor %}
+  <url>
+    <loc>https://decent.food/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
