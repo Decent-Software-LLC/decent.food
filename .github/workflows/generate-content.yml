@@ -1,10 +1,7 @@
 name: Generate Food Article
 
 on:
-  schedule:
-    # Run daily at 10:17 AM UTC (5:17 AM EST / 2:17 AM PST) - off-peak time
-    - cron: '17 10 * * *'
-  workflow_dispatch:  # Allow manual triggering
+  workflow_dispatch:  # Manual-only while the article site runs on dev.decent.food
 
 permissions:
   contents: write
